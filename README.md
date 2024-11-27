@@ -5,7 +5,7 @@
 
 - 🌱 I’m currently learning **React , Node , Docker**
 
-- 👨‍💻 All of my projects are available at [https://achyuthan-s.web.app/](https://achyuthan-s.web.app/)
+- 👨‍💻 All of my projects are available on my Personal Portfolio/ Website [https://achyuthan-s.web.app/](https://achyuthan-s.web.app/)
 
 - 📫 How to reach me **achyuthan.sivasankar@gmail.com**
 
