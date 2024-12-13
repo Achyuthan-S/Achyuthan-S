@@ -3,7 +3,7 @@
 
 
 
-- 🌱 I’m currently learning **React , Node , Docker**
+- 🌱 I’m currently learning **AI / ML, React , Node , Docker**
 
 - 👨‍💻 All of my projects are available on my Personal Portfolio/ Website [https://achyuthan-s.web.app/](https://achyuthan-s.web.app/)
 - 👨‍💻 PREVIEW MY VR - PROJECT HERE --> [https://vimeo.com/1035878738?share=copy#t=0]([https://achyuthan-s.web.app/](https://vimeo.com/1035878738?share=copy#t=0))
