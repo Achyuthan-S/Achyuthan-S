@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Achyuthan Sivasankar</h1>
+<h1 align="center">Hi , I'm Achyuthan Sivasankar</h1>
 <h3 align="center">I am passionate about AI/ML and web-development</h3>
 
 
