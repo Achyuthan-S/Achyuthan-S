@@ -19,7 +19,9 @@ Python · PyTorch · C/C++ · Go · HuggingFace · Docker · FastAPI · AWS
 
 ---
 
-**Open source contributions**
+---
+
+**Notable Open source contributions**
 
 <table>
   <tr>
@@ -28,8 +30,9 @@ Python · PyTorch · C/C++ · Go · HuggingFace · Docker · FastAPI · AWS
       <a href="https://github.com/vllm-project/vllm/pull/44795"><strong>vllm-project/vllm</strong> #44795</a><br/>
       Fix nightly Docker <code>ImportError: AnthropicOutputConfig</code>
     </td>
-    <td align="right">
+    <td align="right" width="120">
       <a href="https://github.com/vllm-project/vllm/pull/44795">
+        <img src="https://api.iconify.design/octicon/git-merge.svg?color=%238957e5" width="16" height="16" alt="merged" />
         <img src="https://img.shields.io/github/pulls/detail/state/vllm-project/vllm/44795?style=flat-square" alt="merged" />
       </a>
     </td>
@@ -42,6 +45,7 @@ Python · PyTorch · C/C++ · Go · HuggingFace · Docker · FastAPI · AWS
     </td>
     <td align="right">
       <a href="https://github.com/NVIDIA-NeMo/Automodel/pull/2601">
+        <img src="https://api.iconify.design/octicon/git-merge.svg?color=%238957e5" width="16" height="16" alt="merged" />
         <img src="https://img.shields.io/github/pulls/detail/state/NVIDIA-NeMo/Automodel/2601?style=flat-square" alt="merged" />
       </a>
     </td>
@@ -54,6 +58,7 @@ Python · PyTorch · C/C++ · Go · HuggingFace · Docker · FastAPI · AWS
     </td>
     <td align="right">
       <a href="https://github.com/NVIDIA-NeMo/Automodel/pull/2709">
+        <img src="https://api.iconify.design/octicon/git-merge.svg?color=%238957e5" width="16" height="16" alt="merged" />
         <img src="https://img.shields.io/github/pulls/detail/state/NVIDIA-NeMo/Automodel/2709?style=flat-square" alt="merged" />
       </a>
     </td>
