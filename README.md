@@ -23,6 +23,7 @@ Python · PyTorch · C/C++ · Go · HuggingFace · Docker · FastAPI · AWS
 
 **Notable Open source contributions**
 
+
 <table>
   <tr>
     <td width="28"><img src="https://github.com/vllm-project.png" width="22" alt="vLLM" /></td>
@@ -30,10 +31,10 @@ Python · PyTorch · C/C++ · Go · HuggingFace · Docker · FastAPI · AWS
       <a href="https://github.com/vllm-project/vllm/pull/44795"><strong>vllm-project/vllm</strong> #44795</a><br/>
       Fix nightly Docker <code>ImportError: AnthropicOutputConfig</code>
     </td>
-    <td align="right" width="120">
-      <a href="https://github.com/vllm-project/vllm/pull/44795">
-        <img src="https://api.iconify.design/octicon/git-merge.svg?color=%238957e5" width="16" height="16" alt="merged" />
-        <img src="https://img.shields.io/github/pulls/detail/state/vllm-project/vllm/44795?style=flat-square" alt="merged" />
+    <td align="right" width="90">
+      <a href="https://github.com/vllm-project/vllm/pull/44795" style="text-decoration: none;">
+        <img src="https://api.iconify.design/octicon/git-merge.svg?color=%238957e5" width="14" height="14" style="vertical-align: -2px;" alt="" />
+        <span style="color: #8957e5; font-size: 12px; font-weight: 600; font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;">Merged</span>
       </a>
     </td>
   </tr>
@@ -44,9 +45,9 @@ Python · PyTorch · C/C++ · Go · HuggingFace · Docker · FastAPI · AWS
       Re-tie <code>lm_head</code> to active <code>embed_tokens</code> on Gemma4 MoE path
     </td>
     <td align="right">
-      <a href="https://github.com/NVIDIA-NeMo/Automodel/pull/2601">
-        <img src="https://api.iconify.design/octicon/git-merge.svg?color=%238957e5" width="16" height="16" alt="merged" />
-        <img src="https://img.shields.io/github/pulls/detail/state/NVIDIA-NeMo/Automodel/2601?style=flat-square" alt="merged" />
+      <a href="https://github.com/NVIDIA-NeMo/Automodel/pull/2601" style="text-decoration: none;">
+        <img src="https://api.iconify.design/octicon/git-merge.svg?color=%238957e5" width="14" height="14" style="vertical-align: -2px;" alt="" />
+        <span style="color: #8957e5; font-size: 12px; font-weight: 600; font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;">Merged</span>
       </a>
     </td>
   </tr>
@@ -57,9 +58,9 @@ Python · PyTorch · C/C++ · Go · HuggingFace · Docker · FastAPI · AWS
       Cherry-pick #2601 into <code>r0.5.0</code>
     </td>
     <td align="right">
-      <a href="https://github.com/NVIDIA-NeMo/Automodel/pull/2709">
-        <img src="https://api.iconify.design/octicon/git-merge.svg?color=%238957e5" width="16" height="16" alt="merged" />
-        <img src="https://img.shields.io/github/pulls/detail/state/NVIDIA-NeMo/Automodel/2709?style=flat-square" alt="merged" />
+      <a href="https://github.com/NVIDIA-NeMo/Automodel/pull/2709" style="text-decoration: none;">
+        <img src="https://api.iconify.design/octicon/git-merge.svg?color=%238957e5" width="14" height="14" style="vertical-align: -2px;" alt="" />
+        <span style="color: #8957e5; font-size: 12px; font-weight: 600; font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;">Merged</span>
       </a>
     </td>
   </tr>
