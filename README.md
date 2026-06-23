@@ -25,11 +25,18 @@ Python · PyTorch · C/C++ · Go · HuggingFace · Docker · FastAPI · AWS
 
 
 <table>
-  <tr>
-    <td width="28"><img src="https://github.com/vllm-project.png" width="22" alt="vLLM" /></td>
+    <tr>
     <td>
       <a href="https://github.com/vllm-project/vllm/pull/44795"><strong>vllm-project/vllm</strong> #44795</a><br/>
       Fix nightly Docker <code>ImportError: AnthropicOutputConfig</code>
+    </td>
+    <td align="center" width="110">
+      <a href="https://github.com/vllm-project" style="text-decoration: none;">
+        <span style="display: inline-flex; align-items: center; gap: 6px; height: 20px; padding: 0 8px; background: #21262d; border-radius: 3px; box-sizing: border-box;">
+          <img src="https://avatars.githubusercontent.com/u/136984999?s=32&v=4" width="14" height="14" style="border-radius: 2px; display: block;" alt="" />
+          <span style="color: #ffffff; font-size: 11px; font-weight: 600; font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; line-height: 20px;">vLLM</span>
+        </span>
+      </a>
     </td>
     <td align="right" width="90">
       <a href="https://github.com/vllm-project/vllm/pull/44795">
@@ -38,10 +45,14 @@ Python · PyTorch · C/C++ · Go · HuggingFace · Docker · FastAPI · AWS
     </td>
   </tr>
   <tr>
-    <td><img src="https://github.com/NVIDIA-NeMo.png" width="22" alt="NeMo" /></td>
     <td>
       <a href="https://github.com/NVIDIA-NeMo/Automodel/pull/2601"><strong>NVIDIA-NeMo/Automodel</strong> #2601</a><br/>
       Re-tie <code>lm_head</code> to active <code>embed_tokens</code> on Gemma4 MoE path
+    </td>
+    <td align="center">
+      <a href="https://github.com/NVIDIA">
+        <img src="https://img.shields.io/badge/NVIDIA-21262d?style=flat-square&logo=nvidia&logoColor=76B900&labelColor=21262d" alt="NVIDIA" />
+      </a>
     </td>
     <td align="right">
       <a href="https://github.com/NVIDIA-NeMo/Automodel/pull/2601">
@@ -50,10 +61,14 @@ Python · PyTorch · C/C++ · Go · HuggingFace · Docker · FastAPI · AWS
     </td>
   </tr>
   <tr>
-    <td><img src="https://github.com/NVIDIA-NeMo.png" width="22" alt="NeMo" /></td>
     <td>
       <a href="https://github.com/NVIDIA-NeMo/Automodel/pull/2709"><strong>NVIDIA-NeMo/Automodel</strong> #2709</a><br/>
       Cherry-pick #2601 into <code>r0.5.0</code>
+    </td>
+    <td align="center">
+      <a href="https://github.com/NVIDIA">
+        <img src="https://img.shields.io/badge/NVIDIA-21262d?style=flat-square&logo=nvidia&logoColor=76B900&labelColor=21262d" alt="NVIDIA" />
+      </a>
     </td>
     <td align="right">
       <a href="https://github.com/NVIDIA-NeMo/Automodel/pull/2709">
