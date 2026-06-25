@@ -93,4 +93,16 @@ Python · PyTorch · C/C++ · Go · HuggingFace · Docker · FastAPI · AWS
 
 ---
 
-📫 [achyuthan.sivasankar@gmail.com](mailto:achyuthan.sivasankar@gmail.com) · [LinkedIn](https://linkedin.com/in/achyuthan-s) · [Portfolio](https://achyuthan-s.web.app)
+## Personal Portfolio
+
+<div align="center">
+  <a href="https://achyuthan-s.web.app" target="_blank">
+    <img src="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/portfolio_preview.jpeg" width="900" alt="Portfolio preview" style="border-radius: 8px; border: 1px solid #30363d;" />
+  </a>
+  <br/><br/>
+  <a href="https://achyuthan-s.github.io" target="_blank"><strong>→ achyuthan-s.web.app</strong></a>
+</div>
+
+---
+
+📫 [achyuthan.sivasankar@gmail.com](mailto:achyuthan.sivasankar@gmail.com) · [LinkedIn](https://linkedin.com/in/achyuthan-s) · [Portfolio](https://achyuthan-s.github.io)
