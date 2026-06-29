@@ -26,6 +26,22 @@ Python · PyTorch · C/C++ · Go · HuggingFace · Docker · FastAPI · AWS
 
 <table>
       <tr>
+  <td>
+    <a href="https://github.com/deepspeedai/DeepSpeed/pull/8078"><strong>deepspeedai/DeepSpeed</strong> #8078</a><br/>
+    Avoid CUDA context initialization during import-time op compatibility checks (fork-safe import)
+  </td>
+  <td align="center" width="120">
+    <a href="https://github.com/deepspeedai">
+      <img src="https://img.shields.io/badge/DeepSpeed-21262d?style=flat-square&logo=nvidia&logoColor=76B900&labelColor=21262d" alt="DeepSpeed" />
+    </a>
+  </td>
+  <td align="right" width="90">
+    <a href="https://github.com/deepspeedai/DeepSpeed/pull/8078">
+      <img src="https://img.shields.io/badge/-merged-8957E5?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik01LjQ1IDUuMTU0QTQuMjUgNC4yNSAwIDAgMCA5LjI1IDcuNWgxLjM3OGEyLjI1MSAyLjI1MSAwIDEgMSAwIDEuNUg5LjI1QTUuNzM2IDUuNzM2IDAgMCAxIDUgNy45djMuMTU0YS4yNS4yNSAwIDAgMS0uNDI3LjE3N0wyLjI1NCA5LjQyN2EuMjUuMjUgMCAwIDEgMC0uMzU0bDIuMzE5LTIuMzJhLjI1LjI1IDAgMCAxIC40MjcuMTc3Wm0tLjcwNyAxLjQ0MmEyLjc1IDIuNzUgMCAwIDEgMC0zLjc5Mkw3LjI4MyAxLjA4YS4yNS4yNSAwIDAgMSAuNDI3LjE3N1Y0Ljc1QTQuMjUgNC4yNSAwIDAgMSAxMS43NSA5aDEuMzc4YTIuMjUxIDIuMjUxIDAgMSAwIDAtMS41SDExLjc1QTUuNzM2IDUuNzM2IDAgMCAwIDcuOSA1SDUuNzQzWk0zLjU2IDcuMjVhLjI1LjI1IDAgMCAwLS40MjctLjE3N0wuODE0IDkuMzIzYS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMTkgMi4zMmEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3VjcuMjVaTTYuNSAxMC43NWEuMjUuMjUgMCAwIDAtLjQyNy0uMTc3bC0yLjMyIDIuMzE5YS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMiAyLjMxOWEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3di00LjQ4NloiLz48L3N2Zz4=" alt="merged" />
+    </a>
+  </td>
+</tr>
+      <tr>
     <td>
       <a href="https://github.com/NVIDIA-NeMo/Automodel/pull/2732"><strong>NVIDIA-NeMo/Automodel</strong> #2732</a><br/>
       Resolve <code>tie_word_embeddings</code> top-level-first to match HF tying semantics
