@@ -201,4 +201,4 @@ Python · PyTorch · C/C++ · Go · HuggingFace · Docker · FastAPI · AWS
 
 ---
 
-📫 [achyuthan.sivasankar@gmail.com](mailto:achyuthan.sivasankar@gmail.com) · [LinkedIn](https://linkedin.com/in/achyuthan-s) · [Portfolio](https://achyuthan-s.github.io)
+📫 [achyuthan.sivasankar@gmail.com](mailto:achyuthan.sivasankar@gmail.com) · [LinkedIn](www.linkedin.com/in/achyuthan-sivasankar-b0814b221) · [Portfolio](https://achyuthan-s.github.io)
