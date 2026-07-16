@@ -1,0 +1,24 @@
+<svg width="1200" height="240" viewBox="0 0 1200 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Achyuthan Sivasankar — sparse routing, world models">
+  <!-- eyebrow -->
+  <text x="62" y="66" font-family="ui-monospace, 'SF Mono', 'Cascadia Mono', Menlo, monospace" font-size="15" letter-spacing="4" fill="#C25E38">SPARSE ROUTING · WORLD MODELS · ML SYSTEMS</text>
+  <rect x="62" y="80" width="46" height="2.5" rx="1.25" fill="#C25E38"/>
+
+  <!-- name -->
+  <text x="60" y="150" font-family="Georgia, 'Times New Roman', 'Noto Serif', serif" font-size="60" fill="#1C2128">Achyuthan <tspan fill="#C25E38">Sivasankar</tspan></text>
+
+  <!-- tagline -->
+  <text x="62" y="195" font-family="Georgia, 'Times New Roman', 'Noto Serif', serif" font-style="italic" font-size="22" fill="#57606A">how sparse systems learn to route computation — and when routing actually helps</text>
+
+  <!-- signature: sparse top-k routing glyph -->
+  <g stroke-width="2.25" fill="none">
+    <path d="M1006 120 Q1075 98 1146 98" stroke="#D0D7DE"/>
+    <path d="M1006 120 Q1075 185 1146 185" stroke="#D0D7DE"/>
+    <path d="M1006 120 Q1075 54 1146 54" stroke="#C25E38"/>
+    <path d="M1006 120 Q1075 141 1146 141" stroke="#C25E38"/>
+  </g>
+  <circle cx="1006" cy="120" r="9" fill="#C25E38"/>
+  <circle cx="1150" cy="54"  r="7.5" fill="#C25E38"/>
+  <circle cx="1150" cy="98"  r="7.5" fill="#FFFFFF" stroke="#AFB8C1" stroke-width="2"/>
+  <circle cx="1150" cy="141" r="7.5" fill="#C25E38"/>
+  <circle cx="1150" cy="185" r="7.5" fill="#FFFFFF" stroke="#AFB8C1" stroke-width="2"/>
+</svg>
