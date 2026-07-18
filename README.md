@@ -5,6 +5,17 @@ I work on one problem: **how sparse neural systems learn to route computation �
 Currently a research assistant in **Prof. Anna Choromanska's lab at NYU**, working on self-supervised world models for autonomous driving with LiDAR.
 
 ---
+### Papers
+**Circuit Synchronization Precedes Generalization: A Causal Precursor to Grokking**
+<br><sub>Introduces the **Frequency Synchronization Degree (FSD)** — a permutation-tested metric that detects Fourier-circuit formation **500–3,000 steps before grokking**, with causal weight-decay evidence that the memorization→generalization gap is a regularization phenomenon. Transfers to the non-abelian group S₅. Sole author.</sub>
+<br><sub>📄 [arXiv:2606.12966](https://arxiv.org/abs/2606.12966)</sub>
+
+**Adaptive Compute in Latent World Models: When Depth Helps, Hurts, or Doesn't Matter**
+<br><sub>Pre-registered study of adaptive-depth latent world models across nine DeepMind Control tasks. Maps when extra depth helps rollouts (ρ up to 4.7×), when shallow beats deep (2/9 tasks), and the routability catch-22 created by early-exit supervision.</sub>
+<br><sub>📄 [arXiv:2607.10203](https://arxiv.org/abs/2607.10203)</sub>
+
+
+---
 
 **What I'm building**
 -  **AD-LiST-JEPA** — spatiotemporal JEPA world model for autonomous driving; predicts future BEV LiDAR embeddings without labels or contrastive pairs
