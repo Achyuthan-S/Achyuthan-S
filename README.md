@@ -6,7 +6,7 @@
 
 <div align="center">
   <a href="https://github.com/Achyuthan-S?tab=repositories">
-    <img alt="Merged upstream into the LLM stack" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3500&pause=1000&color=3FB950&center=true&vCenter=true&width=640&height=42&lines=Merged+upstream+into+the+LLM+stack;vLLM,+NVIDIA,+DeepSpeed,+NeMo;13+PRs+shipping+in+production+inference">
+    <img alt="Merged upstream into the LLM stack" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3500&pause=1000&color=3FB950&center=true&vCenter=true&width=760&height=42&lines=Merged+upstream+into+the+LLM+stack;vLLM,+NVIDIA,+DeepSpeed,+NeMo;13%2B+PRs+merged+into+frontier+LLM+training+%26+inference">
   </a>
 </div>
 
@@ -22,9 +22,17 @@
 
 ---
 
+## `$ cat about.md`
+
+Research assistant in **Prof. Anna Choromanska's lab at NYU** (sparse neural routing · self-supervised world models · LiDAR). Alongside the research, I contribute upstream to the **LLM training & inference stack** — vLLM, NVIDIA NeMo / Megatron, DeepSpeed — chasing correctness bugs in quantized KV caches, weight-tying, checkpointing, and build pipelines.
+
+Open to **research internships, PhD positions, and ML-systems / research-engineering roles** in efficient training, sparse MoE, and world models.
+
+---
+
 ## `$ git log --merged --upstream`
 
-<sub>13 PRs merged into frontier LLM training &amp; inference — most recent first.</sub>
+<sub>13+ PRs merged into frontier LLM training &amp; inference.</sub>
 
 <table>
   <tr>
@@ -237,9 +245,14 @@
   </tr>
 </table>
 
+**Impact**
+- **Inference correctness** — fixed KV-cache corruption under per-token-head quant and recovered truncated GPT-OSS output (vLLM).
+- **Model compatibility** — corrected `tie_word_embeddings` handling across six NeMo Automodel PRs so tied/untied embeddings load correctly.
+- **Training reliability** — epoch-aware checkpoint resume (Megatron-Bridge), fork-safe import (DeepSpeed), HSDP gradient reduction (Megatron-FSDP), and a fixed vLLM nightly build.
+
 ---
 
-## `$ cat publications.bib`
+## `$ cat preprints.bib`
 
 **Circuit Synchronization Precedes Generalization: A Causal Precursor to Grokking**
 <br><sub>Introduces the **Frequency Synchronization Degree (FSD)** — a permutation-tested metric that detects Fourier-circuit formation **500–3,000 steps before grokking**, with causal weight-decay evidence that the memorization→generalization gap is a regularization phenomenon. Transfers to the non-abelian group S₅. Sole author.</sub>
@@ -254,7 +267,7 @@
 ## `$ tail -f ~/blog`
 
 **Research**
-- **[We found the moment grokking actually begins](https://blog-blogachyuthan.vercel.app/blog/we-found-the-moment-grokking-actually-begins)** — the FSD paper in plain English: circuits form 500–3,000 steps before the accuracy jump.
+- **[We found the moment grokking actually begins](https://blog-blogachyuthan.vercel.app/blog/we-found-the-moment-grokking-actually-begins)** — the FSD preprint in plain English: circuits form 500–3,000 steps before the accuracy jump.
 - **[When depth helps, hurts, or doesn't matter](https://blog-blogachyuthan.vercel.app/blog/when-more-compute-doesnt-help-adaptive-compute-latent-world-models)** — a taxonomy of adaptive compute in latent world models.
 
 **From the trenches**
@@ -282,14 +295,14 @@
 
 <div align="center">
   <a href="https://achyuthan-s.web.app" target="_blank">
-    <img src="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/portfolio_preview.jpeg" width="820" alt="Portfolio preview" style="border-radius: 8px; border: 1px solid #30363d;" />
+    <img src="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/portfolio_preview.jpeg" width="820" alt="Portfolio preview" />
   </a>
   <br/><br/>
-  <a href="https://achyuthan-s.github.io" target="_blank"><strong>→ achyuthan-s.web.app</strong></a>
+  <a href="https://achyuthan-s.web.app" target="_blank"><strong>→ achyuthan-s.web.app</strong></a>
 </div>
 
 ---
 
 ## `$ ./connect`
 
-📫 [as21154@nyu.edu](mailto:as21154@nyu.edu) &nbsp;·&nbsp; [achyuthan.sivasankar@gmail.com](mailto:achyuthan.sivasankar@gmail.com) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/achyuthan-sivasankar-b0814b221) &nbsp;·&nbsp; [Portfolio](https://achyuthan-s.github.io) &nbsp;·&nbsp; [Blog](https://blog-blogachyuthan.vercel.app)
+📫 [as21154@nyu.edu](mailto:as21154@nyu.edu) &nbsp;·&nbsp; [achyuthan.sivasankar@gmail.com](mailto:achyuthan.sivasankar@gmail.com) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/achyuthan-sivasankar-b0814b221) &nbsp;·&nbsp; [Portfolio](https://achyuthan-s.web.app) &nbsp;·&nbsp; [Blog](https://blog-blogachyuthan.vercel.app)
