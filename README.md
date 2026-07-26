@@ -1,39 +1,32 @@
-# Achyuthan Sivasankar
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/hero-light.svg">
+  <img alt="Achyuthan Sivasankar — sparse neural routing, world models, LiDAR at NYU" src="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/hero-dark.svg" width="100%">
+</picture>
 
-I work on one problem: **how sparse neural systems learn to route computation — and when routing actually helps.**
+<div align="center">
+  <a href="https://github.com/Achyuthan-S?tab=repositories">
+    <img alt="Merged upstream into the LLM stack" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3500&pause=1000&color=3FB950&center=true&vCenter=true&width=640&height=42&lines=Merged+upstream+into+the+LLM+stack;vLLM,+NVIDIA,+DeepSpeed,+NeMo;13+PRs+shipping+in+production+inference">
+  </a>
+</div>
 
-Currently a research assistant in **Prof. Anna Choromanska's lab at NYU**, working on self-supervised world models for autonomous driving with LiDAR.
-
----
-### Papers
-**Circuit Synchronization Precedes Generalization: A Causal Precursor to Grokking**
-<br><sub>Introduces the **Frequency Synchronization Degree (FSD)** — a permutation-tested metric that detects Fourier-circuit formation **500–3,000 steps before grokking**, with causal weight-decay evidence that the memorization→generalization gap is a regularization phenomenon. Transfers to the non-abelian group S₅. Sole author.</sub>
-<br><sub>📄 [arXiv:2606.12966](https://arxiv.org/abs/2606.12966)</sub>
-
-**Adaptive Compute in Latent World Models: When Depth Helps, Hurts, or Doesn't Matter**
-<br><sub>Pre-registered study of adaptive-depth latent world models across nine DeepMind Control tasks. Maps when extra depth helps rollouts (ρ up to 4.7×), when shallow beats deep (2/9 tasks), and the routability catch-22 created by early-exit supervision.</sub>
-<br><sub>📄 [arXiv:2607.10203](https://arxiv.org/abs/2607.10203)</sub>
-
-
----
-
-**What I'm building**
--  **AD-LiST-JEPA** — spatiotemporal JEPA world model for autonomous driving; predicts future BEV LiDAR embeddings without labels or contrastive pairs
--  **KAN-Multi** — routing layer that selects among 6 function bases with zero supervision; +6.8% over MLP on CIFAR-100
--  **MoE-Bench** — open diagnostic toolkit for expert collapse & routing entropy in sparse MoE LLMs (OLMoE, JetMoE, Qwen)
-
-**What I care about**
-Self-supervised learning · Sparse MoE architectures · Neural routing · World models · LiDAR perception
-
-**Stack**
-Python · PyTorch · C/C++ · Go · HuggingFace · Docker · FastAPI · AWS
+<div align="center">
+  <sub><b>CONTRIBUTES TO &nbsp;·&nbsp; FRONTIER LLM TRAINING &amp; INFERENCE</b></sub>
+  <br/><br/>
+  <a href="https://github.com/vllm-project"><img src="https://github.com/vllm-project.png?size=96" width="54" height="54" alt="vLLM" /></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/NVIDIA"><img src="https://github.com/NVIDIA.png?size=96" width="54" height="54" alt="NVIDIA" /></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/deepspeedai"><img src="https://github.com/deepspeedai.png?size=96" width="54" height="54" alt="DeepSpeed" /></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/NVIDIA-NeMo"><img src="https://github.com/NVIDIA-NeMo.png?size=96" width="54" height="54" alt="NVIDIA NeMo" /></a>
+</div>
 
 ---
 
----
+## `$ git log --merged --upstream`
 
-**Notable Open source contributions**
-
+<sub>13 PRs merged into frontier LLM training &amp; inference — most recent first.</sub>
 
 <table>
   <tr>
@@ -248,11 +241,36 @@ Python · PyTorch · C/C++ · Go · HuggingFace · Docker · FastAPI · AWS
 
 ---
 
-## Personal Portfolio
+## `$ cat publications.bib`
+
+**Circuit Synchronization Precedes Generalization: A Causal Precursor to Grokking**
+<br><sub>Introduces the **Frequency Synchronization Degree (FSD)** — a permutation-tested metric that detects Fourier-circuit formation **500–3,000 steps before grokking**, with causal weight-decay evidence that the memorization→generalization gap is a regularization phenomenon. Transfers to the non-abelian group S₅. Sole author.</sub>
+<br><sub>📄 [arXiv:2606.12966](https://arxiv.org/abs/2606.12966)</sub>
+
+**Adaptive Compute in Latent World Models: When Depth Helps, Hurts, or Doesn't Matter**
+<br><sub>Pre-registered study of adaptive-depth latent world models across nine DeepMind Control tasks. Maps when extra depth helps rollouts (ρ up to 4.7×), when shallow beats deep (2/9 tasks), and the routability catch-22 created by early-exit supervision.</sub>
+<br><sub>📄 [arXiv:2607.10203](https://arxiv.org/abs/2607.10203)</sub>
+
+---
+
+## `$ cat ~/.now`
+
+**Building**
+- **AD-LiST-JEPA** — spatiotemporal JEPA world model for autonomous driving; predicts future BEV LiDAR embeddings without labels or contrastive pairs
+- **KAN-Multi** — routing layer that selects among 6 function bases with zero supervision; +6.8% over MLP on CIFAR-100
+- **MoE-Bench** — open diagnostic toolkit for expert collapse & routing entropy in sparse MoE LLMs (OLMoE, JetMoE, Qwen)
+
+**Focus** &nbsp;·&nbsp; Self-supervised learning · Sparse MoE architectures · Neural routing · World models · LiDAR perception
+
+**Stack** &nbsp;·&nbsp; Python · PyTorch · C/C++ · Go · HuggingFace · Docker · FastAPI · AWS
+
+---
+
+## `$ open portfolio`
 
 <div align="center">
   <a href="https://achyuthan-s.web.app" target="_blank">
-    <img src="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/portfolio_preview.jpeg" width="900" alt="Portfolio preview" style="border-radius: 8px; border: 1px solid #30363d;" />
+    <img src="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/portfolio_preview.jpeg" width="820" alt="Portfolio preview" style="border-radius: 8px; border: 1px solid #30363d;" />
   </a>
   <br/><br/>
   <a href="https://achyuthan-s.github.io" target="_blank"><strong>→ achyuthan-s.web.app</strong></a>
@@ -260,4 +278,6 @@ Python · PyTorch · C/C++ · Go · HuggingFace · Docker · FastAPI · AWS
 
 ---
 
-📫 [as21154@nyu.edu](mailto:as21154@nyu.edu) · [achyuthan.sivasankar@gmail.com](mailto:achyuthan.sivasankar@gmail.com) · [LinkedIn](www.linkedin.com/in/achyuthan-sivasankar-b0814b221) · [Portfolio](https://achyuthan-s.github.io)
+## `$ ./connect`
+
+📫 [as21154@nyu.edu](mailto:as21154@nyu.edu) &nbsp;·&nbsp; [achyuthan.sivasankar@gmail.com](mailto:achyuthan.sivasankar@gmail.com) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/achyuthan-sivasankar-b0814b221) &nbsp;·&nbsp; [Portfolio](https://achyuthan-s.github.io)
