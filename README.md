@@ -251,6 +251,20 @@
 
 ---
 
+## `$ tail -f ~/blog`
+
+**Research**
+- **[We found the moment grokking actually begins](https://blog-blogachyuthan.vercel.app/blog/we-found-the-moment-grokking-actually-begins)** — the FSD paper in plain English: circuits form 500–3,000 steps before the accuracy jump.
+- **[When depth helps, hurts, or doesn't matter](https://blog-blogachyuthan.vercel.app/blog/when-more-compute-doesnt-help-adaptive-compute-latent-world-models)** — a taxonomy of adaptive compute in latent world models.
+
+**From the trenches**
+- **[When resuming training made my model learn the wrong data](https://blog-blogachyuthan.vercel.app/blog/when-resume-training-learns-wrong-data-megatron-bridge)** — the epoch-aware sampler bug behind Megatron-Bridge #4601.
+- **[When Docker cache lies](https://blog-blogachyuthan.vercel.app/blog/when-docker-cache-lies-vllm)** — the BuildKit quirk behind a vLLM nightly build failure.
+
+<sub>More at **[blog-blogachyuthan.vercel.app](https://blog-blogachyuthan.vercel.app)**</sub>
+
+---
+
 ## `$ cat ~/.now`
 
 **Building**
@@ -278,4 +292,4 @@
 
 ## `$ ./connect`
 
-📫 [as21154@nyu.edu](mailto:as21154@nyu.edu) &nbsp;·&nbsp; [achyuthan.sivasankar@gmail.com](mailto:achyuthan.sivasankar@gmail.com) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/achyuthan-sivasankar-b0814b221) &nbsp;·&nbsp; [Portfolio](https://achyuthan-s.github.io)
+📫 [as21154@nyu.edu](mailto:as21154@nyu.edu) &nbsp;·&nbsp; [achyuthan.sivasankar@gmail.com](mailto:achyuthan.sivasankar@gmail.com) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/achyuthan-sivasankar-b0814b221) &nbsp;·&nbsp; [Portfolio](https://achyuthan-s.github.io) &nbsp;·&nbsp; [Blog](https://blog-blogachyuthan.vercel.app)
