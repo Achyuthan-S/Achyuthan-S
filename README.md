@@ -13,13 +13,11 @@
 <div align="center">
   <sub><b>CONTRIBUTES TO &nbsp;·&nbsp; FRONTIER LLM TRAINING &amp; INFERENCE</b></sub>
   <br/><br/>
-  <a href="https://github.com/vllm-project"><img src="https://github.com/vllm-project.png?size=96" width="54" height="54" alt="vLLM" /></a>
+  <a href="https://github.com/vllm-project"><img src="https://github.com/vllm-project.png?size=160" width="60" height="60" alt="vLLM" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/NVIDIA"><img src="https://github.com/NVIDIA.png?size=96" width="54" height="54" alt="NVIDIA" /></a>
+  <a href="https://github.com/NVIDIA"><img src="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/nvidia-logo.svg" width="60" height="60" alt="NVIDIA" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/deepspeedai"><img src="https://github.com/deepspeedai.png?size=96" width="54" height="54" alt="DeepSpeed" /></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/NVIDIA-NeMo"><img src="https://github.com/NVIDIA-NeMo.png?size=96" width="54" height="54" alt="NVIDIA NeMo" /></a>
+  <a href="https://github.com/deepspeedai"><img src="https://github.com/deepspeedai.png?size=160" width="60" height="60" alt="DeepSpeed" /></a>
 </div>
 
 ---
