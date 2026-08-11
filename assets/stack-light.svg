@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640" role="img" aria-label="The LLM stack: 13 merged PRs pinned to the five layers they fixed">
+  <defs>
+    <linearGradient id="spine" gradientUnits="userSpaceOnUse" x1="0" y1="196" x2="0" y2="564">
+      <stop offset="0" stop-color="#38BDF8"/><stop offset="1" stop-color="#B06BF2"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="640" fill="#F7F9FC"/>
+  <rect x="64" y="44" width="56" height="3" fill="#38BDF8"/>
+  <text x="64" y="90" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#0F172A">Achyuthan Sivasankar</text>
+  <text x="64" y="114" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600" letter-spacing="2.2" fill="#5A6782">RESEARCH ASSISTANT &#183; CHOROMANSKA LAB &#183; NEW YORK UNIVERSITY</text>
+  <text x="836" y="92" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="34" font-weight="700" fill="#7C8CF8">13+</text>
+  <text x="836" y="114" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="10" font-weight="600" letter-spacing="2" fill="#5A6782">MERGED UPSTREAM</text>
+  <rect x="64" y="134" width="772" height="1" fill="#DCE3EF"/>
+  <rect x="91" y="196" width="2" height="368" fill="url(#spine)" opacity="0.55"/>
+  <line x1="92" y1="196" x2="124" y2="196" stroke="#DCE3EF" stroke-width="1.5"/>
+  <rect x="124" y="158" width="712" height="76" rx="9" fill="#FFFFFF" stroke="#DCE3EF"/>
+  <rect x="124" y="158" width="3" height="76" rx="1.5" fill="#38BDF8"/>
+  <text x="150" y="189" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1.1" fill="#0F172A">SERVING &amp; OUTPUT</text>
+  <text x="150" y="212" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11.5" fill="#5A6782">Harmony parser recovery when generation ends non-terminal</text>
+  <text x="812" y="189" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600" letter-spacing="1.4" fill="#5A6782">vLLM</text>
+  <text x="812" y="212" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="12" font-weight="700" fill="#38BDF8">2 merged</text>
+  <circle cx="92" cy="196" r="6" fill="none" stroke="#38BDF8" stroke-width="2">
+    <animate attributeName="r" values="6;15" dur="4.0s" begin="0.0s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.85;0" dur="4.0s" begin="0.0s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="92" cy="196" r="5.5" fill="#F7F9FC" stroke="#38BDF8" stroke-width="2.5"/>
+  <line x1="92" y1="288" x2="124" y2="288" stroke="#DCE3EF" stroke-width="1.5"/>
+  <rect x="124" y="250" width="712" height="76" rx="9" fill="#FFFFFF" stroke="#DCE3EF"/>
+  <rect x="124" y="250" width="3" height="76" rx="1.5" fill="#4FA9F5"/>
+  <text x="150" y="281" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1.1" fill="#0F172A">KV CACHE &amp; QUANT</text>
+  <text x="150" y="304" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11.5" fill="#5A6782">Cross-layer KV blocks under per-token-head quantization</text>
+  <text x="812" y="281" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600" letter-spacing="1.4" fill="#5A6782">vLLM</text>
+  <text x="812" y="304" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="12" font-weight="700" fill="#4FA9F5">1 merged</text>
+  <circle cx="92" cy="288" r="6" fill="none" stroke="#4FA9F5" stroke-width="2">
+    <animate attributeName="r" values="6;15" dur="4.0s" begin="1.0s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.85;0" dur="4.0s" begin="1.0s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="92" cy="288" r="5.5" fill="#F7F9FC" stroke="#4FA9F5" stroke-width="2.5"/>
+  <line x1="92" y1="380" x2="124" y2="380" stroke="#DCE3EF" stroke-width="1.5"/>
+  <rect x="124" y="342" width="712" height="76" rx="9" fill="#FFFFFF" stroke="#DCE3EF"/>
+  <rect x="124" y="342" width="3" height="76" rx="1.5" fill="#7C8CF8"/>
+  <text x="150" y="373" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1.1" fill="#0F172A">WEIGHTS &amp; TYING</text>
+  <text x="150" y="396" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11.5" fill="#5A6782">tie_word_embeddings semantics across model families</text>
+  <text x="812" y="373" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600" letter-spacing="1.4" fill="#5A6782">NeMo&#160;Automodel</text>
+  <text x="812" y="396" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="12" font-weight="700" fill="#7C8CF8">6 merged</text>
+  <circle cx="92" cy="380" r="6" fill="none" stroke="#7C8CF8" stroke-width="2">
+    <animate attributeName="r" values="6;15" dur="4.0s" begin="2.0s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.85;0" dur="4.0s" begin="2.0s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="92" cy="380" r="5.5" fill="#F7F9FC" stroke="#7C8CF8" stroke-width="2.5"/>
+  <line x1="92" y1="472" x2="124" y2="472" stroke="#DCE3EF" stroke-width="1.5"/>
+  <rect x="124" y="434" width="712" height="76" rx="9" fill="#FFFFFF" stroke="#DCE3EF"/>
+  <rect x="124" y="434" width="3" height="76" rx="1.5" fill="#9B7DF6"/>
+  <text x="150" y="465" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1.1" fill="#0F172A">DISTRIBUTED TRAINING</text>
+  <text x="150" y="488" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11.5" fill="#5A6782">HSDP gradient reduction &#183; epoch-aware checkpoint resume</text>
+  <text x="812" y="465" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600" letter-spacing="1.4" fill="#5A6782">Megatron &#183; Megatron-Bridge</text>
+  <text x="812" y="488" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="12" font-weight="700" fill="#9B7DF6">2 merged</text>
+  <circle cx="92" cy="472" r="6" fill="none" stroke="#9B7DF6" stroke-width="2">
+    <animate attributeName="r" values="6;15" dur="4.0s" begin="3.0s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.85;0" dur="4.0s" begin="3.0s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="92" cy="472" r="5.5" fill="#F7F9FC" stroke="#9B7DF6" stroke-width="2.5"/>
+  <line x1="92" y1="564" x2="124" y2="564" stroke="#DCE3EF" stroke-width="1.5"/>
+  <rect x="124" y="526" width="712" height="76" rx="9" fill="#FFFFFF" stroke="#DCE3EF"/>
+  <rect x="124" y="526" width="3" height="76" rx="1.5" fill="#B06BF2"/>
+  <text x="150" y="557" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1.1" fill="#0F172A">RUNTIME &amp; BUILD</text>
+  <text x="150" y="580" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11.5" fill="#5A6782">Fork-safe import &#183; nightly container build</text>
+  <text x="812" y="557" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600" letter-spacing="1.4" fill="#5A6782">DeepSpeed &#183; vLLM</text>
+  <text x="812" y="580" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="12" font-weight="700" fill="#B06BF2">2 merged</text>
+  <circle cx="92" cy="564" r="6" fill="none" stroke="#B06BF2" stroke-width="2">
+    <animate attributeName="r" values="6;15" dur="4.0s" begin="4.0s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.85;0" dur="4.0s" begin="4.0s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="92" cy="564" r="5.5" fill="#F7F9FC" stroke="#B06BF2" stroke-width="2.5"/>
+  <circle cx="92" r="4" fill="#7C8CF8">
+    <animate attributeName="cy" values="196;564" dur="4.0s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.06;0.9;1" dur="4.0s" repeatCount="indefinite"/>
+  </circle>
+</svg>
