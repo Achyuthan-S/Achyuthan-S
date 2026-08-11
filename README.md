@@ -44,8 +44,6 @@ Open to **research internships, PhD positions, and ML-systems / research-enginee
 
 <img src="https://img.shields.io/badge/01-INFERENCE_CORRECTNESS-161B22?style=for-the-badge&labelColor=3FB950" height="28" alt="INFERENCE_CORRECTNESS" />
 
-<sub>Silently wrong or truncated output on live serving paths.</sub>
-
 <table>
   <tr>
     <td>
@@ -88,8 +86,6 @@ Open to **research internships, PhD positions, and ML-systems / research-enginee
 <br/>
 
 <img src="https://img.shields.io/badge/02-WEIGHT_TYING-161B22?style=for-the-badge&labelColor=58A6FF" height="28" alt="WEIGHT_TYING" />
-
-<sub>Six PRs closing out <code>tie_word_embeddings</code> across NeMo Automodel, so tied and untied checkpoints load correctly.</sub>
 
 <table>
   <tr>
@@ -169,8 +165,6 @@ Open to **research internships, PhD positions, and ML-systems / research-enginee
 <br/>
 
 <img src="https://img.shields.io/badge/03-TRAINING_RELIABILITY-161B22?style=for-the-badge&labelColor=D29922" height="28" alt="TRAINING_RELIABILITY" />
-
-<sub>Long runs that resume wrong, imports that deadlock, nightlies that don't ship.</sub>
 
 <table>
   <tr>
