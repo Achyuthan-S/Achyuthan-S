@@ -1,14 +1,8 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/hero-light.svg">
-  <img alt="Achyuthan Sivasankar — sparse neural routing, world models, LiDAR at NYU" src="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/hero-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/term-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/term-light.svg">
+  <img alt="Terminal session: Achyuthan Sivasankar, research assistant at NYU, 13 PRs merged upstream" src="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/term-dark.svg" width="100%">
 </picture>
-
-<div align="center">
-  <a href="https://github.com/Achyuthan-S?tab=repositories">
-    <img alt="Merged upstream into the LLM stack" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3500&pause=1000&color=3FB950&center=true&vCenter=true&width=760&height=42&lines=Merged+upstream+into+the+LLM+stack;vLLM,+NVIDIA,+DeepSpeed,+NeMo;13%2B+PRs+merged+into+frontier+LLM+training+%26+inference">
-  </a>
-</div>
 
 <div align="center">
   <sub><b>CONTRIBUTES TO &nbsp;·&nbsp; FRONTIER LLM TRAINING &amp; INFERENCE</b></sub>
