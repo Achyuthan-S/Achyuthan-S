@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="312" viewBox="0 0 900 312" role="img" aria-label="Achyuthan Sivasankar — sparse neural routing, world models, LiDAR at NYU">
+  <rect width="900" height="312" fill="#FAF7F0"/>
+  <rect x="64" y="56" width="64" height="3" fill="#A8432A"/>
+  <text x="64" y="98" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" letter-spacing="2.6" fill="#6D684F">RESEARCH ASSISTANT &#183; CHOROMANSKA LAB &#183; NEW YORK UNIVERSITY</text>
+  <text x="64" y="172" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="56" font-weight="500" fill="#22201B">Achyuthan Sivasankar</text>
+  <rect x="64" y="210" width="772" height="1" fill="#DDD7C7"/>
+  <text x="64" y="244" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="18" fill="#6D684F">Sparse neural routing &#183; Self-supervised world models &#183; LiDAR perception</text>
+  <text x="64" y="278" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5" font-weight="600" letter-spacing="1.6"><tspan fill="#A8432A">13+ PRS MERGED UPSTREAM</tspan><tspan fill="#6D684F">   &#183;   vLLM &#183; NVIDIA &#183; DEEPSPEED &#183; NEMO</tspan></text>
+</svg>

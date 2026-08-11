@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="150" viewBox="0 0 900 150" role="img" aria-label="13+ merged PRs, 4 upstream orgs, 2 preprints">
+  <rect width="900" height="150" fill="#171512"/>
+  <text x="64" y="76" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="54" font-weight="500" fill="#F2EDE3">13<tspan font-size="26" dy="-20" fill="#D97757">+</tspan></text>
+  <rect x="64" y="94" width="34" height="2" fill="#D97757"/>
+  <text x="64" y="122" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" letter-spacing="2.2" fill="#A39C8A">MERGED PRS</text>
+  <text x="321" y="76" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="54" font-weight="500" fill="#F2EDE3">4</text>
+  <rect x="321" y="94" width="34" height="2" fill="#D97757"/>
+  <text x="321" y="122" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" letter-spacing="2.2" fill="#A39C8A">UPSTREAM ORGS</text>
+  <text x="578" y="76" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="54" font-weight="500" fill="#F2EDE3">2</text>
+  <rect x="578" y="94" width="34" height="2" fill="#D97757"/>
+  <text x="578" y="122" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" letter-spacing="2.2" fill="#A39C8A">PREPRINTS</text>
+</svg>
