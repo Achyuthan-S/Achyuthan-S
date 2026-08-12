@@ -1,0 +1,55 @@
+{
+  "count": 13,
+  "orgs_line": "NVIDIA \u00b7 vLLM \u00b7 DeepSpeed",
+  "repos": [
+    "vllm-project/vllm",
+    "NVIDIA/Megatron-LM",
+    "NVIDIA-NeMo/Automodel",
+    "NVIDIA-NeMo/Megatron-Bridge",
+    "deepspeedai/DeepSpeed"
+  ],
+  "by_org": [
+    {
+      "name": "NVIDIA",
+      "colour": "sign",
+      "count": 8
+    },
+    {
+      "name": "vLLM",
+      "colour": "path",
+      "count": 4
+    },
+    {
+      "name": "DeepSpeed",
+      "colour": "repo",
+      "count": 1
+    }
+  ],
+  "recent": [
+    {
+      "number": 49226,
+      "short": "vLLM",
+      "msg": "disable cross-layer KV blocks"
+    },
+    {
+      "number": 5743,
+      "short": "Megatron",
+      "msg": "HSDP deferred grad reduction"
+    },
+    {
+      "number": 2998,
+      "short": "Automodel",
+      "msg": "single tie_word_embeddings guard"
+    },
+    {
+      "number": 2896,
+      "short": "Automodel",
+      "msg": "complete tie_word_embeddings guards"
+    },
+    {
+      "number": 4601,
+      "short": "Bridge",
+      "msg": "epoch-aware sampler on resume"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "_comment": "Controls what counts as an upstream contribution. Seeded to reproduce the README's current numbers exactly. Empty the two lists to fall back to raw API truth.",
+
+  "include_extra": [
+    {
+      "repo": "NVIDIA-NeMo/Automodel",
+      "number": 2709,
+      "short": "Automodel",
+      "org": "NVIDIA",
+      "msg": "cherry-pick #2601 into r0.5.0",
+      "why": "merged, but opened by svcnvidia-nemo-ci (release bot), so author:Achyuthan-S does not match it"
+    },
+    {
+      "repo": "vllm-project/vllm",
+      "number": 47379,
+      "short": "vLLM",
+      "org": "vLLM",
+      "msg": "recover raw tail on parse",
+      "why": "merged, authored by yzong-rh; PR body credits Achyuthan-S as co-author"
+    }
+  ],
+
+  "exclude": [
+    {
+      "repo": "scikit-learn/scikit-learn",
+      "number": 32347,
+      "why": "merged and authored by you, but not currently listed in the README; delete this entry to include it"
+    }
+  ],
+
+  "org_map": {
+    "vllm-project": {"name": "vLLM", "colour": "path"},
+    "NVIDIA": {"name": "NVIDIA", "colour": "sign"},
+    "NVIDIA-NeMo": {"name": "NVIDIA", "colour": "sign"},
+    "deepspeedai": {"name": "DeepSpeed", "colour": "repo"},
+    "scikit-learn": {"name": "scikit-learn", "colour": "flag"}
+  },
+
+  "repo_short": {
+    "vllm-project/vllm": "vLLM",
+    "NVIDIA-NeMo/Automodel": "Automodel",
+    "NVIDIA/Megatron-LM": "Megatron",
+    "NVIDIA-NeMo/Megatron-Bridge": "Bridge",
+    "deepspeedai/DeepSpeed": "DeepSpeed",
+    "scikit-learn/scikit-learn": "sklearn"
+  },
+
+  "msg_override": {
+    "49226": "disable cross-layer KV blocks",
+    "5743": "HSDP deferred grad reduction",
+    "2998": "single tie_word_embeddings guard",
+    "47062": "recover non-terminal output",
+    "4601": "epoch-aware sampler on resume",
+    "2896": "complete tie_word_embeddings guards",
+    "2805": "reject tie on separate-head models",
+    "2732": "resolve tie top-level-first",
+    "2601": "re-tie lm_head on Gemma4 MoE",
+    "8078": "fork-safe deepspeed import",
+    "44795": "fix nightly Docker ImportError",
+    "32347": "clarify TargetEncoder fit usage"
+  }
+}
