@@ -18,13 +18,23 @@
 
 ## `$ cat about.md`
 
-Research assistant in **Prof. Anna Choromanska's lab at NYU** (sparse neural routing · self-supervised world models · LiDAR). Alongside the research, I contribute upstream to the **LLM training & inference stack** — vLLM, NVIDIA NeMo / Megatron, DeepSpeed — chasing correctness bugs in quantized KV caches, weight-tying, checkpointing, and build pipelines.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/neofetch-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/neofetch-light.svg">
+  <img alt="neofetch: Choromanska Lab NYU, 13 PRs merged upstream, 2 preprints" src="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/neofetch-dark.svg" width="100%">
+</picture>
 
 Open to **research internships, PhD positions, and ML-systems / research-engineering roles** in efficient training, sparse MoE, and world models.
 
 ---
 
 ## `$ git log --merged --upstream`
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/upstream-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/upstream-light.svg">
+  <img alt="git log: recent merged upstream PRs and merges per organisation" src="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/upstream-dark.svg" width="100%">
+</picture>
 
 <div align="center">
   <img src="https://img.shields.io/badge/PRs_MERGED-13%2B-3FB950?style=for-the-badge&labelColor=0D1117" height="30" alt="13+ PRs merged" />
