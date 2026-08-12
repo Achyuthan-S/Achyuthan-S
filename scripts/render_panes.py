@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """Render the three terminal panes from data.json.
 
-Panes are 600px wide at 16px type, which lands at ~9-10px effective on a phone
-(a 880px pane at 14px lands at ~5px, which is unreadable).
+Wide layout: 820px hero, 880px for the neofetch and upstream panes, 14px type.
 """
 import json
 import pathlib
@@ -15,9 +14,9 @@ OUT.mkdir(parents=True, exist_ok=True)
 
 MONO = "ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace"
 SANS = "-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
-W, FS, CW, LH = 600, 16, 9.62, 28
-X0, BAR, TOP = 34, 44, 84
-COLS = int((W - 2 * X0) / CW)          # 55
+FS, CW, LH = 14, 8.42, 26
+X0, BAR, TOP = 34, 44, 80
+HERO_W, PANE_W = 820, 880
 TYPE, PRINT, PAUSE, SPIN = 0.030, 0.14, 0.30, 0.085
 SPIN_FRAMES = "⠋⠙⠹⠸⠼⠴⠦⠧"
 
@@ -57,7 +56,7 @@ PROMPT = [("~", "path"), (" git:(", "dim"), ("main", "num"), (")", "dim"), (" $ 
 PLEN = sum(len(s) for s, _ in PROMPT)
 
 
-def render(lines, title, t, tag):
+def render(lines, title, t, tag, W=PANE_W):
     body, defs, clock, li = [], [], 0.0, 0
 
     for idx, e in enumerate(lines):
@@ -75,7 +74,7 @@ def render(lines, title, t, tag):
             spans = "".join(f'<tspan fill="{t[k]}">{esc(s)}</tspan>' for s, k in PROMPT)
             body.append(f'  <text x="{X0}" y="{y}" font-family="{MONO}" font-size="{FS}" opacity="0" xml:space="preserve">{spans}'
                         f'<set attributeName="opacity" to="1" begin="{clock:.2f}s"/></text>')
-            body.append(f'  <rect x="{X0+PLEN*CW:.1f}" y="{y-12}" width="{CW:.1f}" height="17" rx="1.5" fill="{t["cursor"]}" opacity="0">'
+            body.append(f'  <rect x="{X0+PLEN*CW:.1f}" y="{y-11}" width="{CW:.1f}" height="15" rx="1.5" fill="{t["cursor"]}" opacity="0">'
                         f'<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.45;0.5;1" dur="1.1s" begin="{clock:.2f}s" repeatCount="indefinite"/></rect>')
             li += 1
             continue
@@ -89,7 +88,7 @@ def render(lines, title, t, tag):
                         f'<animate attributeName="width" values="0;{n*CW+4:.1f}" dur="{dur:.2f}s" begin="{clock:.2f}s" fill="freeze"/></rect></clipPath>')
             spans = "".join(f'<tspan fill="{t[k]}">{esc(s)}</tspan>' for s, k in segs)
             body.append(f'  <g clip-path="url(#{cid})"><text x="{X0}" y="{y}" font-family="{MONO}" font-size="{FS}" xml:space="preserve">{spans}</text></g>')
-            body.append(f'  <rect y="{y-12}" width="{CW:.1f}" height="17" rx="1.5" fill="{t["cursor"]}" opacity="0" x="{X0+PLEN*CW:.1f}">'
+            body.append(f'  <rect y="{y-11}" width="{CW:.1f}" height="15" rx="1.5" fill="{t["cursor"]}" opacity="0" x="{X0+PLEN*CW:.1f}">'
                         f'<set attributeName="opacity" to="1" begin="{clock:.2f}s"/>'
                         f'<animate attributeName="x" values="{X0+PLEN*CW:.1f};{X0+n*CW:.1f}" dur="{dur:.2f}s" begin="{clock:.2f}s" fill="freeze"/>'
                         f'<set attributeName="opacity" to="0" begin="{clock+dur:.2f}s"/></rect>')
@@ -108,15 +107,15 @@ def render(lines, title, t, tag):
 
         if kind == "bar":
             _, label, val, mx, key = e
-            blocks = max(1, round(20 * val / mx))
-            bx = X0 + 11 * CW
+            blocks = max(1, round(24 * val / mx))
+            bx = X0 + 12 * CW
             cid = f"b{tag}{li}"
             defs.append(f'    <clipPath id="{cid}"><rect x="{bx:.1f}" y="{y-FS}" width="0" height="{LH}">'
                         f'<animate attributeName="width" values="0;{blocks*CW+2:.1f}" dur="0.75s" begin="{clock:.2f}s" fill="freeze"/></rect></clipPath>')
             body.append(f'  <text x="{X0}" y="{y}" font-family="{MONO}" font-size="{FS}" fill="{t["out"]}" opacity="0" xml:space="preserve">{esc(label)}'
                         f'<set attributeName="opacity" to="1" begin="{clock:.2f}s"/></text>')
             body.append(f'  <g clip-path="url(#{cid})"><text x="{bx:.1f}" y="{y}" font-family="{MONO}" font-size="{FS}" fill="{t[key]}">{"█"*blocks}</text></g>')
-            body.append(f'  <text x="{bx + 21*CW:.1f}" y="{y}" font-family="{MONO}" font-size="{FS}" fill="{t["num"]}" opacity="0">{val}'
+            body.append(f'  <text x="{bx + 25*CW:.1f}" y="{y}" font-family="{MONO}" font-size="{FS}" fill="{t["num"]}" opacity="0">{val}'
                         f'<set attributeName="opacity" to="1" begin="{clock+0.75:.2f}s"/></text>')
             clock += 0.30
             li += 1
@@ -130,7 +129,7 @@ def render(lines, title, t, tag):
         if idx + 1 < len(lines) and lines[idx + 1][0] == "gap":
             clock += PAUSE
 
-    h = TOP + (li - 1) * LH + 54
+    h = TOP + (li - 1) * LH + 52
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{h}" viewBox="0 0 {W} {h}" role="img" aria-label="{title}">
   <defs>
     <clipPath id="w{tag}"><rect width="{W}" height="{h}" rx="12"/></clipPath>
@@ -142,7 +141,7 @@ def render(lines, title, t, tag):
   </defs>
   <g clip-path="url(#w{tag})">
     <rect width="{W}" height="{h}" fill="{t['bg']}"/>
-    <rect y="{BAR}" width="{W}" height="140" fill="url(#s{tag})"/>
+    <rect y="{BAR}" width="{W}" height="150" fill="url(#s{tag})"/>
     <rect width="{W}" height="{BAR}" fill="{t['chrome']}"/>
     <line x1="0" y1="{BAR}" x2="{W}" y2="{BAR}" stroke="{t['border']}"/>
     <circle cx="24" cy="22" r="5.5" fill="#FF5F57"/><circle cx="43" cy="22" r="5.5" fill="#FEBC2E"/><circle cx="62" cy="22" r="5.5" fill="#28C840"/>
@@ -156,28 +155,34 @@ def render(lines, title, t, tag):
 
 def hero(t):
     ls = [("cmd", "whoami"),
-          ("out", [("Achyuthan Sivasankar", "strong")]),
-          ("out", [("research assistant · Choromanska Lab, NYU", "out")]),
+          ("out", [("Achyuthan Sivasankar", "strong"),
+                   ("  research assistant, Choromanska Lab @ NYU", "out")]),
           ("gap",),
           ("cmd", "cat focus.txt"),
-          ("out", [("sparse neural routing", "out")]),
-          ("out", [("self-supervised world models · LiDAR", "out")]),
+          ("out", [("sparse neural routing", "out"), (" · ", "sign"),
+                   ("self-supervised world models", "out"), (" · ", "sign"),
+                   ("LiDAR perception", "out")]),
           ("gap",),
           ("cmd", "ls upstream/")]
-    for r in DATA["repos"]:
-        ls.append(("out", [(r, "repo")]))
+    rs = DATA["repos"]
+    for i in range(0, len(rs), 2):                      # two columns, as before
+        pair = rs[i:i + 2]
+        segs = [(f"{pair[0]:<30}", "repo")] if len(pair) > 1 else [(pair[0], "repo")]
+        if len(pair) > 1:
+            segs.append((pair[1], "repo"))
+        ls.append(("out", segs))
     ls += [("gap",),
-           ("cmd", "git log --merged --upstream | wc -l"),
+           ("cmd", "git log --merged --upstream --oneline | wc -l"),
            ("spin",),
            ("out", [(str(DATA["count"]), "num"), ("  and counting", "out")]),
            ("gap",), ("prompt",)]
-    return render(ls, "achyuthan@nyu — zsh", t, "h")
+    return render(ls, "achyuthan@nyu — zsh", t, "h", HERO_W)
 
 
 ART = ["██████   ██████ ", "██   ██  ██     ", "██   ██  ██     ", "███████   █████ ",
        "██   ██       ██", "██   ██       ██", "██   ██  ██████ "]
-CELL = 7
-IX = X0 + len(ART[0]) * CELL + 22
+CELL = 11
+IX = X0 + len(ART[0]) * CELL + 34
 
 
 def art_rects(t):
@@ -200,46 +205,47 @@ def art_rects(t):
 
 
 def neofetch(t):
-    info = [("Host", "Choromanska Lab, NYU"), ("Role", "research assistant"),
-            ("Focus", "sparse MoE · world models"), ("Upstream", DATA["orgs_line"]),
-            ("Merged", f"{DATA['count']} PRs and counting"), ("Preprints", "2 (sole author)"),
-            ("Langs", "Python · C/C++ · Go"), ("Stack", "PyTorch · Docker · AWS"),
-            ("Blog", "blog-blogachyuthan.vercel.app"), ("Contact", "as21154@nyu.edu")]
+    info = [("Host", "Choromanska Lab, New York University"),
+            ("Role", "research assistant"),
+            ("Kernel", "sparse routing · world models · LiDAR"),
+            ("Upstream", DATA["orgs_line"] + " · NeMo"),
+            ("Merged", f"{DATA['count']} PRs and counting"),
+            ("Preprints", "2 (sole author)"),
+            ("Languages", "Python · C/C++ · Go"),
+            ("Stack", "PyTorch · HuggingFace · Docker · AWS"),
+            ("Blog", "blog-blogachyuthan.vercel.app"),
+            ("Contact", "as21154@nyu.edu")]
     ls = [("cmd", "neofetch"), ("gap",), ("raw", art_rects(t))]
     for i in range(len(info) + 2):
         if i == 0:
             segs = [("achyuthan", "num"), ("@", "out"), ("nyu", "path")]
         elif i == 1:
-            segs = [("─" * 29, "dim")]
+            segs = [("─" * 42, "dim")]
         else:
             k, v = info[i - 2]
-            segs = [(f"{k+':':<10}", "strong"), (v, "out")]
+            segs = [(f"{k+':':<11}", "strong"), (v, "out")]
         ls.append(("out", segs, IX))
     ls += [("gap",),
-           ("out", [("███", "path"), ("███", "sign"), ("███", "num"),
-                    ("███", "pipe"), ("███", "repo"), ("███", "flag")]),
+           ("out", [("███", "path"), ("███", "sign"), ("███", "num"), ("███", "pipe"),
+                    ("███", "repo"), ("███", "flag"), ("███", "out")]),
            ("gap",), ("prompt",)]
     return render(ls, "achyuthan@nyu — neofetch", t, "n")
 
 
 def upstream(t):
-    ls = [("cmd", "git log --merged --upstream | head -5"), ("gap",)]
+    ls = [("cmd", "git log --graph --oneline --merged --upstream | head -5"), ("gap",)]
     for e in DATA["recent"]:
         ls.append(("out", [("* ", "sign"), (f"{e['number']:<7}", "num"),
-                           (f"{e['short']:<11}", "repo"), (e["msg"], "out")]))
+                           (f"{e['long']:<30}", "repo"), (e["msg"], "out")]))
     ls += [("gap",), ("cmd", "prs --by-org"), ("gap",)]
     mx = max(o["count"] for o in DATA["by_org"])
     for o in DATA["by_org"]:
-        ls.append(("bar", f"{o['name']:<10}", o["count"], mx, o["colour"]))
+        ls.append(("bar", f"{o['name']:<12}", o["count"], mx, o["colour"]))
     ls += [("gap",), ("prompt",)]
     return render(ls, "achyuthan@nyu — upstream", t, "u")
 
 
-over = []
 for name, fn in (("term", hero), ("neofetch", neofetch), ("upstream", upstream)):
     for theme, t in T.items():
-        svg = fn(t)
-        (OUT / f"{name}-{theme}.svg").write_text(svg)
-    for ln in fn(T["dark"]).split("\n"):
-        pass
-print(f"rendered 6 SVGs at {W}px into {OUT}")
+        (OUT / f"{name}-{theme}.svg").write_text(fn(t))
+print(f"rendered 6 panes into {OUT}")

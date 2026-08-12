@@ -86,7 +86,7 @@ def main():
         orgs_line=" · ".join(o["name"] for o in by_org[:3]),
         repos=repos[:5],
         by_org=by_org,
-        recent=[dict(number=p["number"], short=p["short"], msg=p["msg"]) for p in dated[:5]],
+        recent=[dict(number=p["number"], short=p["short"], long=p["repo"], msg=p["msg"]) for p in dated[:5]],
     )
 
     old = json.loads(DATA_PATH.read_text()) if DATA_PATH.exists() else None

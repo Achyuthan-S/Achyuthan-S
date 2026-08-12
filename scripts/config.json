@@ -1,6 +1,5 @@
 {
   "_comment": "Controls what counts as an upstream contribution. Seeded to reproduce the README's current numbers exactly. Empty the two lists to fall back to raw API truth.",
-
   "include_extra": [
     {
       "repo": "NVIDIA-NeMo/Automodel",
@@ -19,7 +18,6 @@
       "why": "merged, authored by yzong-rh; PR body credits Achyuthan-S as co-author"
     }
   ],
-
   "exclude": [
     {
       "repo": "scikit-learn/scikit-learn",
@@ -27,15 +25,28 @@
       "why": "merged and authored by you, but not currently listed in the README; delete this entry to include it"
     }
   ],
-
   "org_map": {
-    "vllm-project": {"name": "vLLM", "colour": "path"},
-    "NVIDIA": {"name": "NVIDIA", "colour": "sign"},
-    "NVIDIA-NeMo": {"name": "NVIDIA", "colour": "sign"},
-    "deepspeedai": {"name": "DeepSpeed", "colour": "repo"},
-    "scikit-learn": {"name": "scikit-learn", "colour": "flag"}
+    "vllm-project": {
+      "name": "vLLM",
+      "colour": "path"
+    },
+    "NVIDIA": {
+      "name": "NVIDIA",
+      "colour": "sign"
+    },
+    "NVIDIA-NeMo": {
+      "name": "NVIDIA",
+      "colour": "sign"
+    },
+    "deepspeedai": {
+      "name": "DeepSpeed",
+      "colour": "repo"
+    },
+    "scikit-learn": {
+      "name": "scikit-learn",
+      "colour": "flag"
+    }
   },
-
   "repo_short": {
     "vllm-project/vllm": "vLLM",
     "NVIDIA-NeMo/Automodel": "Automodel",
@@ -44,10 +55,9 @@
     "deepspeedai/DeepSpeed": "DeepSpeed",
     "scikit-learn/scikit-learn": "sklearn"
   },
-
   "msg_override": {
-    "49226": "disable cross-layer KV blocks",
-    "5743": "HSDP deferred grad reduction",
+    "49226": "disable cross-layer KV blocks under quant",
+    "5743": "HSDP deferred DP-outer grad reduction",
     "2998": "single tie_word_embeddings guard",
     "47062": "recover non-terminal output",
     "4601": "epoch-aware sampler on resume",

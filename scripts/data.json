@@ -29,26 +29,31 @@
     {
       "number": 49226,
       "short": "vLLM",
-      "msg": "disable cross-layer KV blocks"
+      "long": "vllm-project/vllm",
+      "msg": "disable cross-layer KV blocks under quant"
     },
     {
       "number": 5743,
       "short": "Megatron",
-      "msg": "HSDP deferred grad reduction"
+      "long": "NVIDIA/Megatron-LM",
+      "msg": "HSDP deferred DP-outer grad reduction"
     },
     {
       "number": 2998,
       "short": "Automodel",
+      "long": "NVIDIA-NeMo/Automodel",
       "msg": "single tie_word_embeddings guard"
     },
     {
       "number": 2896,
       "short": "Automodel",
+      "long": "NVIDIA-NeMo/Automodel",
       "msg": "complete tie_word_embeddings guards"
     },
     {
       "number": 4601,
       "short": "Bridge",
+      "long": "NVIDIA-NeMo/Megatron-Bridge",
       "msg": "epoch-aware sampler on resume"
     }
   ]
