@@ -274,15 +274,15 @@ Open to **research internships, PhD positions, and ML-systems / research-enginee
 ## `$ open portfolio`
 
 <div align="center">
-  <a href="https://achyuthan-s.web.app" target="_blank">
+  <a href="https://achyuthan-s.github.io" target="_blank">
     <img src="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/portfolio_preview.jpeg" width="820" alt="Portfolio preview" />
   </a>
   <br/><br/>
-  <a href="https://achyuthan-s.web.app" target="_blank"><strong>→ achyuthan-s.web.app</strong></a>
+  <a href="https://achyuthan-s.github.io" target="_blank"><strong>→ achyuthan-s.github.io</strong></a>
 </div>
 
 ---
 
 ## `$ ./connect`
 
-📫 [as21154@nyu.edu](mailto:as21154@nyu.edu) &nbsp;·&nbsp; [achyuthan.sivasankar@gmail.com](mailto:achyuthan.sivasankar@gmail.com) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/achyuthan-sivasankar-b0814b221) &nbsp;·&nbsp; [Portfolio](https://achyuthan-s.web.app) &nbsp;·&nbsp; [Blog](https://blog-blogachyuthan.vercel.app)
+📫 [as21154@nyu.edu](mailto:as21154@nyu.edu) &nbsp;·&nbsp; [achyuthan.sivasankar@gmail.com](mailto:achyuthan.sivasankar@gmail.com) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/achyuthan-sivasankar-b0814b221) &nbsp;·&nbsp; [Portfolio](https://achyuthan-s.github.io) &nbsp;·&nbsp; [Blog](https://blog-blogachyuthan.vercel.app)
