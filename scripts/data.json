@@ -1,9 +1,9 @@
 {
-  "count": 13,
+  "count": 14,
   "orgs_line": "NVIDIA \u00b7 vLLM \u00b7 DeepSpeed",
   "repos": [
-    "vllm-project/vllm",
     "NVIDIA/Megatron-LM",
+    "vllm-project/vllm",
     "NVIDIA-NeMo/Automodel",
     "NVIDIA-NeMo/Megatron-Bridge",
     "deepspeedai/DeepSpeed"
@@ -12,7 +12,7 @@
     {
       "name": "NVIDIA",
       "colour": "sign",
-      "count": 8
+      "count": 9
     },
     {
       "name": "vLLM",
@@ -26,6 +26,12 @@
     }
   ],
   "recent": [
+    {
+      "number": 5972,
+      "short": "Megatron",
+      "long": "NVIDIA/Megatron-LM",
+      "msg": "HFSDP deferred DP-outer grad reduction"
+    },
     {
       "number": 49226,
       "short": "vLLM",
@@ -49,12 +55,6 @@
       "short": "Automodel",
       "long": "NVIDIA-NeMo/Automodel",
       "msg": "complete tie_word_embeddings guards"
-    },
-    {
-      "number": 4601,
-      "short": "Bridge",
-      "long": "NVIDIA-NeMo/Megatron-Bridge",
-      "msg": "epoch-aware sampler on resume"
     }
   ]
 }

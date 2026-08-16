@@ -67,6 +67,7 @@
     "2601": "re-tie lm_head on Gemma4 MoE",
     "8078": "fork-safe deepspeed import",
     "44795": "fix nightly Docker ImportError",
-    "32347": "clarify TargetEncoder fit usage"
+    "32347": "clarify TargetEncoder fit usage",
+    "5972": "HFSDP deferred DP-outer grad reduction"
   }
 }
