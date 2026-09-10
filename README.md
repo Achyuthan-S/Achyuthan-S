@@ -37,7 +37,7 @@ Open to **research internships, PhD positions, and ML-systems / research-enginee
 </picture>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/PRs_MERGED-13%2B-3FB950?style=for-the-badge&labelColor=0D1117" height="30" alt="13+ PRs merged" />
+  <img src="https://img.shields.io/badge/PRs_MERGED-15%2B-3FB950?style=for-the-badge&labelColor=0D1117" height="30" alt="15+ PRs merged" />
   &nbsp;
   <img src="https://img.shields.io/badge/UPSTREAM_ORGS-4-58A6FF?style=for-the-badge&labelColor=0D1117" height="30" alt="4 upstream orgs" />
   &nbsp;
@@ -173,6 +173,18 @@ Open to **research internships, PhD positions, and ML-systems / research-enginee
 <table>
   <tr>
     <td>
+      <a href="https://github.com/NVIDIA/Megatron-LM/pull/5972"><strong>NVIDIA/Megatron-LM</strong></a><br/>
+      <sub>Supports HFSDP deferred DP-outer gradient reduction in experimental Megatron-FSDP</sub>
+    </td>
+    <td align="center" width="150">
+      <a href="https://github.com/NVIDIA"><img src="https://img.shields.io/badge/NVIDIA-21262d?style=flat-square&logo=nvidia&logoColor=76B900&labelColor=21262d" alt="NVIDIA" height="28" /></a>
+    </td>
+    <td align="right" width="150">
+      <a href="https://github.com/NVIDIA/Megatron-LM/pull/5972"><img src="https://img.shields.io/badge/merged-%235972-8957E5?style=flat-square&labelColor=21262d&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik01LjQ1IDUuMTU0QTQuMjUgNC4yNSAwIDAgMCA5LjI1IDcuNWgxLjM3OGEyLjI1MSAyLjI1MSAwIDEgMSAwIDEuNUg5LjI1QTUuNzM2IDUuNzM2IDAgMCAxIDUgNy45djMuMTU0YS4yNS4yNSAwIDAgMS0uNDI3LjE3N0wyLjI1NCA5LjQyN2EuMjUuMjUgMCAwIDEgMC0uMzU0bDIuMzE5LTIuMzJhLjI1LjI1IDAgMCAxIC40MjcuMTc3Wm0tLjcwNyAxLjQ0MmEyLjc1IDIuNzUgMCAwIDEgMC0zLjc5Mkw3LjI4MyAxLjA4YS4yNS4yNSAwIDAgMSAuNDI3LjE3N1Y0Ljc1QTQuMjUgNC4yNSAwIDAgMSAxMS43NSA5aDEuMzc4YTIuMjUxIDIuMjUxIDAgMSAwIDAtMS41SDExLjc1QTUuNzM2IDUuNzM2IDAgMCAwIDcuOSA1SDUuNzQzWk0zLjU2IDcuMjVhLjI1LjI1IDAgMCAwLS40MjctLjE3N0wuODE0IDkuMzIzYS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMTkgMi4zMmEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3VjcuMjVaTTYuNSAxMC43NWEuMjUuMjUgMCAwIDAtLjQyNy0uMTc3bC0yLjMyIDIuMzE5YS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMiAyLjMxOWEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3di00LjQ4NloiLz48L3N2Zz4=" alt="merged #5972" height="28" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/NVIDIA/Megatron-LM/pull/5743"><strong>NVIDIA/Megatron-LM</strong></a><br/>
       <sub>Supports HSDP deferred DP-outer gradient reduction in experimental Megatron-FSDP</sub>
     </td>
@@ -193,6 +205,18 @@ Open to **research internships, PhD positions, and ML-systems / research-enginee
     </td>
     <td align="right" width="150">
       <a href="https://github.com/NVIDIA-NeMo/Megatron-Bridge/pull/4601"><img src="https://img.shields.io/badge/merged-%234601-8957E5?style=flat-square&labelColor=21262d&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik01LjQ1IDUuMTU0QTQuMjUgNC4yNSAwIDAgMCA5LjI1IDcuNWgxLjM3OGEyLjI1MSAyLjI1MSAwIDEgMSAwIDEuNUg5LjI1QTUuNzM2IDUuNzM2IDAgMCAxIDUgNy45djMuMTU0YS4yNS4yNSAwIDAgMS0uNDI3LjE3N0wyLjI1NCA5LjQyN2EuMjUuMjUgMCAwIDEgMC0uMzU0bDIuMzE5LTIuMzJhLjI1LjI1IDAgMCAxIC40MjcuMTc3Wm0tLjcwNyAxLjQ0MmEyLjc1IDIuNzUgMCAwIDEgMC0zLjc5Mkw3LjI4MyAxLjA4YS4yNS4yNSAwIDAgMSAuNDI3LjE3N1Y0Ljc1QTQuMjUgNC4yNSAwIDAgMSAxMS43NSA5aDEuMzc4YTIuMjUxIDIuMjUxIDAgMSAwIDAtMS41SDExLjc1QTUuNzM2IDUuNzM2IDAgMCAwIDcuOSA1SDUuNzQzWk0zLjU2IDcuMjVhLjI1LjI1IDAgMCAwLS40MjctLjE3N0wuODE0IDkuMzIzYS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMTkgMi4zMmEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3VjcuMjVaTTYuNSAxMC43NWEuMjUuMjUgMCAwIDAtLjQyNy0uMTc3bC0yLjMyIDIuMzE5YS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMiAyLjMxOWEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3di00LjQ4NloiLz48L3N2Zz4=" alt="merged #4601" height="28" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/deepspeedai/DeepSpeed/pull/8385"><strong>deepspeedai/DeepSpeed</strong></a><br/>
+      <sub>Describes universal-checkpoint shards as affine maps — an executable IR for TP shard geometry, replacing regex-matched semantic categories</sub>
+    </td>
+    <td align="center" width="150">
+      <a href="https://github.com/deepspeedai"><img src="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/deepspeedai-badge.svg" alt="DeepSpeed" height="28" /></a>
+    </td>
+    <td align="right" width="150">
+      <a href="https://github.com/deepspeedai/DeepSpeed/pull/8385"><img src="https://img.shields.io/badge/merged-%238385-8957E5?style=flat-square&labelColor=21262d&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik01LjQ1IDUuMTU0QTQuMjUgNC4yNSAwIDAgMCA5LjI1IDcuNWgxLjM3OGEyLjI1MSAyLjI1MSAwIDEgMSAwIDEuNUg5LjI1QTUuNzM2IDUuNzM2IDAgMCAxIDUgNy45djMuMTU0YS4yNS4yNSAwIDAgMS0uNDI3LjE3N0wyLjI1NCA5LjQyN2EuMjUuMjUgMCAwIDEgMC0uMzU0bDIuMzE5LTIuMzJhLjI1LjI1IDAgMCAxIC40MjcuMTc3Wm0tLjcwNyAxLjQ0MmEyLjc1IDIuNzUgMCAwIDEgMC0zLjc5Mkw3LjI4MyAxLjA4YS4yNS4yNSAwIDAgMSAuNDI3LjE3N1Y0Ljc1QTQuMjUgNC4yNSAwIDAgMSAxMS43NSA5aDEuMzc4YTIuMjUxIDIuMjUxIDAgMSAwIDAtMS41SDExLjc1QTUuNzM2IDUuNzM2IDAgMCAwIDcuOSA1SDUuNzQzWk0zLjU2IDcuMjVhLjI1LjI1IDAgMCAwLS40MjctLjE3N0wuODE0IDkuMzIzYS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMTkgMi4zMmEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3VjcuMjVaTTYuNSAxMC43NWEuMjUuMjUgMCAwIDAtLjQyNy0uMTc3bC0yLjMyIDIuMzE5YS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMiAyLjMxOWEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3di00LjQ4NloiLz48L3N2Zz4=" alt="merged #8385" height="28" /></a>
     </td>
   </tr>
   <tr>
@@ -274,15 +298,15 @@ Open to **research internships, PhD positions, and ML-systems / research-enginee
 ## `$ open portfolio`
 
 <div align="center">
-  <a href="https://achyuthan-s.github.io" target="_blank">
+  <a href="https://achyuthan-s.web.app" target="_blank">
     <img src="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/portfolio_preview.jpeg" width="820" alt="Portfolio preview" />
   </a>
   <br/><br/>
-  <a href="https://achyuthan-s.github.io" target="_blank"><strong>→ achyuthan-s.github.io</strong></a>
+  <a href="https://achyuthan-s.web.app" target="_blank"><strong>→ achyuthan-s.web.app</strong></a>
 </div>
 
 ---
 
 ## `$ ./connect`
 
-📫 [as21154@nyu.edu](mailto:as21154@nyu.edu) &nbsp;·&nbsp; [achyuthan.sivasankar@gmail.com](mailto:achyuthan.sivasankar@gmail.com) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/achyuthan-sivasankar-b0814b221) &nbsp;·&nbsp; [Portfolio](https://achyuthan-s.github.io) &nbsp;·&nbsp; [Blog](https://blog-blogachyuthan.vercel.app)
+📫 [as21154@nyu.edu](mailto:as21154@nyu.edu) &nbsp;·&nbsp; [achyuthan.sivasankar@gmail.com](mailto:achyuthan.sivasankar@gmail.com) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/achyuthan-sivasankar-b0814b221) &nbsp;·&nbsp; [Portfolio](https://achyuthan-s.web.app) &nbsp;·&nbsp; [Blog](https://blog-blogachyuthan.vercel.app)
