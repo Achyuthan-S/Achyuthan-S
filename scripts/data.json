@@ -1,12 +1,12 @@
 {
-  "count": 14,
+  "count": 15,
   "orgs_line": "NVIDIA \u00b7 vLLM \u00b7 DeepSpeed",
   "repos": [
+    "deepspeedai/DeepSpeed",
     "NVIDIA/Megatron-LM",
     "vllm-project/vllm",
     "NVIDIA-NeMo/Automodel",
-    "NVIDIA-NeMo/Megatron-Bridge",
-    "deepspeedai/DeepSpeed"
+    "NVIDIA-NeMo/Megatron-Bridge"
   ],
   "by_org": [
     {
@@ -22,10 +22,16 @@
     {
       "name": "DeepSpeed",
       "colour": "repo",
-      "count": 1
+      "count": 2
     }
   ],
   "recent": [
+    {
+      "number": 8385,
+      "short": "DeepSpeed",
+      "long": "deepspeedai/DeepSpeed",
+      "msg": "affine IR for universal checkpoint shards"
+    },
     {
       "number": 5972,
       "short": "Megatron",
@@ -49,12 +55,6 @@
       "short": "Automodel",
       "long": "NVIDIA-NeMo/Automodel",
       "msg": "single tie_word_embeddings guard"
-    },
-    {
-      "number": 2896,
-      "short": "Automodel",
-      "long": "NVIDIA-NeMo/Automodel",
-      "msg": "complete tie_word_embeddings guards"
     }
   ]
 }

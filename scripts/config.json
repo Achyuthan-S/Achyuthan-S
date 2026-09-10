@@ -68,6 +68,7 @@
     "8078": "fork-safe deepspeed import",
     "44795": "fix nightly Docker ImportError",
     "32347": "clarify TargetEncoder fit usage",
-    "5972": "HFSDP deferred DP-outer grad reduction"
+    "5972": "HFSDP deferred DP-outer grad reduction",
+    "8385": "affine IR for universal checkpoint shards"
   }
 }
