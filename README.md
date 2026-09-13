@@ -299,7 +299,11 @@ Open to **research internships, PhD positions, and ML-systems / research-enginee
 
 <div align="center">
   <a href="https://achyuthan-s.web.app" target="_blank">
-    <img src="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/portfolio_preview.jpeg" width="820" alt="Portfolio preview" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/portfolio_snap.jpeg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/portfolio_snap_light.jpeg">
+      <img src="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/portfolio_snap.jpeg" width="820" alt="Portfolio preview" />
+    </picture>
   </a>
   <br/><br/>
   <a href="https://achyuthan-s.web.app" target="_blank"><strong>→ achyuthan-s.web.app</strong></a>
