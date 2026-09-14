@@ -30,7 +30,7 @@
       "number": 8477,
       "short": "DeepSpeed",
       "long": "deepspeedai/DeepSpeed",
-      "msg": "Carry the affine scale on the"
+      "msg": "carry affine scale on the replicated map"
     },
     {
       "number": 8385,

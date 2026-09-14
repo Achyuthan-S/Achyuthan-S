@@ -69,6 +69,7 @@
     "44795": "fix nightly Docker ImportError",
     "32347": "clarify TargetEncoder fit usage",
     "5972": "HFSDP deferred DP-outer grad reduction",
-    "8385": "affine IR for universal checkpoint shards"
+    "8385": "affine IR for universal checkpoint shards",
+    "8477": "carry affine scale on the replicated map"
   }
 }
