@@ -1,5 +1,5 @@
 {
-  "count": 15,
+  "count": 16,
   "orgs_line": "NVIDIA \u00b7 vLLM \u00b7 DeepSpeed",
   "repos": [
     "deepspeedai/DeepSpeed",
@@ -22,10 +22,16 @@
     {
       "name": "DeepSpeed",
       "colour": "repo",
-      "count": 2
+      "count": 3
     }
   ],
   "recent": [
+    {
+      "number": 8477,
+      "short": "DeepSpeed",
+      "long": "deepspeedai/DeepSpeed",
+      "msg": "Carry the affine scale on the"
+    },
     {
       "number": 8385,
       "short": "DeepSpeed",
@@ -49,12 +55,6 @@
       "short": "Megatron",
       "long": "NVIDIA/Megatron-LM",
       "msg": "HSDP deferred DP-outer grad reduction"
-    },
-    {
-      "number": 2998,
-      "short": "Automodel",
-      "long": "NVIDIA-NeMo/Automodel",
-      "msg": "single tie_word_embeddings guard"
     }
   ]
 }
