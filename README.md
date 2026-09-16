@@ -318,7 +318,7 @@ Open to **research internships, PhD positions, and ML-systems / research-enginee
     </picture>
   </a>
   <br/><br/>
-  <a href="https://achyuthan-s.github.io" target="_blank"><strong>→ achyuthan-s.web.app</strong></a>
+  <a href="https://achyuthan-s.github.io" target="_blank"><strong>→ achyuthan-s.github.io</strong></a>
 </div>
 
 ---
