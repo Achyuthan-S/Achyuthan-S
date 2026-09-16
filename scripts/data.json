@@ -1,6 +1,6 @@
 {
-  "count": 16,
-  "orgs_line": "NVIDIA \u00b7 vLLM \u00b7 DeepSpeed",
+  "count": 17,
+  "orgs_line": "NVIDIA \u00b7 DeepSpeed \u00b7 vLLM",
   "repos": [
     "deepspeedai/DeepSpeed",
     "NVIDIA/Megatron-LM",
@@ -15,17 +15,23 @@
       "count": 9
     },
     {
-      "name": "vLLM",
-      "colour": "path",
+      "name": "DeepSpeed",
+      "colour": "repo",
       "count": 4
     },
     {
-      "name": "DeepSpeed",
-      "colour": "repo",
-      "count": 3
+      "name": "vLLM",
+      "colour": "path",
+      "count": 4
     }
   ],
   "recent": [
+    {
+      "number": 8519,
+      "short": "DeepSpeed",
+      "long": "deepspeedai/DeepSpeed",
+      "msg": "emit affine maps from AutoTP layers"
+    },
     {
       "number": 8477,
       "short": "DeepSpeed",
@@ -49,12 +55,6 @@
       "short": "vLLM",
       "long": "vllm-project/vllm",
       "msg": "disable cross-layer KV blocks under quant"
-    },
-    {
-      "number": 5743,
-      "short": "Megatron",
-      "long": "NVIDIA/Megatron-LM",
-      "msg": "HSDP deferred DP-outer grad reduction"
     }
   ]
 }
