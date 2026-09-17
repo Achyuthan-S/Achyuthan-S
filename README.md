@@ -46,13 +46,51 @@ Open to **research internships, PhD positions, and ML-systems / research-enginee
 
 <br/>
 
-<img src="https://img.shields.io/badge/01-INFERENCE_CORRECTNESS-161B22?style=for-the-badge&labelColor=3FB950" height="28" alt="INFERENCE_CORRECTNESS" />
+<img src="https://img.shields.io/badge/FEATURED-161B22?style=for-the-badge&labelColor=3FB950" height="28" alt="FEATURED" />
+
+<sub>Four that show the range: a subsystem designed, a long review carried, a refactor consolidated, and a four-line fix caught.</sub>
 
 <table>
   <tr>
     <td>
+      <a href="https://github.com/deepspeedai/DeepSpeed/pull/8385"><strong>deepspeedai/DeepSpeed</strong></a><br/>
+      <sub>**Designed an affine IR** for tensor-parallel shard geometry, replacing regex-matched semantic categories with executable offsets and strides — 1,870 lines with a specification document, over a multi-reviewer design thread.</sub>
+    </td>
+    <td align="center" width="150">
+      <a href="https://github.com/deepspeedai"><img src="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/deepspeedai-badge.svg" alt="DeepSpeed" height="28" /></a>
+    </td>
+    <td align="right" width="150">
+      <a href="https://github.com/deepspeedai/DeepSpeed/pull/8385"><img src="https://img.shields.io/badge/merged-%238385-8957E5?style=flat-square&labelColor=21262d&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik01LjQ1IDUuMTU0QTQuMjUgNC4yNSAwIDAgMCA5LjI1IDcuNWgxLjM3OGEyLjI1MSAyLjI1MSAwIDEgMSAwIDEuNUg5LjI1QTUuNzM2IDUuNzM2IDAgMCAxIDUgNy45djMuMTU0YS4yNS4yNSAwIDAgMS0uNDI3LjE3N0wyLjI1NCA5LjQyN2EuMjUuMjUgMCAwIDEgMC0uMzU0bDIuMzE5LTIuMzJhLjI1LjI1IDAgMCAxIC40MjcuMTc3Wm0tLjcwNyAxLjQ0MmEyLjc1IDIuNzUgMCAwIDEgMC0zLjc5Mkw3LjI4MyAxLjA4YS4yNS4yNSAwIDAgMSAuNDI3LjE3N1Y0Ljc1QTQuMjUgNC4yNSAwIDAgMSAxMS43NSA5aDEuMzc4YTIuMjUxIDIuMjUxIDAgMSAwIDAtMS41SDExLjc1QTUuNzM2IDUuNzM2IDAgMCAwIDcuOSA1SDUuNzQzWk0zLjU2IDcuMjVhLjI1LjI1IDAgMCAwLS40MjctLjE3N0wuODE0IDkuMzIzYS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMTkgMi4zMmEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3VjcuMjVaTTYuNSAxMC43NWEuMjUuMjUgMCAwIDAtLjQyNy0uMTc3bC0yLjMyIDIuMzE5YS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMiAyLjMxOWEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3di00LjQ4NloiLz48L3N2Zz4=" alt="merged #8385" height="28" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/NVIDIA/Megatron-LM/pull/5743"><strong>NVIDIA/Megatron-LM</strong></a><br/>
+      <sub>**Deepest review collaboration** — 94 comments across 17 commits to land HSDP deferred DP-outer gradient reduction in experimental Megatron-FSDP.</sub>
+    </td>
+    <td align="center" width="150">
+      <a href="https://github.com/NVIDIA"><img src="https://img.shields.io/badge/NVIDIA-21262d?style=flat-square&logo=nvidia&logoColor=76B900&labelColor=21262d" alt="NVIDIA" height="28" /></a>
+    </td>
+    <td align="right" width="150">
+      <a href="https://github.com/NVIDIA/Megatron-LM/pull/5743"><img src="https://img.shields.io/badge/merged-%235743-8957E5?style=flat-square&labelColor=21262d&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik01LjQ1IDUuMTU0QTQuMjUgNC4yNSAwIDAgMCA5LjI1IDcuNWgxLjM3OGEyLjI1MSAyLjI1MSAwIDEgMSAwIDEuNUg5LjI1QTUuNzM2IDUuNzM2IDAgMCAxIDUgNy45djMuMTU0YS4yNS4yNSAwIDAgMS0uNDI3LjE3N0wyLjI1NCA5LjQyN2EuMjUuMjUgMCAwIDEgMC0uMzU0bDIuMzE5LTIuMzJhLjI1LjI1IDAgMCAxIC40MjcuMTc3Wm0tLjcwNyAxLjQ0MmEyLjc1IDIuNzUgMCAwIDEgMC0zLjc5Mkw3LjI4MyAxLjA4YS4yNS4yNSAwIDAgMSAuNDI3LjE3N1Y0Ljc1QTQuMjUgNC4yNSAwIDAgMSAxMS43NSA5aDEuMzc4YTIuMjUxIDIuMjUxIDAgMSAwIDAtMS41SDExLjc1QTUuNzM2IDUuNzM2IDAgMCAwIDcuOSA1SDUuNzQzWk0zLjU2IDcuMjVhLjI1LjI1IDAgMCAwLS40MjctLjE3N0wuODE0IDkuMzIzYS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMTkgMi4zMmEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3VjcuMjVaTTYuNSAxMC43NWEuMjUuMjUgMCAwIDAtLjQyNy0uMTc3bC0yLjMyIDIuMzE5YS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMiAyLjMxOWEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3di00LjQ4NloiLz48L3N2Zz4=" alt="merged #5743" height="28" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/NVIDIA-NeMo/Automodel/pull/2998"><strong>NVIDIA-NeMo/Automodel</strong></a><br/>
+      <sub>**Consolidated six PRs of weight-tying work** into one per-class <code>TieSupport</code> guard across 63 files, so tied and untied checkpoints load correctly.</sub>
+    </td>
+    <td align="center" width="150">
+      <a href="https://github.com/NVIDIA"><img src="https://img.shields.io/badge/NVIDIA-21262d?style=flat-square&logo=nvidia&logoColor=76B900&labelColor=21262d" alt="NVIDIA" height="28" /></a>
+    </td>
+    <td align="right" width="150">
+      <a href="https://github.com/NVIDIA-NeMo/Automodel/pull/2998"><img src="https://img.shields.io/badge/merged-%232998-8957E5?style=flat-square&labelColor=21262d&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik01LjQ1IDUuMTU0QTQuMjUgNC4yNSAwIDAgMCA5LjI1IDcuNWgxLjM3OGEyLjI1MSAyLjI1MSAwIDEgMSAwIDEuNUg5LjI1QTUuNzM2IDUuNzM2IDAgMCAxIDUgNy45djMuMTU0YS4yNS4yNSAwIDAgMS0uNDI3LjE3N0wyLjI1NCA5LjQyN2EuMjUuMjUgMCAwIDEgMC0uMzU0bDIuMzE5LTIuMzJhLjI1LjI1IDAgMCAxIC40MjcuMTc3Wm0tLjcwNyAxLjQ0MmEyLjc1IDIuNzUgMCAwIDEgMC0zLjc5Mkw3LjI4MyAxLjA4YS4yNS4yNSAwIDAgMSAuNDI3LjE3N1Y0Ljc1QTQuMjUgNC4yNSAwIDAgMSAxMS43NSA5aDEuMzc4YTIuMjUxIDIuMjUxIDAgMSAwIDAtMS41SDExLjc1QTUuNzM2IDUuNzM2IDAgMCAwIDcuOSA1SDUuNzQzWk0zLjU2IDcuMjVhLjI1LjI1IDAgMCAwLS40MjctLjE3N0wuODE0IDkuMzIzYS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMTkgMi4zMmEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3VjcuMjVaTTYuNSAxMC43NWEuMjUuMjUgMCAwIDAtLjQyNy0uMTc3bC0yLjMyIDIuMzE5YS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMiAyLjMxOWEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3di00LjQ4NloiLz48L3N2Zz4=" alt="merged #2998" height="28" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/vllm-project/vllm/pull/49226"><strong>vllm-project/vllm</strong></a><br/>
-      <sub>Disables cross-layer KV blocks under per-token-head quant — stops <code>OffloadingConnector</code> corrupting the KV cache</sub>
+      <sub>**Four lines, one silent corruption.** Disables cross-layer KV blocks under per-token-head quantization, where <code>OffloadingConnector</code> was corrupting the KV cache.</sub>
     </td>
     <td align="center" width="150">
       <a href="https://github.com/vllm-project"><img src="https://img.shields.io/badge/vLLM-21262d?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC%2BaJAAAEVklEQVR4nOyaW3PbRBTH17Iu9kqW5CQOmUlru6EJl%2BFSCJdCn%2FkQvFJguAyfiufCA%2FDCAzwwAwzMpEwhtpNML%2BFiuylJ42BbvkgrRvaguHZWe1YWkTvj31vko939R9rd%2Fzkr0XVd9DgjxD2AaZkLiJu5gLiZC%2FifIYQRIJ7TQPj5p4O%2B3iZYcd962hVF6jhnUUDPRt9UyFe%2FulYfvf1stddbfGwE2AR9t%2BsN%2Fdjy%2FkwmyGqmgzEOuGVWBBCCfrhDvrzlPmieXizobU1NB984EwJ%2B%2BcO9sUVqjfHrl8x28L8%2FfgHlGvpsy7l7ePavRaONcTa4hdgE7B%2BiG1tOqUYN0KT%2BkkpSqVRwOzEIqDfQF7ecn%2B6iYB%2Bf1y1VVZmtnauAh230%2BU3y4x2XAHKQgtFWVY0ZRhdgt4nT5R0iEpKCpNN%2B%2FHaHfH8bmj9d9J7AE8wwqoDe0c2Tnz8BdnaK%2BqR29VPai1uqQkdvKr1cJhmwf%2FlQvZC8fE3Mvgjsz8fu243GxHI4oNlF9yirzSQFg72ADgkyc3jjQ2iHAHbqLF82Qj5jRSBAXnpNXHgZ3mswlTr0%2FUkg96LBcBA%2BDDuNL78L7JXJ7n1o5BLuLmhiMpmEBDMEyLmrovEctGc6zQ766xgaXARPAFBCgzc%2BgPZMp1znCF7zdgD2FjaELUBefnP6h1CpO8BISSCrejedZphQH1BKiZ%2F6GNgcDfgEWNUsDacEAZrrguLk3OtiNvxy9LCFJq0yjbwBskA%2BUKF4%2FTq80THKXDuAzjEBOATIuTdCbMxDyjXoDqAknVXdYVroUTjKKnjjI3jwKNtVaOTAwEEX0CEcAuSlV8WFV7haR8hb%2Fk860OC8zrEDDOErbOH197jiB%2B8PxwQo6FAL5MMnwHsI2Stct%2ByALRCW7BXdlWWZq33u0iKXOyIu2juABhf4358wAryNGbwc%2FXnkpQFA1gBFlEnCFHfhy1GFYwdwizwWyCeMgMFMeAkSWbkPnQC5dNdURUgOOUbI8jpef58Z4xC0B7ZAeYN7%2FRkSUoDnjszng2P2D5HVhzaYz%2FBZIJ%2FwBxxp1kPYrkIngMCTQ07cGxZl%2BZpoBuUJJbAFWtE6pqbALfQoUx0xBSxHnT66%2FQDaDqQKTWMqAV7GvLB55k97BwhSPxyyZrTCTYAIDvnw5XfOvA7fAVKivZKxuSz0KNMK8PIE84XJ67tgC3Qh01FxOpFIhBtABMeskxmz1UP7R9DbeVOwMSIQMMgTHsmYK3WOCVCAnQPQiOage6yK%2BlsVWkRRpX4ICz1KNALkxU3RPLWoJXgOCS7i0ojsU4P0f8na381HjkqDyfOnYGNEJkDx8oQrXDWsQRl0ZgT4M%2BHesQKMN5ReThckSZqm0ygFDJajzd9PoGXNotGG10BpRHxKKV66fuHAdmxQHvnMYpN5js0kEflnl61Wy7IsYHA2mwUeZNCIXsA5M%2BtfbDGZC4ibuYC4mQuIm38DAAD%2F%2F%2B19NjEX7JQMAAAAAElFTkSuQmCC&labelColor=21262d" alt="vLLM" height="28" /></a>
@@ -61,37 +99,41 @@ Open to **research internships, PhD positions, and ML-systems / research-enginee
       <a href="https://github.com/vllm-project/vllm/pull/49226"><img src="https://img.shields.io/badge/merged-%2349226-8957E5?style=flat-square&labelColor=21262d&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik01LjQ1IDUuMTU0QTQuMjUgNC4yNSAwIDAgMCA5LjI1IDcuNWgxLjM3OGEyLjI1MSAyLjI1MSAwIDEgMSAwIDEuNUg5LjI1QTUuNzM2IDUuNzM2IDAgMCAxIDUgNy45djMuMTU0YS4yNS4yNSAwIDAgMS0uNDI3LjE3N0wyLjI1NCA5LjQyN2EuMjUuMjUgMCAwIDEgMC0uMzU0bDIuMzE5LTIuMzJhLjI1LjI1IDAgMCAxIC40MjcuMTc3Wm0tLjcwNyAxLjQ0MmEyLjc1IDIuNzUgMCAwIDEgMC0zLjc5Mkw3LjI4MyAxLjA4YS4yNS4yNSAwIDAgMSAuNDI3LjE3N1Y0Ljc1QTQuMjUgNC4yNSAwIDAgMSAxMS43NSA5aDEuMzc4YTIuMjUxIDIuMjUxIDAgMSAwIDAtMS41SDExLjc1QTUuNzM2IDUuNzM2IDAgMCAwIDcuOSA1SDUuNzQzWk0zLjU2IDcuMjVhLjI1LjI1IDAgMCAwLS40MjctLjE3N0wuODE0IDkuMzIzYS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMTkgMi4zMmEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3VjcuMjVaTTYuNSAxMC43NWEuMjUuMjUgMCAwIDAtLjQyNy0uMTc3bC0yLjMyIDIuMzE5YS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMiAyLjMxOWEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3di00LjQ4NloiLz48L3N2Zz4=" alt="merged #49226" height="28" /></a>
     </td>
   </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/vllm-project/vllm/pull/47379"><strong>vllm-project/vllm</strong></a><br/>
-      <sub>Recovers the raw tail when the GPT-OSS Harmony parser ends non-terminal (Responses API)</sub>
-    </td>
-    <td align="center" width="150">
-      <a href="https://github.com/vllm-project"><img src="https://img.shields.io/badge/vLLM-21262d?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC%2BaJAAAEVklEQVR4nOyaW3PbRBTH17Iu9kqW5CQOmUlru6EJl%2BFSCJdCn%2FkQvFJguAyfiufCA%2FDCAzwwAwzMpEwhtpNML%2BFiuylJ42BbvkgrRvaguHZWe1YWkTvj31vko939R9rd%2Fzkr0XVd9DgjxD2AaZkLiJu5gLiZC%2FifIYQRIJ7TQPj5p4O%2B3iZYcd962hVF6jhnUUDPRt9UyFe%2FulYfvf1stddbfGwE2AR9t%2BsN%2Fdjy%2FkwmyGqmgzEOuGVWBBCCfrhDvrzlPmieXizobU1NB984EwJ%2B%2BcO9sUVqjfHrl8x28L8%2FfgHlGvpsy7l7ePavRaONcTa4hdgE7B%2BiG1tOqUYN0KT%2BkkpSqVRwOzEIqDfQF7ecn%2B6iYB%2Bf1y1VVZmtnauAh230%2BU3y4x2XAHKQgtFWVY0ZRhdgt4nT5R0iEpKCpNN%2B%2FHaHfH8bmj9d9J7AE8wwqoDe0c2Tnz8BdnaK%2BqR29VPai1uqQkdvKr1cJhmwf%2FlQvZC8fE3Mvgjsz8fu243GxHI4oNlF9yirzSQFg72ADgkyc3jjQ2iHAHbqLF82Qj5jRSBAXnpNXHgZ3mswlTr0%2FUkg96LBcBA%2BDDuNL78L7JXJ7n1o5BLuLmhiMpmEBDMEyLmrovEctGc6zQ766xgaXARPAFBCgzc%2BgPZMp1znCF7zdgD2FjaELUBefnP6h1CpO8BISSCrejedZphQH1BKiZ%2F6GNgcDfgEWNUsDacEAZrrguLk3OtiNvxy9LCFJq0yjbwBskA%2BUKF4%2FTq80THKXDuAzjEBOATIuTdCbMxDyjXoDqAknVXdYVroUTjKKnjjI3jwKNtVaOTAwEEX0CEcAuSlV8WFV7haR8hb%2Fk860OC8zrEDDOErbOH197jiB%2B8PxwQo6FAL5MMnwHsI2Stct%2ByALRCW7BXdlWWZq33u0iKXOyIu2juABhf4358wAryNGbwc%2FXnkpQFA1gBFlEnCFHfhy1GFYwdwizwWyCeMgMFMeAkSWbkPnQC5dNdURUgOOUbI8jpef58Z4xC0B7ZAeYN7%2FRkSUoDnjszng2P2D5HVhzaYz%2FBZIJ%2FwBxxp1kPYrkIngMCTQ07cGxZl%2BZpoBuUJJbAFWtE6pqbALfQoUx0xBSxHnT66%2FQDaDqQKTWMqAV7GvLB55k97BwhSPxyyZrTCTYAIDvnw5XfOvA7fAVKivZKxuSz0KNMK8PIE84XJ67tgC3Qh01FxOpFIhBtABMeskxmz1UP7R9DbeVOwMSIQMMgTHsmYK3WOCVCAnQPQiOage6yK%2BlsVWkRRpX4ICz1KNALkxU3RPLWoJXgOCS7i0ojsU4P0f8na381HjkqDyfOnYGNEJkDx8oQrXDWsQRl0ZgT4M%2BHesQKMN5ReThckSZqm0ygFDJajzd9PoGXNotGG10BpRHxKKV66fuHAdmxQHvnMYpN5js0kEflnl61Wy7IsYHA2mwUeZNCIXsA5M%2BtfbDGZC4ibuYC4mQuIm38DAAD%2F%2F%2B19NjEX7JQMAAAAAElFTkSuQmCC&labelColor=21262d" alt="vLLM" height="28" /></a>
-    </td>
-    <td align="right" width="150">
-      <a href="https://github.com/vllm-project/vllm/pull/47379"><img src="https://img.shields.io/badge/merged-%2347379-8957E5?style=flat-square&labelColor=21262d&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik01LjQ1IDUuMTU0QTQuMjUgNC4yNSAwIDAgMCA5LjI1IDcuNWgxLjM3OGEyLjI1MSAyLjI1MSAwIDEgMSAwIDEuNUg5LjI1QTUuNzM2IDUuNzM2IDAgMCAxIDUgNy45djMuMTU0YS4yNS4yNSAwIDAgMS0uNDI3LjE3N0wyLjI1NCA5LjQyN2EuMjUuMjUgMCAwIDEgMC0uMzU0bDIuMzE5LTIuMzJhLjI1LjI1IDAgMCAxIC40MjcuMTc3Wm0tLjcwNyAxLjQ0MmEyLjc1IDIuNzUgMCAwIDEgMC0zLjc5Mkw3LjI4MyAxLjA4YS4yNS4yNSAwIDAgMSAuNDI3LjE3N1Y0Ljc1QTQuMjUgNC4yNSAwIDAgMSAxMS43NSA5aDEuMzc4YTIuMjUxIDIuMjUxIDAgMSAwIDAtMS41SDExLjc1QTUuNzM2IDUuNzM2IDAgMCAwIDcuOSA1SDUuNzQzWk0zLjU2IDcuMjVhLjI1LjI1IDAgMCAwLS40MjctLjE3N0wuODE0IDkuMzIzYS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMTkgMi4zMmEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3VjcuMjVaTTYuNSAxMC43NWEuMjUuMjUgMCAwIDAtLjQyNy0uMTc3bC0yLjMyIDIuMzE5YS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMiAyLjMxOWEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3di00LjQ4NloiLz48L3N2Zz4=" alt="merged #47379" height="28" /></a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/vllm-project/vllm/pull/47062"><strong>vllm-project/vllm</strong></a><br/>
-      <sub>Returns raw output instead of dropping it when Harmony parsing ends in a non-terminal state</sub>
-    </td>
-    <td align="center" width="150">
-      <a href="https://github.com/vllm-project"><img src="https://img.shields.io/badge/vLLM-21262d?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC%2BaJAAAEVklEQVR4nOyaW3PbRBTH17Iu9kqW5CQOmUlru6EJl%2BFSCJdCn%2FkQvFJguAyfiufCA%2FDCAzwwAwzMpEwhtpNML%2BFiuylJ42BbvkgrRvaguHZWe1YWkTvj31vko939R9rd%2Fzkr0XVd9DgjxD2AaZkLiJu5gLiZC%2FifIYQRIJ7TQPj5p4O%2B3iZYcd962hVF6jhnUUDPRt9UyFe%2FulYfvf1stddbfGwE2AR9t%2BsN%2Fdjy%2FkwmyGqmgzEOuGVWBBCCfrhDvrzlPmieXizobU1NB984EwJ%2B%2BcO9sUVqjfHrl8x28L8%2FfgHlGvpsy7l7ePavRaONcTa4hdgE7B%2BiG1tOqUYN0KT%2BkkpSqVRwOzEIqDfQF7ecn%2B6iYB%2Bf1y1VVZmtnauAh230%2BU3y4x2XAHKQgtFWVY0ZRhdgt4nT5R0iEpKCpNN%2B%2FHaHfH8bmj9d9J7AE8wwqoDe0c2Tnz8BdnaK%2BqR29VPai1uqQkdvKr1cJhmwf%2FlQvZC8fE3Mvgjsz8fu243GxHI4oNlF9yirzSQFg72ADgkyc3jjQ2iHAHbqLF82Qj5jRSBAXnpNXHgZ3mswlTr0%2FUkg96LBcBA%2BDDuNL78L7JXJ7n1o5BLuLmhiMpmEBDMEyLmrovEctGc6zQ766xgaXARPAFBCgzc%2BgPZMp1znCF7zdgD2FjaELUBefnP6h1CpO8BISSCrejedZphQH1BKiZ%2F6GNgcDfgEWNUsDacEAZrrguLk3OtiNvxy9LCFJq0yjbwBskA%2BUKF4%2FTq80THKXDuAzjEBOATIuTdCbMxDyjXoDqAknVXdYVroUTjKKnjjI3jwKNtVaOTAwEEX0CEcAuSlV8WFV7haR8hb%2Fk860OC8zrEDDOErbOH197jiB%2B8PxwQo6FAL5MMnwHsI2Stct%2ByALRCW7BXdlWWZq33u0iKXOyIu2juABhf4358wAryNGbwc%2FXnkpQFA1gBFlEnCFHfhy1GFYwdwizwWyCeMgMFMeAkSWbkPnQC5dNdURUgOOUbI8jpef58Z4xC0B7ZAeYN7%2FRkSUoDnjszng2P2D5HVhzaYz%2FBZIJ%2FwBxxp1kPYrkIngMCTQ07cGxZl%2BZpoBuUJJbAFWtE6pqbALfQoUx0xBSxHnT66%2FQDaDqQKTWMqAV7GvLB55k97BwhSPxyyZrTCTYAIDvnw5XfOvA7fAVKivZKxuSz0KNMK8PIE84XJ67tgC3Qh01FxOpFIhBtABMeskxmz1UP7R9DbeVOwMSIQMMgTHsmYK3WOCVCAnQPQiOage6yK%2BlsVWkRRpX4ICz1KNALkxU3RPLWoJXgOCS7i0ojsU4P0f8na381HjkqDyfOnYGNEJkDx8oQrXDWsQRl0ZgT4M%2BHesQKMN5ReThckSZqm0ygFDJajzd9PoGXNotGG10BpRHxKKV66fuHAdmxQHvnMYpN5js0kEflnl61Wy7IsYHA2mwUeZNCIXsA5M%2BtfbDGZC4ibuYC4mQuIm38DAAD%2F%2F%2B19NjEX7JQMAAAAAElFTkSuQmCC&labelColor=21262d" alt="vLLM" height="28" /></a>
-    </td>
-    <td align="right" width="150">
-      <a href="https://github.com/vllm-project/vllm/pull/47062"><img src="https://img.shields.io/badge/merged-%2347062-8957E5?style=flat-square&labelColor=21262d&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik01LjQ1IDUuMTU0QTQuMjUgNC4yNSAwIDAgMCA5LjI1IDcuNWgxLjM3OGEyLjI1MSAyLjI1MSAwIDEgMSAwIDEuNUg5LjI1QTUuNzM2IDUuNzM2IDAgMCAxIDUgNy45djMuMTU0YS4yNS4yNSAwIDAgMS0uNDI3LjE3N0wyLjI1NCA5LjQyN2EuMjUuMjUgMCAwIDEgMC0uMzU0bDIuMzE5LTIuMzJhLjI1LjI1IDAgMCAxIC40MjcuMTc3Wm0tLjcwNyAxLjQ0MmEyLjc1IDIuNzUgMCAwIDEgMC0zLjc5Mkw3LjI4MyAxLjA4YS4yNS4yNSAwIDAgMSAuNDI3LjE3N1Y0Ljc1QTQuMjUgNC4yNSAwIDAgMSAxMS43NSA5aDEuMzc4YTIuMjUxIDIuMjUxIDAgMSAwIDAtMS41SDExLjc1QTUuNzM2IDUuNzM2IDAgMCAwIDcuOSA1SDUuNzQzWk0zLjU2IDcuMjVhLjI1LjI1IDAgMCAwLS40MjctLjE3N0wuODE0IDkuMzIzYS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMTkgMi4zMmEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3VjcuMjVaTTYuNSAxMC43NWEuMjUuMjUgMCAwIDAtLjQyNy0uMTc3bC0yLjMyIDIuMzE5YS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMiAyLjMxOWEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3di00LjQ4NloiLz48L3N2Zz4=" alt="merged #47062" height="28" /></a>
-    </td>
-  </tr>
 </table>
 
 <br/>
 
-<img src="https://img.shields.io/badge/02-WEIGHT_TYING-161B22?style=for-the-badge&labelColor=58A6FF" height="28" alt="WEIGHT_TYING" />
+<img src="https://img.shields.io/badge/EVERY_MERGE-161B22?style=for-the-badge&labelColor=6B7A90" height="24" alt="EVERY MERGE" />
+
+<sub>All seventeen, newest first within each organisation.</sub>
+
+<img src="https://img.shields.io/badge/NVIDIA-161B22?style=for-the-badge&labelColor=76B900" height="26" alt="NVIDIA" /> &nbsp;<sub><b>9 merged</b></sub>
 
 <table>
+  <tr>
+    <td>
+      <a href="https://github.com/NVIDIA/Megatron-LM/pull/5972"><strong>NVIDIA/Megatron-LM</strong></a><br/>
+      <sub>Supports HFSDP deferred DP-outer gradient reduction in experimental Megatron-FSDP</sub>
+    </td>
+    <td align="center" width="150">
+      <a href="https://github.com/NVIDIA"><img src="https://img.shields.io/badge/NVIDIA-21262d?style=flat-square&logo=nvidia&logoColor=76B900&labelColor=21262d" alt="NVIDIA" height="28" /></a>
+    </td>
+    <td align="right" width="150">
+      <a href="https://github.com/NVIDIA/Megatron-LM/pull/5972"><img src="https://img.shields.io/badge/merged-%235972-8957E5?style=flat-square&labelColor=21262d&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik01LjQ1IDUuMTU0QTQuMjUgNC4yNSAwIDAgMCA5LjI1IDcuNWgxLjM3OGEyLjI1MSAyLjI1MSAwIDEgMSAwIDEuNUg5LjI1QTUuNzM2IDUuNzM2IDAgMCAxIDUgNy45djMuMTU0YS4yNS4yNSAwIDAgMS0uNDI3LjE3N0wyLjI1NCA5LjQyN2EuMjUuMjUgMCAwIDEgMC0uMzU0bDIuMzE5LTIuMzJhLjI1LjI1IDAgMCAxIC40MjcuMTc3Wm0tLjcwNyAxLjQ0MmEyLjc1IDIuNzUgMCAwIDEgMC0zLjc5Mkw3LjI4MyAxLjA4YS4yNS4yNSAwIDAgMSAuNDI3LjE3N1Y0Ljc1QTQuMjUgNC4yNSAwIDAgMSAxMS43NSA5aDEuMzc4YTIuMjUxIDIuMjUxIDAgMSAwIDAtMS41SDExLjc1QTUuNzM2IDUuNzM2IDAgMCAwIDcuOSA1SDUuNzQzWk0zLjU2IDcuMjVhLjI1LjI1IDAgMCAwLS40MjctLjE3N0wuODE0IDkuMzIzYS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMTkgMi4zMmEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3VjcuMjVaTTYuNSAxMC43NWEuMjUuMjUgMCAwIDAtLjQyNy0uMTc3bC0yLjMyIDIuMzE5YS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMiAyLjMxOWEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3di00LjQ4NloiLz48L3N2Zz4=" alt="merged #5972" height="28" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/NVIDIA/Megatron-LM/pull/5743"><strong>NVIDIA/Megatron-LM</strong></a><br/>
+      <sub>Supports HSDP deferred DP-outer gradient reduction in experimental Megatron-FSDP</sub>
+    </td>
+    <td align="center" width="150">
+      <a href="https://github.com/NVIDIA"><img src="https://img.shields.io/badge/NVIDIA-21262d?style=flat-square&logo=nvidia&logoColor=76B900&labelColor=21262d" alt="NVIDIA" height="28" /></a>
+    </td>
+    <td align="right" width="150">
+      <a href="https://github.com/NVIDIA/Megatron-LM/pull/5743"><img src="https://img.shields.io/badge/merged-%235743-8957E5?style=flat-square&labelColor=21262d&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik01LjQ1IDUuMTU0QTQuMjUgNC4yNSAwIDAgMCA5LjI1IDcuNWgxLjM3OGEyLjI1MSAyLjI1MSAwIDEgMSAwIDEuNUg5LjI1QTUuNzM2IDUuNzM2IDAgMCAxIDUgNy45djMuMTU0YS4yNS4yNSAwIDAgMS0uNDI3LjE3N0wyLjI1NCA5LjQyN2EuMjUuMjUgMCAwIDEgMC0uMzU0bDIuMzE5LTIuMzJhLjI1LjI1IDAgMCAxIC40MjcuMTc3Wm0tLjcwNyAxLjQ0MmEyLjc1IDIuNzUgMCAwIDEgMC0zLjc5Mkw3LjI4MyAxLjA4YS4yNS4yNSAwIDAgMSAuNDI3LjE3N1Y0Ljc1QTQuMjUgNC4yNSAwIDAgMSAxMS43NSA5aDEuMzc4YTIuMjUxIDIuMjUxIDAgMSAwIDAtMS41SDExLjc1QTUuNzM2IDUuNzM2IDAgMCAwIDcuOSA1SDUuNzQzWk0zLjU2IDcuMjVhLjI1LjI1IDAgMCAwLS40MjctLjE3N0wuODE0IDkuMzIzYS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMTkgMi4zMmEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3VjcuMjVaTTYuNSAxMC43NWEuMjUuMjUgMCAwIDAtLjQyNy0uMTc3bC0yLjMyIDIuMzE5YS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMiAyLjMxOWEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3di00LjQ4NloiLz48L3N2Zz4=" alt="merged #5743" height="28" /></a>
+    </td>
+  </tr>
   <tr>
     <td>
       <a href="https://github.com/NVIDIA-NeMo/Automodel/pull/2998"><strong>NVIDIA-NeMo/Automodel</strong></a><br/>
@@ -114,6 +156,18 @@ Open to **research internships, PhD positions, and ML-systems / research-enginee
     </td>
     <td align="right" width="150">
       <a href="https://github.com/NVIDIA-NeMo/Automodel/pull/2896"><img src="https://img.shields.io/badge/merged-%232896-8957E5?style=flat-square&labelColor=21262d&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik01LjQ1IDUuMTU0QTQuMjUgNC4yNSAwIDAgMCA5LjI1IDcuNWgxLjM3OGEyLjI1MSAyLjI1MSAwIDEgMSAwIDEuNUg5LjI1QTUuNzM2IDUuNzM2IDAgMCAxIDUgNy45djMuMTU0YS4yNS4yNSAwIDAgMS0uNDI3LjE3N0wyLjI1NCA5LjQyN2EuMjUuMjUgMCAwIDEgMC0uMzU0bDIuMzE5LTIuMzJhLjI1LjI1IDAgMCAxIC40MjcuMTc3Wm0tLjcwNyAxLjQ0MmEyLjc1IDIuNzUgMCAwIDEgMC0zLjc5Mkw3LjI4MyAxLjA4YS4yNS4yNSAwIDAgMSAuNDI3LjE3N1Y0Ljc1QTQuMjUgNC4yNSAwIDAgMSAxMS43NSA5aDEuMzc4YTIuMjUxIDIuMjUxIDAgMSAwIDAtMS41SDExLjc1QTUuNzM2IDUuNzM2IDAgMCAwIDcuOSA1SDUuNzQzWk0zLjU2IDcuMjVhLjI1LjI1IDAgMCAwLS40MjctLjE3N0wuODE0IDkuMzIzYS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMTkgMi4zMmEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3VjcuMjVaTTYuNSAxMC43NWEuMjUuMjUgMCAwIDAtLjQyNy0uMTc3bC0yLjMyIDIuMzE5YS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMiAyLjMxOWEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3di00LjQ4NloiLz48L3N2Zz4=" alt="merged #2896" height="28" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/NVIDIA-NeMo/Megatron-Bridge/pull/4601"><strong>NVIDIA-NeMo/Megatron-Bridge</strong></a><br/>
+      <sub>Makes the finetuning batch sampler epoch-aware, so checkpoint resume stops replaying the wrong data</sub>
+    </td>
+    <td align="center" width="150">
+      <a href="https://github.com/NVIDIA"><img src="https://img.shields.io/badge/NVIDIA-21262d?style=flat-square&logo=nvidia&logoColor=76B900&labelColor=21262d" alt="NVIDIA" height="28" /></a>
+    </td>
+    <td align="right" width="150">
+      <a href="https://github.com/NVIDIA-NeMo/Megatron-Bridge/pull/4601"><img src="https://img.shields.io/badge/merged-%234601-8957E5?style=flat-square&labelColor=21262d&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik01LjQ1IDUuMTU0QTQuMjUgNC4yNSAwIDAgMCA5LjI1IDcuNWgxLjM3OGEyLjI1MSAyLjI1MSAwIDEgMSAwIDEuNUg5LjI1QTUuNzM2IDUuNzM2IDAgMCAxIDUgNy45djMuMTU0YS4yNS4yNSAwIDAgMS0uNDI3LjE3N0wyLjI1NCA5LjQyN2EuMjUuMjUgMCAwIDEgMC0uMzU0bDIuMzE5LTIuMzJhLjI1LjI1IDAgMCAxIC40MjcuMTc3Wm0tLjcwNyAxLjQ0MmEyLjc1IDIuNzUgMCAwIDEgMC0zLjc5Mkw3LjI4MyAxLjA4YS4yNS4yNSAwIDAgMSAuNDI3LjE3N1Y0Ljc1QTQuMjUgNC4yNSAwIDAgMSAxMS43NSA5aDEuMzc4YTIuMjUxIDIuMjUxIDAgMSAwIDAtMS41SDExLjc1QTUuNzM2IDUuNzM2IDAgMCAwIDcuOSA1SDUuNzQzWk0zLjU2IDcuMjVhLjI1LjI1IDAgMCAwLS40MjctLjE3N0wuODE0IDkuMzIzYS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMTkgMi4zMmEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3VjcuMjVaTTYuNSAxMC43NWEuMjUuMjUgMCAwIDAtLjQyNy0uMTc3bC0yLjMyIDIuMzE5YS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMiAyLjMxOWEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3di00LjQ4NloiLz48L3N2Zz4=" alt="merged #4601" height="28" /></a>
     </td>
   </tr>
   <tr>
@@ -166,47 +220,62 @@ Open to **research internships, PhD positions, and ML-systems / research-enginee
   </tr>
 </table>
 
-<br/>
-
-<img src="https://img.shields.io/badge/03-TRAINING_RELIABILITY-161B22?style=for-the-badge&labelColor=D29922" height="28" alt="TRAINING_RELIABILITY" />
+<img src="https://img.shields.io/badge/VLLM-161B22?style=for-the-badge&labelColor=38BDF8" height="26" alt="vLLM" /> &nbsp;<sub><b>4 merged</b></sub>
 
 <table>
   <tr>
     <td>
-      <a href="https://github.com/NVIDIA/Megatron-LM/pull/5972"><strong>NVIDIA/Megatron-LM</strong></a><br/>
-      <sub>Supports HFSDP deferred DP-outer gradient reduction in experimental Megatron-FSDP</sub>
+      <a href="https://github.com/vllm-project/vllm/pull/49226"><strong>vllm-project/vllm</strong></a><br/>
+      <sub>Disables cross-layer KV blocks under per-token-head quant — stops <code>OffloadingConnector</code> corrupting the KV cache</sub>
     </td>
     <td align="center" width="150">
-      <a href="https://github.com/NVIDIA"><img src="https://img.shields.io/badge/NVIDIA-21262d?style=flat-square&logo=nvidia&logoColor=76B900&labelColor=21262d" alt="NVIDIA" height="28" /></a>
+      <a href="https://github.com/vllm-project"><img src="https://img.shields.io/badge/vLLM-21262d?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC%2BaJAAAEVklEQVR4nOyaW3PbRBTH17Iu9kqW5CQOmUlru6EJl%2BFSCJdCn%2FkQvFJguAyfiufCA%2FDCAzwwAwzMpEwhtpNML%2BFiuylJ42BbvkgrRvaguHZWe1YWkTvj31vko939R9rd%2Fzkr0XVd9DgjxD2AaZkLiJu5gLiZC%2FifIYQRIJ7TQPj5p4O%2B3iZYcd962hVF6jhnUUDPRt9UyFe%2FulYfvf1stddbfGwE2AR9t%2BsN%2Fdjy%2FkwmyGqmgzEOuGVWBBCCfrhDvrzlPmieXizobU1NB984EwJ%2B%2BcO9sUVqjfHrl8x28L8%2FfgHlGvpsy7l7ePavRaONcTa4hdgE7B%2BiG1tOqUYN0KT%2BkkpSqVRwOzEIqDfQF7ecn%2B6iYB%2Bf1y1VVZmtnauAh230%2BU3y4x2XAHKQgtFWVY0ZRhdgt4nT5R0iEpKCpNN%2B%2FHaHfH8bmj9d9J7AE8wwqoDe0c2Tnz8BdnaK%2BqR29VPai1uqQkdvKr1cJhmwf%2FlQvZC8fE3Mvgjsz8fu243GxHI4oNlF9yirzSQFg72ADgkyc3jjQ2iHAHbqLF82Qj5jRSBAXnpNXHgZ3mswlTr0%2FUkg96LBcBA%2BDDuNL78L7JXJ7n1o5BLuLmhiMpmEBDMEyLmrovEctGc6zQ766xgaXARPAFBCgzc%2BgPZMp1znCF7zdgD2FjaELUBefnP6h1CpO8BISSCrejedZphQH1BKiZ%2F6GNgcDfgEWNUsDacEAZrrguLk3OtiNvxy9LCFJq0yjbwBskA%2BUKF4%2FTq80THKXDuAzjEBOATIuTdCbMxDyjXoDqAknVXdYVroUTjKKnjjI3jwKNtVaOTAwEEX0CEcAuSlV8WFV7haR8hb%2Fk860OC8zrEDDOErbOH197jiB%2B8PxwQo6FAL5MMnwHsI2Stct%2ByALRCW7BXdlWWZq33u0iKXOyIu2juABhf4358wAryNGbwc%2FXnkpQFA1gBFlEnCFHfhy1GFYwdwizwWyCeMgMFMeAkSWbkPnQC5dNdURUgOOUbI8jpef58Z4xC0B7ZAeYN7%2FRkSUoDnjszng2P2D5HVhzaYz%2FBZIJ%2FwBxxp1kPYrkIngMCTQ07cGxZl%2BZpoBuUJJbAFWtE6pqbALfQoUx0xBSxHnT66%2FQDaDqQKTWMqAV7GvLB55k97BwhSPxyyZrTCTYAIDvnw5XfOvA7fAVKivZKxuSz0KNMK8PIE84XJ67tgC3Qh01FxOpFIhBtABMeskxmz1UP7R9DbeVOwMSIQMMgTHsmYK3WOCVCAnQPQiOage6yK%2BlsVWkRRpX4ICz1KNALkxU3RPLWoJXgOCS7i0ojsU4P0f8na381HjkqDyfOnYGNEJkDx8oQrXDWsQRl0ZgT4M%2BHesQKMN5ReThckSZqm0ygFDJajzd9PoGXNotGG10BpRHxKKV66fuHAdmxQHvnMYpN5js0kEflnl61Wy7IsYHA2mwUeZNCIXsA5M%2BtfbDGZC4ibuYC4mQuIm38DAAD%2F%2F%2B19NjEX7JQMAAAAAElFTkSuQmCC&labelColor=21262d" alt="vLLM" height="28" /></a>
     </td>
     <td align="right" width="150">
-      <a href="https://github.com/NVIDIA/Megatron-LM/pull/5972"><img src="https://img.shields.io/badge/merged-%235972-8957E5?style=flat-square&labelColor=21262d&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik01LjQ1IDUuMTU0QTQuMjUgNC4yNSAwIDAgMCA5LjI1IDcuNWgxLjM3OGEyLjI1MSAyLjI1MSAwIDEgMSAwIDEuNUg5LjI1QTUuNzM2IDUuNzM2IDAgMCAxIDUgNy45djMuMTU0YS4yNS4yNSAwIDAgMS0uNDI3LjE3N0wyLjI1NCA5LjQyN2EuMjUuMjUgMCAwIDEgMC0uMzU0bDIuMzE5LTIuMzJhLjI1LjI1IDAgMCAxIC40MjcuMTc3Wm0tLjcwNyAxLjQ0MmEyLjc1IDIuNzUgMCAwIDEgMC0zLjc5Mkw3LjI4MyAxLjA4YS4yNS4yNSAwIDAgMSAuNDI3LjE3N1Y0Ljc1QTQuMjUgNC4yNSAwIDAgMSAxMS43NSA5aDEuMzc4YTIuMjUxIDIuMjUxIDAgMSAwIDAtMS41SDExLjc1QTUuNzM2IDUuNzM2IDAgMCAwIDcuOSA1SDUuNzQzWk0zLjU2IDcuMjVhLjI1LjI1IDAgMCAwLS40MjctLjE3N0wuODE0IDkuMzIzYS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMTkgMi4zMmEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3VjcuMjVaTTYuNSAxMC43NWEuMjUuMjUgMCAwIDAtLjQyNy0uMTc3bC0yLjMyIDIuMzE5YS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMiAyLjMxOWEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3di00LjQ4NloiLz48L3N2Zz4=" alt="merged #5972" height="28" /></a>
+      <a href="https://github.com/vllm-project/vllm/pull/49226"><img src="https://img.shields.io/badge/merged-%2349226-8957E5?style=flat-square&labelColor=21262d&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik01LjQ1IDUuMTU0QTQuMjUgNC4yNSAwIDAgMCA5LjI1IDcuNWgxLjM3OGEyLjI1MSAyLjI1MSAwIDEgMSAwIDEuNUg5LjI1QTUuNzM2IDUuNzM2IDAgMCAxIDUgNy45djMuMTU0YS4yNS4yNSAwIDAgMS0uNDI3LjE3N0wyLjI1NCA5LjQyN2EuMjUuMjUgMCAwIDEgMC0uMzU0bDIuMzE5LTIuMzJhLjI1LjI1IDAgMCAxIC40MjcuMTc3Wm0tLjcwNyAxLjQ0MmEyLjc1IDIuNzUgMCAwIDEgMC0zLjc5Mkw3LjI4MyAxLjA4YS4yNS4yNSAwIDAgMSAuNDI3LjE3N1Y0Ljc1QTQuMjUgNC4yNSAwIDAgMSAxMS43NSA5aDEuMzc4YTIuMjUxIDIuMjUxIDAgMSAwIDAtMS41SDExLjc1QTUuNzM2IDUuNzM2IDAgMCAwIDcuOSA1SDUuNzQzWk0zLjU2IDcuMjVhLjI1LjI1IDAgMCAwLS40MjctLjE3N0wuODE0IDkuMzIzYS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMTkgMi4zMmEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3VjcuMjVaTTYuNSAxMC43NWEuMjUuMjUgMCAwIDAtLjQyNy0uMTc3bC0yLjMyIDIuMzE5YS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMiAyLjMxOWEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3di00LjQ4NloiLz48L3N2Zz4=" alt="merged #49226" height="28" /></a>
     </td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/NVIDIA/Megatron-LM/pull/5743"><strong>NVIDIA/Megatron-LM</strong></a><br/>
-      <sub>Supports HSDP deferred DP-outer gradient reduction in experimental Megatron-FSDP</sub>
+      <a href="https://github.com/vllm-project/vllm/pull/47379"><strong>vllm-project/vllm</strong></a><br/>
+      <sub>Recovers the raw tail when the GPT-OSS Harmony parser ends non-terminal (Responses API)</sub>
     </td>
     <td align="center" width="150">
-      <a href="https://github.com/NVIDIA"><img src="https://img.shields.io/badge/NVIDIA-21262d?style=flat-square&logo=nvidia&logoColor=76B900&labelColor=21262d" alt="NVIDIA" height="28" /></a>
+      <a href="https://github.com/vllm-project"><img src="https://img.shields.io/badge/vLLM-21262d?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC%2BaJAAAEVklEQVR4nOyaW3PbRBTH17Iu9kqW5CQOmUlru6EJl%2BFSCJdCn%2FkQvFJguAyfiufCA%2FDCAzwwAwzMpEwhtpNML%2BFiuylJ42BbvkgrRvaguHZWe1YWkTvj31vko939R9rd%2Fzkr0XVd9DgjxD2AaZkLiJu5gLiZC%2FifIYQRIJ7TQPj5p4O%2B3iZYcd962hVF6jhnUUDPRt9UyFe%2FulYfvf1stddbfGwE2AR9t%2BsN%2Fdjy%2FkwmyGqmgzEOuGVWBBCCfrhDvrzlPmieXizobU1NB984EwJ%2B%2BcO9sUVqjfHrl8x28L8%2FfgHlGvpsy7l7ePavRaONcTa4hdgE7B%2BiG1tOqUYN0KT%2BkkpSqVRwOzEIqDfQF7ecn%2B6iYB%2Bf1y1VVZmtnauAh230%2BU3y4x2XAHKQgtFWVY0ZRhdgt4nT5R0iEpKCpNN%2B%2FHaHfH8bmj9d9J7AE8wwqoDe0c2Tnz8BdnaK%2BqR29VPai1uqQkdvKr1cJhmwf%2FlQvZC8fE3Mvgjsz8fu243GxHI4oNlF9yirzSQFg72ADgkyc3jjQ2iHAHbqLF82Qj5jRSBAXnpNXHgZ3mswlTr0%2FUkg96LBcBA%2BDDuNL78L7JXJ7n1o5BLuLmhiMpmEBDMEyLmrovEctGc6zQ766xgaXARPAFBCgzc%2BgPZMp1znCF7zdgD2FjaELUBefnP6h1CpO8BISSCrejedZphQH1BKiZ%2F6GNgcDfgEWNUsDacEAZrrguLk3OtiNvxy9LCFJq0yjbwBskA%2BUKF4%2FTq80THKXDuAzjEBOATIuTdCbMxDyjXoDqAknVXdYVroUTjKKnjjI3jwKNtVaOTAwEEX0CEcAuSlV8WFV7haR8hb%2Fk860OC8zrEDDOErbOH197jiB%2B8PxwQo6FAL5MMnwHsI2Stct%2ByALRCW7BXdlWWZq33u0iKXOyIu2juABhf4358wAryNGbwc%2FXnkpQFA1gBFlEnCFHfhy1GFYwdwizwWyCeMgMFMeAkSWbkPnQC5dNdURUgOOUbI8jpef58Z4xC0B7ZAeYN7%2FRkSUoDnjszng2P2D5HVhzaYz%2FBZIJ%2FwBxxp1kPYrkIngMCTQ07cGxZl%2BZpoBuUJJbAFWtE6pqbALfQoUx0xBSxHnT66%2FQDaDqQKTWMqAV7GvLB55k97BwhSPxyyZrTCTYAIDvnw5XfOvA7fAVKivZKxuSz0KNMK8PIE84XJ67tgC3Qh01FxOpFIhBtABMeskxmz1UP7R9DbeVOwMSIQMMgTHsmYK3WOCVCAnQPQiOage6yK%2BlsVWkRRpX4ICz1KNALkxU3RPLWoJXgOCS7i0ojsU4P0f8na381HjkqDyfOnYGNEJkDx8oQrXDWsQRl0ZgT4M%2BHesQKMN5ReThckSZqm0ygFDJajzd9PoGXNotGG10BpRHxKKV66fuHAdmxQHvnMYpN5js0kEflnl61Wy7IsYHA2mwUeZNCIXsA5M%2BtfbDGZC4ibuYC4mQuIm38DAAD%2F%2F%2B19NjEX7JQMAAAAAElFTkSuQmCC&labelColor=21262d" alt="vLLM" height="28" /></a>
     </td>
     <td align="right" width="150">
-      <a href="https://github.com/NVIDIA/Megatron-LM/pull/5743"><img src="https://img.shields.io/badge/merged-%235743-8957E5?style=flat-square&labelColor=21262d&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik01LjQ1IDUuMTU0QTQuMjUgNC4yNSAwIDAgMCA5LjI1IDcuNWgxLjM3OGEyLjI1MSAyLjI1MSAwIDEgMSAwIDEuNUg5LjI1QTUuNzM2IDUuNzM2IDAgMCAxIDUgNy45djMuMTU0YS4yNS4yNSAwIDAgMS0uNDI3LjE3N0wyLjI1NCA5LjQyN2EuMjUuMjUgMCAwIDEgMC0uMzU0bDIuMzE5LTIuMzJhLjI1LjI1IDAgMCAxIC40MjcuMTc3Wm0tLjcwNyAxLjQ0MmEyLjc1IDIuNzUgMCAwIDEgMC0zLjc5Mkw3LjI4MyAxLjA4YS4yNS4yNSAwIDAgMSAuNDI3LjE3N1Y0Ljc1QTQuMjUgNC4yNSAwIDAgMSAxMS43NSA5aDEuMzc4YTIuMjUxIDIuMjUxIDAgMSAwIDAtMS41SDExLjc1QTUuNzM2IDUuNzM2IDAgMCAwIDcuOSA1SDUuNzQzWk0zLjU2IDcuMjVhLjI1LjI1IDAgMCAwLS40MjctLjE3N0wuODE0IDkuMzIzYS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMTkgMi4zMmEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3VjcuMjVaTTYuNSAxMC43NWEuMjUuMjUgMCAwIDAtLjQyNy0uMTc3bC0yLjMyIDIuMzE5YS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMiAyLjMxOWEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3di00LjQ4NloiLz48L3N2Zz4=" alt="merged #5743" height="28" /></a>
+      <a href="https://github.com/vllm-project/vllm/pull/47379"><img src="https://img.shields.io/badge/merged-%2347379-8957E5?style=flat-square&labelColor=21262d&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik01LjQ1IDUuMTU0QTQuMjUgNC4yNSAwIDAgMCA5LjI1IDcuNWgxLjM3OGEyLjI1MSAyLjI1MSAwIDEgMSAwIDEuNUg5LjI1QTUuNzM2IDUuNzM2IDAgMCAxIDUgNy45djMuMTU0YS4yNS4yNSAwIDAgMS0uNDI3LjE3N0wyLjI1NCA5LjQyN2EuMjUuMjUgMCAwIDEgMC0uMzU0bDIuMzE5LTIuMzJhLjI1LjI1IDAgMCAxIC40MjcuMTc3Wm0tLjcwNyAxLjQ0MmEyLjc1IDIuNzUgMCAwIDEgMC0zLjc5Mkw3LjI4MyAxLjA4YS4yNS4yNSAwIDAgMSAuNDI3LjE3N1Y0Ljc1QTQuMjUgNC4yNSAwIDAgMSAxMS43NSA5aDEuMzc4YTIuMjUxIDIuMjUxIDAgMSAwIDAtMS41SDExLjc1QTUuNzM2IDUuNzM2IDAgMCAwIDcuOSA1SDUuNzQzWk0zLjU2IDcuMjVhLjI1LjI1IDAgMCAwLS40MjctLjE3N0wuODE0IDkuMzIzYS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMTkgMi4zMmEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3VjcuMjVaTTYuNSAxMC43NWEuMjUuMjUgMCAwIDAtLjQyNy0uMTc3bC0yLjMyIDIuMzE5YS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMiAyLjMxOWEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3di00LjQ4NloiLz48L3N2Zz4=" alt="merged #47379" height="28" /></a>
     </td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/NVIDIA-NeMo/Megatron-Bridge/pull/4601"><strong>NVIDIA-NeMo/Megatron-Bridge</strong></a><br/>
-      <sub>Makes the finetuning batch sampler epoch-aware, so checkpoint resume stops replaying the wrong data</sub>
+      <a href="https://github.com/vllm-project/vllm/pull/47062"><strong>vllm-project/vllm</strong></a><br/>
+      <sub>Returns raw output instead of dropping it when Harmony parsing ends in a non-terminal state</sub>
     </td>
     <td align="center" width="150">
-      <a href="https://github.com/NVIDIA"><img src="https://img.shields.io/badge/NVIDIA-21262d?style=flat-square&logo=nvidia&logoColor=76B900&labelColor=21262d" alt="NVIDIA" height="28" /></a>
+      <a href="https://github.com/vllm-project"><img src="https://img.shields.io/badge/vLLM-21262d?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC%2BaJAAAEVklEQVR4nOyaW3PbRBTH17Iu9kqW5CQOmUlru6EJl%2BFSCJdCn%2FkQvFJguAyfiufCA%2FDCAzwwAwzMpEwhtpNML%2BFiuylJ42BbvkgrRvaguHZWe1YWkTvj31vko939R9rd%2Fzkr0XVd9DgjxD2AaZkLiJu5gLiZC%2FifIYQRIJ7TQPj5p4O%2B3iZYcd962hVF6jhnUUDPRt9UyFe%2FulYfvf1stddbfGwE2AR9t%2BsN%2Fdjy%2FkwmyGqmgzEOuGVWBBCCfrhDvrzlPmieXizobU1NB984EwJ%2B%2BcO9sUVqjfHrl8x28L8%2FfgHlGvpsy7l7ePavRaONcTa4hdgE7B%2BiG1tOqUYN0KT%2BkkpSqVRwOzEIqDfQF7ecn%2B6iYB%2Bf1y1VVZmtnauAh230%2BU3y4x2XAHKQgtFWVY0ZRhdgt4nT5R0iEpKCpNN%2B%2FHaHfH8bmj9d9J7AE8wwqoDe0c2Tnz8BdnaK%2BqR29VPai1uqQkdvKr1cJhmwf%2FlQvZC8fE3Mvgjsz8fu243GxHI4oNlF9yirzSQFg72ADgkyc3jjQ2iHAHbqLF82Qj5jRSBAXnpNXHgZ3mswlTr0%2FUkg96LBcBA%2BDDuNL78L7JXJ7n1o5BLuLmhiMpmEBDMEyLmrovEctGc6zQ766xgaXARPAFBCgzc%2BgPZMp1znCF7zdgD2FjaELUBefnP6h1CpO8BISSCrejedZphQH1BKiZ%2F6GNgcDfgEWNUsDacEAZrrguLk3OtiNvxy9LCFJq0yjbwBskA%2BUKF4%2FTq80THKXDuAzjEBOATIuTdCbMxDyjXoDqAknVXdYVroUTjKKnjjI3jwKNtVaOTAwEEX0CEcAuSlV8WFV7haR8hb%2Fk860OC8zrEDDOErbOH197jiB%2B8PxwQo6FAL5MMnwHsI2Stct%2ByALRCW7BXdlWWZq33u0iKXOyIu2juABhf4358wAryNGbwc%2FXnkpQFA1gBFlEnCFHfhy1GFYwdwizwWyCeMgMFMeAkSWbkPnQC5dNdURUgOOUbI8jpef58Z4xC0B7ZAeYN7%2FRkSUoDnjszng2P2D5HVhzaYz%2FBZIJ%2FwBxxp1kPYrkIngMCTQ07cGxZl%2BZpoBuUJJbAFWtE6pqbALfQoUx0xBSxHnT66%2FQDaDqQKTWMqAV7GvLB55k97BwhSPxyyZrTCTYAIDvnw5XfOvA7fAVKivZKxuSz0KNMK8PIE84XJ67tgC3Qh01FxOpFIhBtABMeskxmz1UP7R9DbeVOwMSIQMMgTHsmYK3WOCVCAnQPQiOage6yK%2BlsVWkRRpX4ICz1KNALkxU3RPLWoJXgOCS7i0ojsU4P0f8na381HjkqDyfOnYGNEJkDx8oQrXDWsQRl0ZgT4M%2BHesQKMN5ReThckSZqm0ygFDJajzd9PoGXNotGG10BpRHxKKV66fuHAdmxQHvnMYpN5js0kEflnl61Wy7IsYHA2mwUeZNCIXsA5M%2BtfbDGZC4ibuYC4mQuIm38DAAD%2F%2F%2B19NjEX7JQMAAAAAElFTkSuQmCC&labelColor=21262d" alt="vLLM" height="28" /></a>
     </td>
     <td align="right" width="150">
-      <a href="https://github.com/NVIDIA-NeMo/Megatron-Bridge/pull/4601"><img src="https://img.shields.io/badge/merged-%234601-8957E5?style=flat-square&labelColor=21262d&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik01LjQ1IDUuMTU0QTQuMjUgNC4yNSAwIDAgMCA5LjI1IDcuNWgxLjM3OGEyLjI1MSAyLjI1MSAwIDEgMSAwIDEuNUg5LjI1QTUuNzM2IDUuNzM2IDAgMCAxIDUgNy45djMuMTU0YS4yNS4yNSAwIDAgMS0uNDI3LjE3N0wyLjI1NCA5LjQyN2EuMjUuMjUgMCAwIDEgMC0uMzU0bDIuMzE5LTIuMzJhLjI1LjI1IDAgMCAxIC40MjcuMTc3Wm0tLjcwNyAxLjQ0MmEyLjc1IDIuNzUgMCAwIDEgMC0zLjc5Mkw3LjI4MyAxLjA4YS4yNS4yNSAwIDAgMSAuNDI3LjE3N1Y0Ljc1QTQuMjUgNC4yNSAwIDAgMSAxMS43NSA5aDEuMzc4YTIuMjUxIDIuMjUxIDAgMSAwIDAtMS41SDExLjc1QTUuNzM2IDUuNzM2IDAgMCAwIDcuOSA1SDUuNzQzWk0zLjU2IDcuMjVhLjI1LjI1IDAgMCAwLS40MjctLjE3N0wuODE0IDkuMzIzYS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMTkgMi4zMmEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3VjcuMjVaTTYuNSAxMC43NWEuMjUuMjUgMCAwIDAtLjQyNy0uMTc3bC0yLjMyIDIuMzE5YS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMiAyLjMxOWEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3di00LjQ4NloiLz48L3N2Zz4=" alt="merged #4601" height="28" /></a>
+      <a href="https://github.com/vllm-project/vllm/pull/47062"><img src="https://img.shields.io/badge/merged-%2347062-8957E5?style=flat-square&labelColor=21262d&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik01LjQ1IDUuMTU0QTQuMjUgNC4yNSAwIDAgMCA5LjI1IDcuNWgxLjM3OGEyLjI1MSAyLjI1MSAwIDEgMSAwIDEuNUg5LjI1QTUuNzM2IDUuNzM2IDAgMCAxIDUgNy45djMuMTU0YS4yNS4yNSAwIDAgMS0uNDI3LjE3N0wyLjI1NCA5LjQyN2EuMjUuMjUgMCAwIDEgMC0uMzU0bDIuMzE5LTIuMzJhLjI1LjI1IDAgMCAxIC40MjcuMTc3Wm0tLjcwNyAxLjQ0MmEyLjc1IDIuNzUgMCAwIDEgMC0zLjc5Mkw3LjI4MyAxLjA4YS4yNS4yNSAwIDAgMSAuNDI3LjE3N1Y0Ljc1QTQuMjUgNC4yNSAwIDAgMSAxMS43NSA5aDEuMzc4YTIuMjUxIDIuMjUxIDAgMSAwIDAtMS41SDExLjc1QTUuNzM2IDUuNzM2IDAgMCAwIDcuOSA1SDUuNzQzWk0zLjU2IDcuMjVhLjI1LjI1IDAgMCAwLS40MjctLjE3N0wuODE0IDkuMzIzYS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMTkgMi4zMmEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3VjcuMjVaTTYuNSAxMC43NWEuMjUuMjUgMCAwIDAtLjQyNy0uMTc3bC0yLjMyIDIuMzE5YS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMiAyLjMxOWEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3di00LjQ4NloiLz48L3N2Zz4=" alt="merged #47062" height="28" /></a>
     </td>
   </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/vllm-project/vllm/pull/44795"><strong>vllm-project/vllm</strong></a><br/>
+      <sub>Fixes the nightly Docker <code>ImportError: AnthropicOutputConfig</code></sub>
+    </td>
+    <td align="center" width="150">
+      <a href="https://github.com/vllm-project"><img src="https://img.shields.io/badge/vLLM-21262d?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC%2BaJAAAEVklEQVR4nOyaW3PbRBTH17Iu9kqW5CQOmUlru6EJl%2BFSCJdCn%2FkQvFJguAyfiufCA%2FDCAzwwAwzMpEwhtpNML%2BFiuylJ42BbvkgrRvaguHZWe1YWkTvj31vko939R9rd%2Fzkr0XVd9DgjxD2AaZkLiJu5gLiZC%2FifIYQRIJ7TQPj5p4O%2B3iZYcd962hVF6jhnUUDPRt9UyFe%2FulYfvf1stddbfGwE2AR9t%2BsN%2Fdjy%2FkwmyGqmgzEOuGVWBBCCfrhDvrzlPmieXizobU1NB984EwJ%2B%2BcO9sUVqjfHrl8x28L8%2FfgHlGvpsy7l7ePavRaONcTa4hdgE7B%2BiG1tOqUYN0KT%2BkkpSqVRwOzEIqDfQF7ecn%2B6iYB%2Bf1y1VVZmtnauAh230%2BU3y4x2XAHKQgtFWVY0ZRhdgt4nT5R0iEpKCpNN%2B%2FHaHfH8bmj9d9J7AE8wwqoDe0c2Tnz8BdnaK%2BqR29VPai1uqQkdvKr1cJhmwf%2FlQvZC8fE3Mvgjsz8fu243GxHI4oNlF9yirzSQFg72ADgkyc3jjQ2iHAHbqLF82Qj5jRSBAXnpNXHgZ3mswlTr0%2FUkg96LBcBA%2BDDuNL78L7JXJ7n1o5BLuLmhiMpmEBDMEyLmrovEctGc6zQ766xgaXARPAFBCgzc%2BgPZMp1znCF7zdgD2FjaELUBefnP6h1CpO8BISSCrejedZphQH1BKiZ%2F6GNgcDfgEWNUsDacEAZrrguLk3OtiNvxy9LCFJq0yjbwBskA%2BUKF4%2FTq80THKXDuAzjEBOATIuTdCbMxDyjXoDqAknVXdYVroUTjKKnjjI3jwKNtVaOTAwEEX0CEcAuSlV8WFV7haR8hb%2Fk860OC8zrEDDOErbOH197jiB%2B8PxwQo6FAL5MMnwHsI2Stct%2ByALRCW7BXdlWWZq33u0iKXOyIu2juABhf4358wAryNGbwc%2FXnkpQFA1gBFlEnCFHfhy1GFYwdwizwWyCeMgMFMeAkSWbkPnQC5dNdURUgOOUbI8jpef58Z4xC0B7ZAeYN7%2FRkSUoDnjszng2P2D5HVhzaYz%2FBZIJ%2FwBxxp1kPYrkIngMCTQ07cGxZl%2BZpoBuUJJbAFWtE6pqbALfQoUx0xBSxHnT66%2FQDaDqQKTWMqAV7GvLB55k97BwhSPxyyZrTCTYAIDvnw5XfOvA7fAVKivZKxuSz0KNMK8PIE84XJ67tgC3Qh01FxOpFIhBtABMeskxmz1UP7R9DbeVOwMSIQMMgTHsmYK3WOCVCAnQPQiOage6yK%2BlsVWkRRpX4ICz1KNALkxU3RPLWoJXgOCS7i0ojsU4P0f8na381HjkqDyfOnYGNEJkDx8oQrXDWsQRl0ZgT4M%2BHesQKMN5ReThckSZqm0ygFDJajzd9PoGXNotGG10BpRHxKKV66fuHAdmxQHvnMYpN5js0kEflnl61Wy7IsYHA2mwUeZNCIXsA5M%2BtfbDGZC4ibuYC4mQuIm38DAAD%2F%2F%2B19NjEX7JQMAAAAAElFTkSuQmCC&labelColor=21262d" alt="vLLM" height="28" /></a>
+    </td>
+    <td align="right" width="150">
+      <a href="https://github.com/vllm-project/vllm/pull/44795"><img src="https://img.shields.io/badge/merged-%2344795-8957E5?style=flat-square&labelColor=21262d&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik01LjQ1IDUuMTU0QTQuMjUgNC4yNSAwIDAgMCA5LjI1IDcuNWgxLjM3OGEyLjI1MSAyLjI1MSAwIDEgMSAwIDEuNUg5LjI1QTUuNzM2IDUuNzM2IDAgMCAxIDUgNy45djMuMTU0YS4yNS4yNSAwIDAgMS0uNDI3LjE3N0wyLjI1NCA5LjQyN2EuMjUuMjUgMCAwIDEgMC0uMzU0bDIuMzE5LTIuMzJhLjI1LjI1IDAgMCAxIC40MjcuMTc3Wm0tLjcwNyAxLjQ0MmEyLjc1IDIuNzUgMCAwIDEgMC0zLjc5Mkw3LjI4MyAxLjA4YS4yNS4yNSAwIDAgMSAuNDI3LjE3N1Y0Ljc1QTQuMjUgNC4yNSAwIDAgMSAxMS43NSA5aDEuMzc4YTIuMjUxIDIuMjUxIDAgMSAwIDAtMS41SDExLjc1QTUuNzM2IDUuNzM2IDAgMCAwIDcuOSA1SDUuNzQzWk0zLjU2IDcuMjVhLjI1LjI1IDAgMCAwLS40MjctLjE3N0wuODE0IDkuMzIzYS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMTkgMi4zMmEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3VjcuMjVaTTYuNSAxMC43NWEuMjUuMjUgMCAwIDAtLjQyNy0uMTc3bC0yLjMyIDIuMzE5YS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMiAyLjMxOWEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3di00LjQ4NloiLz48L3N2Zz4=" alt="merged #44795" height="28" /></a>
+    </td>
+  </tr>
+</table>
+
+<img src="https://img.shields.io/badge/DEEPSPEED-161B22?style=for-the-badge&labelColor=C084FC" height="26" alt="DeepSpeed" /> &nbsp;<sub><b>4 merged</b></sub>
+
+<table>
   <tr>
     <td>
       <a href="https://github.com/deepspeedai/DeepSpeed/pull/8519"><strong>deepspeedai/DeepSpeed</strong></a><br/>
@@ -255,19 +324,8 @@ Open to **research internships, PhD positions, and ML-systems / research-enginee
       <a href="https://github.com/deepspeedai/DeepSpeed/pull/8078"><img src="https://img.shields.io/badge/merged-%238078-8957E5?style=flat-square&labelColor=21262d&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik01LjQ1IDUuMTU0QTQuMjUgNC4yNSAwIDAgMCA5LjI1IDcuNWgxLjM3OGEyLjI1MSAyLjI1MSAwIDEgMSAwIDEuNUg5LjI1QTUuNzM2IDUuNzM2IDAgMCAxIDUgNy45djMuMTU0YS4yNS4yNSAwIDAgMS0uNDI3LjE3N0wyLjI1NCA5LjQyN2EuMjUuMjUgMCAwIDEgMC0uMzU0bDIuMzE5LTIuMzJhLjI1LjI1IDAgMCAxIC40MjcuMTc3Wm0tLjcwNyAxLjQ0MmEyLjc1IDIuNzUgMCAwIDEgMC0zLjc5Mkw3LjI4MyAxLjA4YS4yNS4yNSAwIDAgMSAuNDI3LjE3N1Y0Ljc1QTQuMjUgNC4yNSAwIDAgMSAxMS43NSA5aDEuMzc4YTIuMjUxIDIuMjUxIDAgMSAwIDAtMS41SDExLjc1QTUuNzM2IDUuNzM2IDAgMCAwIDcuOSA1SDUuNzQzWk0zLjU2IDcuMjVhLjI1LjI1IDAgMCAwLS40MjctLjE3N0wuODE0IDkuMzIzYS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMTkgMi4zMmEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3VjcuMjVaTTYuNSAxMC43NWEuMjUuMjUgMCAwIDAtLjQyNy0uMTc3bC0yLjMyIDIuMzE5YS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMiAyLjMxOWEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3di00LjQ4NloiLz48L3N2Zz4=" alt="merged #8078" height="28" /></a>
     </td>
   </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/vllm-project/vllm/pull/44795"><strong>vllm-project/vllm</strong></a><br/>
-      <sub>Fixes the nightly Docker <code>ImportError: AnthropicOutputConfig</code></sub>
-    </td>
-    <td align="center" width="150">
-      <a href="https://github.com/vllm-project"><img src="https://img.shields.io/badge/vLLM-21262d?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC%2BaJAAAEVklEQVR4nOyaW3PbRBTH17Iu9kqW5CQOmUlru6EJl%2BFSCJdCn%2FkQvFJguAyfiufCA%2FDCAzwwAwzMpEwhtpNML%2BFiuylJ42BbvkgrRvaguHZWe1YWkTvj31vko939R9rd%2Fzkr0XVd9DgjxD2AaZkLiJu5gLiZC%2FifIYQRIJ7TQPj5p4O%2B3iZYcd962hVF6jhnUUDPRt9UyFe%2FulYfvf1stddbfGwE2AR9t%2BsN%2Fdjy%2FkwmyGqmgzEOuGVWBBCCfrhDvrzlPmieXizobU1NB984EwJ%2B%2BcO9sUVqjfHrl8x28L8%2FfgHlGvpsy7l7ePavRaONcTa4hdgE7B%2BiG1tOqUYN0KT%2BkkpSqVRwOzEIqDfQF7ecn%2B6iYB%2Bf1y1VVZmtnauAh230%2BU3y4x2XAHKQgtFWVY0ZRhdgt4nT5R0iEpKCpNN%2B%2FHaHfH8bmj9d9J7AE8wwqoDe0c2Tnz8BdnaK%2BqR29VPai1uqQkdvKr1cJhmwf%2FlQvZC8fE3Mvgjsz8fu243GxHI4oNlF9yirzSQFg72ADgkyc3jjQ2iHAHbqLF82Qj5jRSBAXnpNXHgZ3mswlTr0%2FUkg96LBcBA%2BDDuNL78L7JXJ7n1o5BLuLmhiMpmEBDMEyLmrovEctGc6zQ766xgaXARPAFBCgzc%2BgPZMp1znCF7zdgD2FjaELUBefnP6h1CpO8BISSCrejedZphQH1BKiZ%2F6GNgcDfgEWNUsDacEAZrrguLk3OtiNvxy9LCFJq0yjbwBskA%2BUKF4%2FTq80THKXDuAzjEBOATIuTdCbMxDyjXoDqAknVXdYVroUTjKKnjjI3jwKNtVaOTAwEEX0CEcAuSlV8WFV7haR8hb%2Fk860OC8zrEDDOErbOH197jiB%2B8PxwQo6FAL5MMnwHsI2Stct%2ByALRCW7BXdlWWZq33u0iKXOyIu2juABhf4358wAryNGbwc%2FXnkpQFA1gBFlEnCFHfhy1GFYwdwizwWyCeMgMFMeAkSWbkPnQC5dNdURUgOOUbI8jpef58Z4xC0B7ZAeYN7%2FRkSUoDnjszng2P2D5HVhzaYz%2FBZIJ%2FwBxxp1kPYrkIngMCTQ07cGxZl%2BZpoBuUJJbAFWtE6pqbALfQoUx0xBSxHnT66%2FQDaDqQKTWMqAV7GvLB55k97BwhSPxyyZrTCTYAIDvnw5XfOvA7fAVKivZKxuSz0KNMK8PIE84XJ67tgC3Qh01FxOpFIhBtABMeskxmz1UP7R9DbeVOwMSIQMMgTHsmYK3WOCVCAnQPQiOage6yK%2BlsVWkRRpX4ICz1KNALkxU3RPLWoJXgOCS7i0ojsU4P0f8na381HjkqDyfOnYGNEJkDx8oQrXDWsQRl0ZgT4M%2BHesQKMN5ReThckSZqm0ygFDJajzd9PoGXNotGG10BpRHxKKV66fuHAdmxQHvnMYpN5js0kEflnl61Wy7IsYHA2mwUeZNCIXsA5M%2BtfbDGZC4ibuYC4mQuIm38DAAD%2F%2F%2B19NjEX7JQMAAAAAElFTkSuQmCC&labelColor=21262d" alt="vLLM" height="28" /></a>
-    </td>
-    <td align="right" width="150">
-      <a href="https://github.com/vllm-project/vllm/pull/44795"><img src="https://img.shields.io/badge/merged-%2344795-8957E5?style=flat-square&labelColor=21262d&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik01LjQ1IDUuMTU0QTQuMjUgNC4yNSAwIDAgMCA5LjI1IDcuNWgxLjM3OGEyLjI1MSAyLjI1MSAwIDEgMSAwIDEuNUg5LjI1QTUuNzM2IDUuNzM2IDAgMCAxIDUgNy45djMuMTU0YS4yNS4yNSAwIDAgMS0uNDI3LjE3N0wyLjI1NCA5LjQyN2EuMjUuMjUgMCAwIDEgMC0uMzU0bDIuMzE5LTIuMzJhLjI1LjI1IDAgMCAxIC40MjcuMTc3Wm0tLjcwNyAxLjQ0MmEyLjc1IDIuNzUgMCAwIDEgMC0zLjc5Mkw3LjI4MyAxLjA4YS4yNS4yNSAwIDAgMSAuNDI3LjE3N1Y0Ljc1QTQuMjUgNC4yNSAwIDAgMSAxMS43NSA5aDEuMzc4YTIuMjUxIDIuMjUxIDAgMSAwIDAtMS41SDExLjc1QTUuNzM2IDUuNzM2IDAgMCAwIDcuOSA1SDUuNzQzWk0zLjU2IDcuMjVhLjI1LjI1IDAgMCAwLS40MjctLjE3N0wuODE0IDkuMzIzYS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMTkgMi4zMmEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3VjcuMjVaTTYuNSAxMC43NWEuMjUuMjUgMCAwIDAtLjQyNy0uMTc3bC0yLjMyIDIuMzE5YS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMiAyLjMxOWEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3di00LjQ4NloiLz48L3N2Zz4=" alt="merged #44795" height="28" /></a>
-    </td>
-  </tr>
 </table>
+
 
 ---
 
