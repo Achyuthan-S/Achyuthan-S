@@ -46,6 +46,19 @@ Open to **research internships, PhD positions, and ML-systems / research-enginee
 
 <br/>
 
+<img src="https://img.shields.io/badge/SUBSYSTEMS-161B22?style=for-the-badge&labelColor=6B7A90" height="24" alt="SUBSYSTEMS" />
+<sub>Where the work lands, derived from the files each PR changed. Every merge counted once.</sub>
+
+| Area | Merged | Pull requests |
+| :--- | ---: | :--- |
+| **Model loading & weight tying** | `6` | #2998 #2896 #2805 #2732 #2601 #2709 |
+| **Checkpointing & tensor parallelism** | `4` | #8519 #8477 #8385 #4601 |
+| **Inference serving & KV cache** | `3` | #49226 #47379 #47062 |
+| **Distributed training** | `2` | #5972 #5743 |
+| **Build & runtime** | `2` | #8078 #44795 |
+
+<br/>
+
 <img src="https://img.shields.io/badge/FEATURED-161B22?style=for-the-badge&labelColor=3FB950" height="28" alt="FEATURED" />
 
 <sub>Four that show the range: a subsystem designed, a long review carried, a refactor consolidated, and a four-line fix caught.</sub>
