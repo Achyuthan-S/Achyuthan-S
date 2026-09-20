@@ -71,6 +71,7 @@
     "5972": "HFSDP deferred DP-outer grad reduction",
     "8385": "affine IR for universal checkpoint shards",
     "8477": "carry affine scale on the replicated map",
-    "8519": "emit affine maps from AutoTP layers"
+    "8519": "emit affine maps from AutoTP layers",
+    "8575": "describe GPTBigCode and Yuan shared-QK layouts"
   }
 }

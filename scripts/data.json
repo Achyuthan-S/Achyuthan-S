@@ -1,5 +1,5 @@
 {
-  "count": 17,
+  "count": 18,
   "orgs_line": "NVIDIA \u00b7 DeepSpeed \u00b7 vLLM",
   "repos": [
     "deepspeedai/DeepSpeed",
@@ -17,7 +17,7 @@
     {
       "name": "DeepSpeed",
       "colour": "repo",
-      "count": 4
+      "count": 5
     },
     {
       "name": "vLLM",
@@ -26,6 +26,12 @@
     }
   ],
   "recent": [
+    {
+      "number": 8575,
+      "short": "DeepSpeed",
+      "long": "deepspeedai/DeepSpeed",
+      "msg": "describe GPTBigCode and Yuan shared-QK layouts"
+    },
     {
       "number": 8519,
       "short": "DeepSpeed",
@@ -49,12 +55,6 @@
       "short": "Megatron",
       "long": "NVIDIA/Megatron-LM",
       "msg": "HFSDP deferred DP-outer grad reduction"
-    },
-    {
-      "number": 49226,
-      "short": "vLLM",
-      "long": "vllm-project/vllm",
-      "msg": "disable cross-layer KV blocks under quant"
     }
   ]
 }
