@@ -59,13 +59,13 @@ Open to **research internships, PhD positions, and ML-systems / research-enginee
 
 <img src="https://img.shields.io/badge/FEATURED-161B22?style=for-the-badge&labelColor=3FB950" height="28" alt="FEATURED" />
 
-<sub>Four that show the range: a subsystem designed, a long review carried, a refactor consolidated, and a four-line fix caught.</sub>
+<sub>Four that show the range: a subsystem designed, a parallelism strategy unblocked, layouts that used to be unconvertible, and a silent corruption caught.</sub>
 
 <table>
   <tr>
     <td>
       <a href="https://github.com/deepspeedai/DeepSpeed/pull/8385"><strong>deepspeedai/DeepSpeed</strong></a><br/>
-      <sub><b>Designed an affine IR</b> for tensor-parallel shard geometry, replacing regex-matched semantic categories with executable offsets and strides — 1,870 lines with a specification document, over a multi-reviewer design thread.</sub>
+      <sub><b>Introduced an affine IR</b> for tensor-parallel shard geometry — executable offsets and strides with a specification document. Landed deliberately inert: its tests had to reproduce the existing conversion arithmetic before anything depended on it.</sub>
     </td>
     <td align="center" width="150">
       <a href="https://github.com/deepspeedai"><img src="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/deepspeedai-badge.svg" alt="DeepSpeed" height="28" /></a>
@@ -77,7 +77,7 @@ Open to **research internships, PhD positions, and ML-systems / research-enginee
   <tr>
     <td>
       <a href="https://github.com/NVIDIA/Megatron-LM/pull/5743"><strong>NVIDIA/Megatron-LM</strong></a><br/>
-      <sub><b>Deepest review collaboration</b> — 94 comments across 17 commits to land HSDP deferred DP-outer gradient reduction in experimental Megatron-FSDP.</sub>
+      <sub><b>Unblocked HSDP in experimental Megatron-FSDP</b> — removed the placement guard that rejected <code>Partial</code> gradients outright, added the <code>Replicate→Partial</code> transition, and gated DP-outer reduction on the last microbatch so gradients accumulate instead of reducing every backward.</sub>
     </td>
     <td align="center" width="150">
       <a href="https://github.com/NVIDIA"><img src="https://img.shields.io/badge/NVIDIA-21262d?style=flat-square&logo=nvidia&logoColor=76B900&labelColor=21262d" alt="NVIDIA" height="28" /></a>
@@ -88,14 +88,14 @@ Open to **research internships, PhD positions, and ML-systems / research-enginee
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/NVIDIA-NeMo/Automodel/pull/2998"><strong>NVIDIA-NeMo/Automodel</strong></a><br/>
-      <sub><b>Consolidated six PRs of weight-tying work</b> into one per-class <code>TieSupport</code> guard across 63 files, so tied and untied checkpoints load correctly.</sub>
+      <a href="https://github.com/deepspeedai/DeepSpeed/pull/8575"><strong>deepspeedai/DeepSpeed</strong></a><br/>
+      <sub><b>Made three refused layouts convertible</b> — GPTBigCode and Yuan shared-QK now describe themselves through segment lists and block selections, geometry that a single partition dimension cannot express.</sub>
     </td>
     <td align="center" width="150">
-      <a href="https://github.com/NVIDIA"><img src="https://img.shields.io/badge/NVIDIA-21262d?style=flat-square&logo=nvidia&logoColor=76B900&labelColor=21262d" alt="NVIDIA" height="28" /></a>
+      <a href="https://github.com/deepspeedai"><img src="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/deepspeedai-badge.svg" alt="DeepSpeed" height="28" /></a>
     </td>
     <td align="right" width="150">
-      <a href="https://github.com/NVIDIA-NeMo/Automodel/pull/2998"><img src="https://img.shields.io/badge/merged-%232998-8957E5?style=flat-square&labelColor=21262d&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik01LjQ1IDUuMTU0QTQuMjUgNC4yNSAwIDAgMCA5LjI1IDcuNWgxLjM3OGEyLjI1MSAyLjI1MSAwIDEgMSAwIDEuNUg5LjI1QTUuNzM2IDUuNzM2IDAgMCAxIDUgNy45djMuMTU0YS4yNS4yNSAwIDAgMS0uNDI3LjE3N0wyLjI1NCA5LjQyN2EuMjUuMjUgMCAwIDEgMC0uMzU0bDIuMzE5LTIuMzJhLjI1LjI1IDAgMCAxIC40MjcuMTc3Wm0tLjcwNyAxLjQ0MmEyLjc1IDIuNzUgMCAwIDEgMC0zLjc5Mkw3LjI4MyAxLjA4YS4yNS4yNSAwIDAgMSAuNDI3LjE3N1Y0Ljc1QTQuMjUgNC4yNSAwIDAgMSAxMS43NSA5aDEuMzc4YTIuMjUxIDIuMjUxIDAgMSAwIDAtMS41SDExLjc1QTUuNzM2IDUuNzM2IDAgMCAwIDcuOSA1SDUuNzQzWk0zLjU2IDcuMjVhLjI1LjI1IDAgMCAwLS40MjctLjE3N0wuODE0IDkuMzIzYS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMTkgMi4zMmEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3VjcuMjVaTTYuNSAxMC43NWEuMjUuMjUgMCAwIDAtLjQyNy0uMTc3bC0yLjMyIDIuMzE5YS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMiAyLjMxOWEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3di00LjQ4NloiLz48L3N2Zz4=" alt="merged #2998" height="28" /></a>
+      <a href="https://github.com/deepspeedai/DeepSpeed/pull/8575"><img src="https://img.shields.io/badge/merged-%238575-8957E5?style=flat-square&labelColor=21262d&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik01LjQ1IDUuMTU0QTQuMjUgNC4yNSAwIDAgMCA5LjI1IDcuNWgxLjM3OGEyLjI1MSAyLjI1MSAwIDEgMSAwIDEuNUg5LjI1QTUuNzM2IDUuNzM2IDAgMCAxIDUgNy45djMuMTU0YS4yNS4yNSAwIDAgMS0uNDI3LjE3N0wyLjI1NCA5LjQyN2EuMjUuMjUgMCAwIDEgMC0uMzU0bDIuMzE5LTIuMzJhLjI1LjI1IDAgMCAxIC40MjcuMTc3Wm0tLjcwNyAxLjQ0MmEyLjc1IDIuNzUgMCAwIDEgMC0zLjc5Mkw3LjI4MyAxLjA4YS4yNS4yNSAwIDAgMSAuNDI3LjE3N1Y0Ljc1QTQuMjUgNC4yNSAwIDAgMSAxMS43NSA5aDEuMzc4YTIuMjUxIDIuMjUxIDAgMSAwIDAtMS41SDExLjc1QTUuNzM2IDUuNzM2IDAgMCAwIDcuOSA1SDUuNzQzWk0zLjU2IDcuMjVhLjI1LjI1IDAgMCAwLS40MjctLjE3N0wuODE0IDkuMzIzYS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMTkgMi4zMmEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3VjcuMjVaTTYuNSAxMC43NWEuMjUuMjUgMCAwIDAtLjQyNy0uMTc3bC0yLjMyIDIuMzE5YS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMiAyLjMxOWEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3di00LjQ4NloiLz48L3N2Zz4=" alt="merged #8575" height="28" /></a>
     </td>
   </tr>
   <tr>
@@ -326,7 +326,7 @@ Open to **research internships, PhD positions, and ML-systems / research-enginee
   <tr>
     <td>
       <a href="https://github.com/deepspeedai/DeepSpeed/pull/8385"><strong>deepspeedai/DeepSpeed</strong></a><br/>
-      <sub>Describes universal-checkpoint shards as affine maps — an executable IR for TP shard geometry, replacing regex-matched semantic categories</sub>
+      <sub>Introduces an affine IR for tensor-parallel shard geometry — executable offsets and strides with a specification document, landed inert so its tests had to reproduce the existing conversion arithmetic first</sub>
     </td>
     <td align="center" width="150">
       <a href="https://github.com/deepspeedai"><img src="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/deepspeedai-badge.svg" alt="DeepSpeed" height="28" /></a>
