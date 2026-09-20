@@ -1,7 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/term-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/term-light.svg">
-  <img alt="Terminal session: Achyuthan Sivasankar, research assistant at NYU, 13 PRs merged upstream" src="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/term-dark.svg" width="100%">
+  <img alt="Terminal session: Achyuthan Sivasankar, research assistant at NYU, 18 PRs merged upstream" src="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/term-dark.svg" width="100%">
 </picture>
 
 <div align="center">
@@ -21,7 +21,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/neofetch-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/neofetch-light.svg">
-  <img alt="neofetch: Choromanska Lab NYU, 13 PRs merged upstream, 2 preprints" src="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/neofetch-dark.svg" width="100%">
+  <img alt="neofetch: Choromanska Lab NYU, 18 PRs merged upstream, 2 preprints" src="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/neofetch-dark.svg" width="100%">
 </picture>
 
 Open to **research internships, PhD positions, and ML-systems / research-engineering roles** in efficient training, sparse MoE, and world models.
@@ -116,7 +116,7 @@ Open to **research internships, PhD positions, and ML-systems / research-enginee
 
 <img src="https://img.shields.io/badge/EVERY_MERGE-161B22?style=for-the-badge&labelColor=6B7A90" height="24" alt="EVERY MERGE" />
 
-<sub>All seventeen, newest first within each organisation.</sub>
+<sub>All eighteen, newest first within each organisation.</sub>
 
 <img src="https://img.shields.io/badge/NVIDIA-76B900" height="26" alt="NVIDIA" /> &nbsp;<sub><b>9 merged</b></sub>
 
@@ -284,7 +284,7 @@ Open to **research internships, PhD positions, and ML-systems / research-enginee
   </tr>
 </table>
 
-<img src="https://img.shields.io/badge/DEEPSPEED-C084FC" height="26" alt="DeepSpeed" /> &nbsp;<sub><b>4 merged</b></sub>
+<img src="https://img.shields.io/badge/DEEPSPEED-C084FC" height="26" alt="DeepSpeed" /> &nbsp;<sub><b>5 merged</b></sub>
 
 <table>
   <tr>
