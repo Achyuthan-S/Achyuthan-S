@@ -1,5 +1,5 @@
 {
-  "count": 18,
+  "count": 19,
   "orgs_line": "NVIDIA \u00b7 DeepSpeed \u00b7 vLLM",
   "repos": [
     "deepspeedai/DeepSpeed",
@@ -17,7 +17,7 @@
     {
       "name": "DeepSpeed",
       "colour": "repo",
-      "count": 5
+      "count": 6
     },
     {
       "name": "vLLM",
@@ -26,6 +26,12 @@
     }
   ],
   "recent": [
+    {
+      "number": 8622,
+      "short": "DeepSpeed",
+      "long": "deepspeedai/DeepSpeed",
+      "msg": "restore reads the map the layer published"
+    },
     {
       "number": 8575,
       "short": "DeepSpeed",
@@ -49,12 +55,6 @@
       "short": "DeepSpeed",
       "long": "deepspeedai/DeepSpeed",
       "msg": "affine IR for universal checkpoint shards"
-    },
-    {
-      "number": 5972,
-      "short": "Megatron",
-      "long": "NVIDIA/Megatron-LM",
-      "msg": "HFSDP deferred DP-outer grad reduction"
     }
   ]
 }
