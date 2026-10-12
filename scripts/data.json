@@ -1,14 +1,19 @@
 {
-  "count": 19,
-  "orgs_line": "NVIDIA \u00b7 DeepSpeed \u00b7 vLLM",
+  "count": 39,
+  "orgs_line": "ashik-ece \u00b7 NVIDIA \u00b7 DeepSpeed",
   "repos": [
+    "ashik-ece/AWS-NKI-Kernal-Optimizer",
     "deepspeedai/DeepSpeed",
     "NVIDIA/Megatron-LM",
     "vllm-project/vllm",
-    "NVIDIA-NeMo/Automodel",
-    "NVIDIA-NeMo/Megatron-Bridge"
+    "NVIDIA-NeMo/Automodel"
   ],
   "by_org": [
+    {
+      "name": "ashik-ece",
+      "colour": "out",
+      "count": 20
+    },
     {
       "name": "NVIDIA",
       "colour": "sign",
@@ -27,34 +32,34 @@
   ],
   "recent": [
     {
-      "number": 8622,
-      "short": "DeepSpeed",
-      "long": "deepspeedai/DeepSpeed",
-      "msg": "restore reads the map the layer published"
+      "number": 24,
+      "short": "AWS-NKI-Kernal-Optimizer",
+      "long": "ashik-ece/AWS-NKI-Kernal-Optimizer",
+      "msg": "Final results pulled at 17:50"
     },
     {
-      "number": 8575,
-      "short": "DeepSpeed",
-      "long": "deepspeedai/DeepSpeed",
-      "msg": "describe GPTBigCode and Yuan shared-QK layouts"
+      "number": 23,
+      "short": "AWS-NKI-Kernal-Optimizer",
+      "long": "ashik-ece/AWS-NKI-Kernal-Optimizer",
+      "msg": "Tools: assemble the final PR "
     },
     {
-      "number": 8519,
-      "short": "DeepSpeed",
-      "long": "deepspeedai/DeepSpeed",
-      "msg": "emit affine maps from AutoTP layers"
+      "number": 22,
+      "short": "AWS-NKI-Kernal-Optimizer",
+      "long": "ashik-ece/AWS-NKI-Kernal-Optimizer",
+      "msg": "Results: findings reproduced "
     },
     {
-      "number": 8477,
-      "short": "DeepSpeed",
-      "long": "deepspeedai/DeepSpeed",
-      "msg": "carry affine scale on the replicated map"
+      "number": 21,
+      "short": "AWS-NKI-Kernal-Optimizer",
+      "long": "ashik-ece/AWS-NKI-Kernal-Optimizer",
+      "msg": "Findings: repro kernels for e"
     },
     {
-      "number": 8385,
-      "short": "DeepSpeed",
-      "long": "deepspeedai/DeepSpeed",
-      "msg": "affine IR for universal checkpoint shards"
+      "number": 20,
+      "short": "AWS-NKI-Kernal-Optimizer",
+      "long": "ashik-ece/AWS-NKI-Kernal-Optimizer",
+      "msg": "Findings: repro kernels for e"
     }
   ]
 }
