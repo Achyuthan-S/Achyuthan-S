@@ -1,9 +1,9 @@
 {
-  "count": 39,
+  "count": 40,
   "orgs_line": "ashik-ece \u00b7 NVIDIA \u00b7 DeepSpeed",
   "repos": [
-    "ashik-ece/AWS-NKI-Kernal-Optimizer",
     "deepspeedai/DeepSpeed",
+    "ashik-ece/AWS-NKI-Kernal-Optimizer",
     "NVIDIA/Megatron-LM",
     "vllm-project/vllm",
     "NVIDIA-NeMo/Automodel"
@@ -22,7 +22,7 @@
     {
       "name": "DeepSpeed",
       "colour": "repo",
-      "count": 6
+      "count": 7
     },
     {
       "name": "vLLM",
@@ -31,6 +31,12 @@
     }
   ],
   "recent": [
+    {
+      "number": 8706,
+      "short": "DeepSpeed",
+      "long": "deepspeedai/DeepSpeed",
+      "msg": "Describe the CodeGen fused-QK"
+    },
     {
       "number": 24,
       "short": "AWS-NKI-Kernal-Optimizer",
@@ -51,12 +57,6 @@
     },
     {
       "number": 21,
-      "short": "AWS-NKI-Kernal-Optimizer",
-      "long": "ashik-ece/AWS-NKI-Kernal-Optimizer",
-      "msg": "Findings: repro kernels for e"
-    },
-    {
-      "number": 20,
       "short": "AWS-NKI-Kernal-Optimizer",
       "long": "ashik-ece/AWS-NKI-Kernal-Optimizer",
       "msg": "Findings: repro kernels for e"
