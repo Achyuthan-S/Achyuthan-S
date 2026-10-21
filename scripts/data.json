@@ -1,19 +1,14 @@
 {
-  "count": 40,
-  "orgs_line": "ashik-ece \u00b7 NVIDIA \u00b7 DeepSpeed",
+  "count": 21,
+  "orgs_line": "NVIDIA \u00b7 DeepSpeed \u00b7 vLLM",
   "repos": [
     "deepspeedai/DeepSpeed",
-    "ashik-ece/AWS-NKI-Kernal-Optimizer",
     "NVIDIA/Megatron-LM",
     "vllm-project/vllm",
-    "NVIDIA-NeMo/Automodel"
+    "NVIDIA-NeMo/Automodel",
+    "NVIDIA-NeMo/Megatron-Bridge"
   ],
   "by_org": [
-    {
-      "name": "ashik-ece",
-      "colour": "out",
-      "count": 20
-    },
     {
       "name": "NVIDIA",
       "colour": "sign",
@@ -22,7 +17,7 @@
     {
       "name": "DeepSpeed",
       "colour": "repo",
-      "count": 7
+      "count": 8
     },
     {
       "name": "vLLM",
@@ -32,34 +27,34 @@
   ],
   "recent": [
     {
+      "number": 8857,
+      "short": "DeepSpeed",
+      "long": "deepspeedai/DeepSpeed",
+      "msg": "keep Yuan o_proj bias whole, describe replicated"
+    },
+    {
       "number": 8706,
       "short": "DeepSpeed",
       "long": "deepspeedai/DeepSpeed",
       "msg": "Describe the CodeGen fused-QK"
     },
     {
-      "number": 24,
-      "short": "AWS-NKI-Kernal-Optimizer",
-      "long": "ashik-ece/AWS-NKI-Kernal-Optimizer",
-      "msg": "Final results pulled at 17:50"
+      "number": 8622,
+      "short": "DeepSpeed",
+      "long": "deepspeedai/DeepSpeed",
+      "msg": "restore reads the map the layer published"
     },
     {
-      "number": 23,
-      "short": "AWS-NKI-Kernal-Optimizer",
-      "long": "ashik-ece/AWS-NKI-Kernal-Optimizer",
-      "msg": "Tools: assemble the final PR "
+      "number": 8575,
+      "short": "DeepSpeed",
+      "long": "deepspeedai/DeepSpeed",
+      "msg": "describe GPTBigCode and Yuan shared-QK layouts"
     },
     {
-      "number": 22,
-      "short": "AWS-NKI-Kernal-Optimizer",
-      "long": "ashik-ece/AWS-NKI-Kernal-Optimizer",
-      "msg": "Results: findings reproduced "
-    },
-    {
-      "number": 21,
-      "short": "AWS-NKI-Kernal-Optimizer",
-      "long": "ashik-ece/AWS-NKI-Kernal-Optimizer",
-      "msg": "Findings: repro kernels for e"
+      "number": 8519,
+      "short": "DeepSpeed",
+      "long": "deepspeedai/DeepSpeed",
+      "msg": "emit affine maps from AutoTP layers"
     }
   ]
 }

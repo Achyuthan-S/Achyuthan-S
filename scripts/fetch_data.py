@@ -50,11 +50,13 @@ def main():
         return 0 if DATA_PATH.exists() else 1
 
     excluded = {(e["repo"], e["number"]) for e in CFG["exclude"]}
+    # an entry with number "*" excludes every PR in that repository
+    excluded_repos = {e["repo"] for e in CFG["exclude"] if e["number"] == "*"}
     prs = []
     for it in items:
         repo = "/".join(it["repository_url"].split("/")[-2:])
         owner = repo.split("/")[0]
-        if owner == USER or (repo, it["number"]) in excluded:
+        if owner == USER or repo in excluded_repos or (repo, it["number"]) in excluded:
             continue                       # own repos and opted-out PRs never count
         prs.append(dict(repo=repo, number=it["number"], closed_at=it["closed_at"],
                         title=it["title"]))
