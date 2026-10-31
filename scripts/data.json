@@ -1,6 +1,6 @@
 {
-  "count": 21,
-  "orgs_line": "NVIDIA \u00b7 DeepSpeed \u00b7 vLLM",
+  "count": 23,
+  "orgs_line": "DeepSpeed \u00b7 NVIDIA \u00b7 vLLM",
   "repos": [
     "deepspeedai/DeepSpeed",
     "NVIDIA/Megatron-LM",
@@ -10,14 +10,14 @@
   ],
   "by_org": [
     {
+      "name": "DeepSpeed",
+      "colour": "repo",
+      "count": 10
+    },
+    {
       "name": "NVIDIA",
       "colour": "sign",
       "count": 9
-    },
-    {
-      "name": "DeepSpeed",
-      "colour": "repo",
-      "count": 8
     },
     {
       "name": "vLLM",
@@ -26,6 +26,18 @@
     }
   ],
   "recent": [
+    {
+      "number": 8928,
+      "short": "DeepSpeed",
+      "long": "deepspeedai/DeepSpeed",
+      "msg": "sum GPTBigCode shared KV grad across TP ranks"
+    },
+    {
+      "number": 8922,
+      "short": "DeepSpeed",
+      "long": "deepspeedai/DeepSpeed",
+      "msg": "check where column-split pieces write in a shard"
+    },
     {
       "number": 8857,
       "short": "DeepSpeed",
@@ -36,25 +48,13 @@
       "number": 8706,
       "short": "DeepSpeed",
       "long": "deepspeedai/DeepSpeed",
-      "msg": "Describe the CodeGen fused-QK"
+      "msg": "describe CodeGen fused-QKV as a block selection"
     },
     {
       "number": 8622,
       "short": "DeepSpeed",
       "long": "deepspeedai/DeepSpeed",
       "msg": "restore reads the map the layer published"
-    },
-    {
-      "number": 8575,
-      "short": "DeepSpeed",
-      "long": "deepspeedai/DeepSpeed",
-      "msg": "describe GPTBigCode and Yuan shared-QK layouts"
-    },
-    {
-      "number": 8519,
-      "short": "DeepSpeed",
-      "long": "deepspeedai/DeepSpeed",
-      "msg": "emit affine maps from AutoTP layers"
     }
   ]
 }
