@@ -1,7 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/term-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/term-light.svg">
-  <img alt="Terminal session: Achyuthan Sivasankar, research assistant at NYU, 23 PRs merged upstream" src="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/term-dark.svg" width="100%">
+  <img alt="Terminal session: Achyuthan Sivasankar, research assistant at NYU, 24 PRs merged upstream" src="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/term-dark.svg" width="100%">
 </picture>
 
 <div align="center">
@@ -21,7 +21,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/neofetch-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/neofetch-light.svg">
-  <img alt="neofetch: Choromanska Lab NYU, 23 PRs merged upstream, 2 preprints" src="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/neofetch-dark.svg" width="100%">
+  <img alt="neofetch: Choromanska Lab NYU, 24 PRs merged upstream, 2 preprints" src="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/neofetch-dark.svg" width="100%">
 </picture>
 
 Open to **research internships, PhD positions, and ML-systems / research-engineering roles** in efficient training, sparse MoE, and world models.
@@ -37,7 +37,7 @@ Open to **research internships, PhD positions, and ML-systems / research-enginee
 </picture>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/PRs_MERGED-23%2B-3FB950?style=for-the-badge&labelColor=0D1117" height="30" alt="23+ PRs merged" />
+  <img src="https://img.shields.io/badge/PRs_MERGED-24%2B-3FB950?style=for-the-badge&labelColor=0D1117" height="30" alt="24+ PRs merged" />
   &nbsp;
   <img src="https://img.shields.io/badge/UPSTREAM_ORGS-4-58A6FF?style=for-the-badge&labelColor=0D1117" height="30" alt="4 upstream orgs" />
   &nbsp;
@@ -50,9 +50,9 @@ Open to **research internships, PhD positions, and ML-systems / research-enginee
 <sub>The stack top to bottom, derived from the files each PR changed. Every merge counted once.</sub>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/stack-v6-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/stack-v6-light.svg">
-  <img alt="The LLM stack top to bottom, with the organisations each layer landed in" src="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/stack-v6-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/stack-v7-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/stack-v7-light.svg">
+  <img alt="The LLM stack top to bottom, with the organisations each layer landed in" src="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/stack-v7-dark.svg" width="100%">
 </picture>
 
 <br/>
@@ -116,11 +116,23 @@ Open to **research internships, PhD positions, and ML-systems / research-enginee
 
 <img src="https://img.shields.io/badge/EVERY_MERGE-161B22?style=for-the-badge&labelColor=6B7A90" height="24" alt="EVERY MERGE" />
 
-<sub>All twenty-three, newest first within each organisation.</sub>
+<sub>All twenty-four, newest first within each organisation.</sub>
 
-<img src="https://img.shields.io/badge/NVIDIA-76B900" height="26" alt="NVIDIA" /> &nbsp;<sub><b>9 merged</b></sub>
+<img src="https://img.shields.io/badge/NVIDIA-76B900" height="26" alt="NVIDIA" /> &nbsp;<sub><b>10 merged</b></sub>
 
 <table>
+  <tr>
+    <td>
+      <a href="https://github.com/NVIDIA/Megatron-LM/pull/6973"><strong>NVIDIA/Megatron-LM</strong></a><br/>
+      <sub>Overlaps the MFSDP v2 DP-outer gradient reduction on its own CUDA stream &mdash; NVIDIA measured +2% throughput (591.5 &rarr; 602.8 TFLOPS/GPU) on DeepSeek-V4-Flash across 128 GB200s; five approvals over 80 review comments</sub>
+    </td>
+    <td align="center" width="150">
+      <a href="https://github.com/NVIDIA"><img src="https://img.shields.io/badge/NVIDIA-21262d?style=flat-square&logo=nvidia&logoColor=76B900&labelColor=21262d" alt="NVIDIA" height="28" /></a>
+    </td>
+    <td align="right" width="150">
+      <a href="https://github.com/NVIDIA/Megatron-LM/pull/6973"><img src="https://img.shields.io/badge/merged-%236973-8957E5?style=flat-square&labelColor=21262d&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik01LjQ1IDUuMTU0QTQuMjUgNC4yNSAwIDAgMCA5LjI1IDcuNWgxLjM3OGEyLjI1MSAyLjI1MSAwIDEgMSAwIDEuNUg5LjI1QTUuNzM2IDUuNzM2IDAgMCAxIDUgNy45djMuMTU0YS4yNS4yNSAwIDAgMS0uNDI3LjE3N0wyLjI1NCA5LjQyN2EuMjUuMjUgMCAwIDEgMC0uMzU0bDIuMzE5LTIuMzJhLjI1LjI1IDAgMCAxIC40MjcuMTc3Wm0tLjcwNyAxLjQ0MmEyLjc1IDIuNzUgMCAwIDEgMC0zLjc5Mkw3LjI4MyAxLjA4YS4yNS4yNSAwIDAgMSAuNDI3LjE3N1Y0Ljc1QTQuMjUgNC4yNSAwIDAgMSAxMS43NSA5aDEuMzc4YTIuMjUxIDIuMjUxIDAgMSAwIDAtMS41SDExLjc1QTUuNzM2IDUuNzM2IDAgMCAwIDcuOSA1SDUuNzQzWk0zLjU2IDcuMjVhLjI1LjI1IDAgMCAwLS40MjctLjE3N0wuODE0IDkuMzIzYS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMTkgMi4zMmEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3VjcuMjVaTTYuNSAxMC43NWEuMjUuMjUgMCAwIDAtLjQyNy0uMTc3bC0yLjMyIDIuMzE5YS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMiAyLjMxOWEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3di00LjQ4NloiLz48L3N2Zz4=" alt="merged #6973" height="28" /></a>
+    </td>
+  </tr>
   <tr>
     <td>
       <a href="https://github.com/NVIDIA/Megatron-LM/pull/5972"><strong>NVIDIA/Megatron-LM</strong></a><br/>
@@ -207,18 +219,6 @@ Open to **research internships, PhD positions, and ML-systems / research-enginee
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/NVIDIA-NeMo/Automodel/pull/2601"><strong>NVIDIA-NeMo/Automodel</strong></a><br/>
-      <sub>Re-ties <code>lm_head</code> to the active <code>embed_tokens</code> on the Gemma4 MoE path</sub>
-    </td>
-    <td align="center" width="150">
-      <a href="https://github.com/NVIDIA"><img src="https://img.shields.io/badge/NVIDIA-21262d?style=flat-square&logo=nvidia&logoColor=76B900&labelColor=21262d" alt="NVIDIA" height="28" /></a>
-    </td>
-    <td align="right" width="150">
-      <a href="https://github.com/NVIDIA-NeMo/Automodel/pull/2601"><img src="https://img.shields.io/badge/merged-%232601-8957E5?style=flat-square&labelColor=21262d&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik01LjQ1IDUuMTU0QTQuMjUgNC4yNSAwIDAgMCA5LjI1IDcuNWgxLjM3OGEyLjI1MSAyLjI1MSAwIDEgMSAwIDEuNUg5LjI1QTUuNzM2IDUuNzM2IDAgMCAxIDUgNy45djMuMTU0YS4yNS4yNSAwIDAgMS0uNDI3LjE3N0wyLjI1NCA5LjQyN2EuMjUuMjUgMCAwIDEgMC0uMzU0bDIuMzE5LTIuMzJhLjI1LjI1IDAgMCAxIC40MjcuMTc3Wm0tLjcwNyAxLjQ0MmEyLjc1IDIuNzUgMCAwIDEgMC0zLjc5Mkw3LjI4MyAxLjA4YS4yNS4yNSAwIDAgMSAuNDI3LjE3N1Y0Ljc1QTQuMjUgNC4yNSAwIDAgMSAxMS43NSA5aDEuMzc4YTIuMjUxIDIuMjUxIDAgMSAwIDAtMS41SDExLjc1QTUuNzM2IDUuNzM2IDAgMCAwIDcuOSA1SDUuNzQzWk0zLjU2IDcuMjVhLjI1LjI1IDAgMCAwLS40MjctLjE3N0wuODE0IDkuMzIzYS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMTkgMi4zMmEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3VjcuMjVaTTYuNSAxMC43NWEuMjUuMjUgMCAwIDAtLjQyNy0uMTc3bC0yLjMyIDIuMzE5YS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMiAyLjMxOWEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3di00LjQ4NloiLz48L3N2Zz4=" alt="merged #2601" height="28" /></a>
-    </td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://github.com/NVIDIA-NeMo/Automodel/pull/2709"><strong>NVIDIA-NeMo/Automodel</strong></a><br/>
       <sub>Cherry-picks #2601 into <code>r0.5.0</code></sub>
     </td>
@@ -227,6 +227,18 @@ Open to **research internships, PhD positions, and ML-systems / research-enginee
     </td>
     <td align="right" width="150">
       <a href="https://github.com/NVIDIA-NeMo/Automodel/pull/2709"><img src="https://img.shields.io/badge/merged-%232709-8957E5?style=flat-square&labelColor=21262d&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik01LjQ1IDUuMTU0QTQuMjUgNC4yNSAwIDAgMCA5LjI1IDcuNWgxLjM3OGEyLjI1MSAyLjI1MSAwIDEgMSAwIDEuNUg5LjI1QTUuNzM2IDUuNzM2IDAgMCAxIDUgNy45djMuMTU0YS4yNS4yNSAwIDAgMS0uNDI3LjE3N0wyLjI1NCA5LjQyN2EuMjUuMjUgMCAwIDEgMC0uMzU0bDIuMzE5LTIuMzJhLjI1LjI1IDAgMCAxIC40MjcuMTc3Wm0tLjcwNyAxLjQ0MmEyLjc1IDIuNzUgMCAwIDEgMC0zLjc5Mkw3LjI4MyAxLjA4YS4yNS4yNSAwIDAgMSAuNDI3LjE3N1Y0Ljc1QTQuMjUgNC4yNSAwIDAgMSAxMS43NSA5aDEuMzc4YTIuMjUxIDIuMjUxIDAgMSAwIDAtMS41SDExLjc1QTUuNzM2IDUuNzM2IDAgMCAwIDcuOSA1SDUuNzQzWk0zLjU2IDcuMjVhLjI1LjI1IDAgMCAwLS40MjctLjE3N0wuODE0IDkuMzIzYS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMTkgMi4zMmEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3VjcuMjVaTTYuNSAxMC43NWEuMjUuMjUgMCAwIDAtLjQyNy0uMTc3bC0yLjMyIDIuMzE5YS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMiAyLjMxOWEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3di00LjQ4NloiLz48L3N2Zz4=" alt="merged #2709" height="28" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/NVIDIA-NeMo/Automodel/pull/2601"><strong>NVIDIA-NeMo/Automodel</strong></a><br/>
+      <sub>Re-ties <code>lm_head</code> to the active <code>embed_tokens</code> on the Gemma4 MoE path</sub>
+    </td>
+    <td align="center" width="150">
+      <a href="https://github.com/NVIDIA"><img src="https://img.shields.io/badge/NVIDIA-21262d?style=flat-square&logo=nvidia&logoColor=76B900&labelColor=21262d" alt="NVIDIA" height="28" /></a>
+    </td>
+    <td align="right" width="150">
+      <a href="https://github.com/NVIDIA-NeMo/Automodel/pull/2601"><img src="https://img.shields.io/badge/merged-%232601-8957E5?style=flat-square&labelColor=21262d&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik01LjQ1IDUuMTU0QTQuMjUgNC4yNSAwIDAgMCA5LjI1IDcuNWgxLjM3OGEyLjI1MSAyLjI1MSAwIDEgMSAwIDEuNUg5LjI1QTUuNzM2IDUuNzM2IDAgMCAxIDUgNy45djMuMTU0YS4yNS4yNSAwIDAgMS0uNDI3LjE3N0wyLjI1NCA5LjQyN2EuMjUuMjUgMCAwIDEgMC0uMzU0bDIuMzE5LTIuMzJhLjI1LjI1IDAgMCAxIC40MjcuMTc3Wm0tLjcwNyAxLjQ0MmEyLjc1IDIuNzUgMCAwIDEgMC0zLjc5Mkw3LjI4MyAxLjA4YS4yNS4yNSAwIDAgMSAuNDI3LjE3N1Y0Ljc1QTQuMjUgNC4yNSAwIDAgMSAxMS43NSA5aDEuMzc4YTIuMjUxIDIuMjUxIDAgMSAwIDAtMS41SDExLjc1QTUuNzM2IDUuNzM2IDAgMCAwIDcuOSA1SDUuNzQzWk0zLjU2IDcuMjVhLjI1LjI1IDAgMCAwLS40MjctLjE3N0wuODE0IDkuMzIzYS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMTkgMi4zMmEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3VjcuMjVaTTYuNSAxMC43NWEuMjUuMjUgMCAwIDAtLjQyNy0uMTc3bC0yLjMyIDIuMzE5YS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMiAyLjMxOWEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3di00LjQ4NloiLz48L3N2Zz4=" alt="merged #2601" height="28" /></a>
     </td>
   </tr>
 </table>
@@ -302,7 +314,7 @@ Open to **research internships, PhD positions, and ML-systems / research-enginee
   <tr>
     <td>
       <a href="https://github.com/deepspeedai/DeepSpeed/pull/8922"><strong>deepspeedai/DeepSpeed</strong></a><br/>
-      <sub>Checks where column-split pieces write in a shard &mdash; overlapping or out-of-bounds destinations passed every check before, leaving shard columns holding uninitialised memory</sub>
+      <sub>Checks where column-split pieces write in a shard &mdash; overlapping or out-of-bounds destinations could pass every check before, and could leave shard columns holding uninitialised memory</sub>
     </td>
     <td align="center" width="150">
       <a href="https://github.com/deepspeedai"><img src="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/deepspeedai-badge.svg" alt="DeepSpeed" height="28" /></a>

@@ -1,9 +1,9 @@
 {
-  "count": 23,
+  "count": 24,
   "orgs_line": "DeepSpeed \u00b7 NVIDIA \u00b7 vLLM",
   "repos": [
-    "deepspeedai/DeepSpeed",
     "NVIDIA/Megatron-LM",
+    "deepspeedai/DeepSpeed",
     "vllm-project/vllm",
     "NVIDIA-NeMo/Automodel",
     "NVIDIA-NeMo/Megatron-Bridge"
@@ -17,7 +17,7 @@
     {
       "name": "NVIDIA",
       "colour": "sign",
-      "count": 9
+      "count": 10
     },
     {
       "name": "vLLM",
@@ -26,6 +26,12 @@
     }
   ],
   "recent": [
+    {
+      "number": 6973,
+      "short": "Megatron",
+      "long": "NVIDIA/Megatron-LM",
+      "msg": "overlap DP-outer grad reduction on its own stream"
+    },
     {
       "number": 8928,
       "short": "DeepSpeed",
@@ -49,12 +55,6 @@
       "short": "DeepSpeed",
       "long": "deepspeedai/DeepSpeed",
       "msg": "describe CodeGen fused-QKV as a block selection"
-    },
-    {
-      "number": 8622,
-      "short": "DeepSpeed",
-      "long": "deepspeedai/DeepSpeed",
-      "msg": "restore reads the map the layer published"
     }
   ]
 }

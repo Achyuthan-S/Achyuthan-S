@@ -28,6 +28,11 @@
             "repo": "ashik-ece/AWS-NKI-Kernal-Optimizer",
             "number": "*",
             "why": "20 PRs merged into a collaborator's project repo on a single day (2026-10-10). The section claims contributions to the frontier LLM training and inference stack; these are internal working PRs on a separate project. Remove this entry to include them."
+        },
+        {
+            "repo": "software-engineering-I-12-1/DegreePath",
+            "number": "*",
+            "why": "Coursework repo in a university course organisation (Software Engineering I, section 12-1), created 2026-10-24, no stars or forks. The OSS section claims merged upstream work in large training and inference frameworks; a class project is not that. Remove this entry to include it."
         }
     ],
     "org_map": {
@@ -82,6 +87,7 @@
         "8857": "keep Yuan o_proj bias whole, describe replicated",
         "8928": "sum GPTBigCode shared KV grad across TP ranks",
         "8922": "check where column-split pieces write in a shard",
-        "8706": "describe CodeGen fused-QKV as a block selection"
+        "8706": "describe CodeGen fused-QKV as a block selection",
+        "6973": "overlap DP-outer grad reduction on its own stream"
     }
 }
