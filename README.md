@@ -59,7 +59,7 @@ Open to **research internships, PhD positions, and ML-systems / research-enginee
 
 <img src="https://img.shields.io/badge/FEATURED-161B22?style=for-the-badge&labelColor=3FB950" height="28" alt="FEATURED" />
 
-<sub>Four that show the range: a subsystem designed, a parallelism strategy unblocked, layouts that used to be unconvertible, and a silent corruption caught.</sub>
+<sub>Four that show the range: a subsystem designed, a measured speedup at scale, layouts that used to be unconvertible, and a silent corruption caught.</sub>
 
 <table>
   <tr>
@@ -76,14 +76,14 @@ Open to **research internships, PhD positions, and ML-systems / research-enginee
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/NVIDIA/Megatron-LM/pull/5743"><strong>NVIDIA/Megatron-LM</strong></a><br/>
-      <sub><b>Unblocked HSDP in experimental Megatron-FSDP</b> — removed the placement guard that rejected <code>Partial</code> gradients outright, added the <code>Replicate→Partial</code> transition, and gated DP-outer reduction on the last microbatch so gradients accumulate instead of reducing every backward.</sub>
+      <a href="https://github.com/NVIDIA/Megatron-LM/pull/6973"><strong>NVIDIA/Megatron-LM</strong></a><br/>
+      <sub><b>Overlaps the MFSDP v2 DP-outer gradient reduction on its own CUDA stream</b> (opt-in). NVIDIA measured ~2% (591.5 → 602.8 TFLOPS/GPU) on DeepSeek-V4-Flash across 128 GB200s; the gain depends on configuration. Five approvals including Jared Casper; finalised with <a href="https://github.com/wujingyue">@wujingyue</a>. Series: <a href="https://github.com/NVIDIA/Megatron-LM/pull/5743">#5743</a> → <a href="https://github.com/NVIDIA/Megatron-LM/pull/5972">#5972</a> → #6973.</sub>
     </td>
     <td align="center" width="150">
       <a href="https://github.com/NVIDIA"><img src="https://img.shields.io/badge/NVIDIA-21262d?style=flat-square&logo=nvidia&logoColor=76B900&labelColor=21262d" alt="NVIDIA" height="28" /></a>
     </td>
     <td align="right" width="150">
-      <a href="https://github.com/NVIDIA/Megatron-LM/pull/5743"><img src="https://img.shields.io/badge/merged-%235743-8957E5?style=flat-square&labelColor=21262d&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik01LjQ1IDUuMTU0QTQuMjUgNC4yNSAwIDAgMCA5LjI1IDcuNWgxLjM3OGEyLjI1MSAyLjI1MSAwIDEgMSAwIDEuNUg5LjI1QTUuNzM2IDUuNzM2IDAgMCAxIDUgNy45djMuMTU0YS4yNS4yNSAwIDAgMS0uNDI3LjE3N0wyLjI1NCA5LjQyN2EuMjUuMjUgMCAwIDEgMC0uMzU0bDIuMzE5LTIuMzJhLjI1LjI1IDAgMCAxIC40MjcuMTc3Wm0tLjcwNyAxLjQ0MmEyLjc1IDIuNzUgMCAwIDEgMC0zLjc5Mkw3LjI4MyAxLjA4YS4yNS4yNSAwIDAgMSAuNDI3LjE3N1Y0Ljc1QTQuMjUgNC4yNSAwIDAgMSAxMS43NSA5aDEuMzc4YTIuMjUxIDIuMjUxIDAgMSAwIDAtMS41SDExLjc1QTUuNzM2IDUuNzM2IDAgMCAwIDcuOSA1SDUuNzQzWk0zLjU2IDcuMjVhLjI1LjI1IDAgMCAwLS40MjctLjE3N0wuODE0IDkuMzIzYS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMTkgMi4zMmEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3VjcuMjVaTTYuNSAxMC43NWEuMjUuMjUgMCAwIDAtLjQyNy0uMTc3bC0yLjMyIDIuMzE5YS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMiAyLjMxOWEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3di00LjQ4NloiLz48L3N2Zz4=" alt="merged #5743" height="28" /></a>
+      <a href="https://github.com/NVIDIA/Megatron-LM/pull/6973"><img src="https://img.shields.io/badge/merged-%236973-8957E5?style=flat-square&labelColor=21262d&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik01LjQ1IDUuMTU0QTQuMjUgNC4yNSAwIDAgMCA5LjI1IDcuNWgxLjM3OGEyLjI1MSAyLjI1MSAwIDEgMSAwIDEuNUg5LjI1QTUuNzM2IDUuNzM2IDAgMCAxIDUgNy45djMuMTU0YS4yNS4yNSAwIDAgMS0uNDI3LjE3N0wyLjI1NCA5LjQyN2EuMjUuMjUgMCAwIDEgMC0uMzU0bDIuMzE5LTIuMzJhLjI1LjI1IDAgMCAxIC40MjcuMTc3Wm0tLjcwNyAxLjQ0MmEyLjc1IDIuNzUgMCAwIDEgMC0zLjc5Mkw3LjI4MyAxLjA4YS4yNS4yNSAwIDAgMSAuNDI3LjE3N1Y0Ljc1QTQuMjUgNC4yNSAwIDAgMSAxMS43NSA5aDEuMzc4YTIuMjUxIDIuMjUxIDAgMSAwIDAtMS41SDExLjc1QTUuNzM2IDUuNzM2IDAgMCAwIDcuOSA1SDUuNzQzWk0zLjU2IDcuMjVhLjI1LjI1IDAgMCAwLS40MjctLjE3N0wuODE0IDkuMzIzYS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMTkgMi4zMmEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3VjcuMjVaTTYuNSAxMC43NWEuMjUuMjUgMCAwIDAtLjQyNy0uMTc3bC0yLjMyIDIuMzE5YS4yNS4yNSAwIDAgMCAwIC4zNTRsMi4zMiAyLjMxOWEuMjUuMjUgMCAwIDAgLjQyNy0uMTc3di00LjQ4NloiLz48L3N2Zz4=" alt="merged #6973" height="28" /></a>
     </td>
   </tr>
   <tr>
@@ -124,7 +124,7 @@ Open to **research internships, PhD positions, and ML-systems / research-enginee
   <tr>
     <td>
       <a href="https://github.com/NVIDIA/Megatron-LM/pull/6973"><strong>NVIDIA/Megatron-LM</strong></a><br/>
-      <sub>Overlaps the MFSDP v2 DP-outer gradient reduction on its own CUDA stream &mdash; NVIDIA measured +2% throughput (591.5 &rarr; 602.8 TFLOPS/GPU) on DeepSeek-V4-Flash across 128 GB200s; five approvals over 80 review comments</sub>
+      <sub>Overlaps the MFSDP v2 DP-outer gradient reduction on its own CUDA stream (opt-in). NVIDIA measured ~2% (591.5 &rarr; 602.8 TFLOPS/GPU) on DeepSeek-V4-Flash across 128 GB200s; the gain depends on configuration. Five approvals including Jared Casper; finalised with <a href="https://github.com/wujingyue">@wujingyue</a>.</sub>
     </td>
     <td align="center" width="150">
       <a href="https://github.com/NVIDIA"><img src="https://img.shields.io/badge/NVIDIA-21262d?style=flat-square&logo=nvidia&logoColor=76B900&labelColor=21262d" alt="NVIDIA" height="28" /></a>
@@ -490,4 +490,4 @@ Open to **research internships, PhD positions, and ML-systems / research-enginee
 
 ## `$ ./connect`
 
-📫 [as21154@nyu.edu](mailto:as21154@nyu.edu) &nbsp;·&nbsp; [achyuthan.sivasankar@gmail.com](mailto:achyuthan.sivasankar@gmail.com) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/achyuthan-sivasankar-b0814b221) &nbsp;·&nbsp; [Portfolio](https://achyuthan-s.web.app) &nbsp;·&nbsp; [Blog](https://blog-blogachyuthan.vercel.app)
+📫 [as21154@nyu.edu](mailto:as21154@nyu.edu) &nbsp;·&nbsp; [achyuthan.sivasankar@gmail.com](mailto:achyuthan.sivasankar@gmail.com) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/achyuthan-sivasankar-b0814b221) &nbsp;·&nbsp; [Portfolio](https://achyuthan-s.github.io) &nbsp;·&nbsp; [Blog](https://blog-blogachyuthan.vercel.app)
