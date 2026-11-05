@@ -88,6 +88,7 @@
         "8928": "sum GPTBigCode shared KV grad across TP ranks",
         "8922": "check where column-split pieces write in a shard",
         "8706": "describe CodeGen fused-QKV as a block selection",
-        "6973": "overlap DP-outer grad reduction on its own stream"
+        "6973": "overlap DP-outer grad reduction on its own stream",
+        "8975": "refuse conversions that don't write every element"
     }
 }

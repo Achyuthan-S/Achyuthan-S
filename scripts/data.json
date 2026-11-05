@@ -1,9 +1,9 @@
 {
-  "count": 24,
+  "count": 25,
   "orgs_line": "DeepSpeed \u00b7 NVIDIA \u00b7 vLLM",
   "repos": [
-    "NVIDIA/Megatron-LM",
     "deepspeedai/DeepSpeed",
+    "NVIDIA/Megatron-LM",
     "vllm-project/vllm",
     "NVIDIA-NeMo/Automodel",
     "NVIDIA-NeMo/Megatron-Bridge"
@@ -12,7 +12,7 @@
     {
       "name": "DeepSpeed",
       "colour": "repo",
-      "count": 10
+      "count": 11
     },
     {
       "name": "NVIDIA",
@@ -26,6 +26,12 @@
     }
   ],
   "recent": [
+    {
+      "number": 8975,
+      "short": "DeepSpeed",
+      "long": "deepspeedai/DeepSpeed",
+      "msg": "refuse conversions that don't write every element"
+    },
     {
       "number": 6973,
       "short": "Megatron",
@@ -49,12 +55,6 @@
       "short": "DeepSpeed",
       "long": "deepspeedai/DeepSpeed",
       "msg": "keep Yuan o_proj bias whole, describe replicated"
-    },
-    {
-      "number": 8706,
-      "short": "DeepSpeed",
-      "long": "deepspeedai/DeepSpeed",
-      "msg": "describe CodeGen fused-QKV as a block selection"
     }
   ]
 }
