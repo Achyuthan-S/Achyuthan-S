@@ -1,5 +1,5 @@
 {
-  "count": 25,
+  "count": 26,
   "orgs_line": "DeepSpeed \u00b7 NVIDIA \u00b7 vLLM",
   "repos": [
     "deepspeedai/DeepSpeed",
@@ -12,7 +12,7 @@
     {
       "name": "DeepSpeed",
       "colour": "repo",
-      "count": 11
+      "count": 12
     },
     {
       "name": "NVIDIA",
@@ -26,6 +26,12 @@
     }
   ],
   "recent": [
+    {
+      "number": 9069,
+      "short": "DeepSpeed",
+      "long": "deepspeedai/DeepSpeed",
+      "msg": "load no-TP ZeRO-3 universal ckpt under AutoTP"
+    },
     {
       "number": 8975,
       "short": "DeepSpeed",
@@ -49,12 +55,6 @@
       "short": "DeepSpeed",
       "long": "deepspeedai/DeepSpeed",
       "msg": "check where column-split pieces write in a shard"
-    },
-    {
-      "number": 8857,
-      "short": "DeepSpeed",
-      "long": "deepspeedai/DeepSpeed",
-      "msg": "keep Yuan o_proj bias whole, describe replicated"
     }
   ]
 }
