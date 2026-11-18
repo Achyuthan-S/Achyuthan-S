@@ -65,7 +65,7 @@ Open to **research internships, PhD positions, and ML-systems / research-enginee
   <tr>
     <td>
       <a href="https://github.com/deepspeedai/DeepSpeed/pull/8385"><strong>deepspeedai/DeepSpeed</strong></a><br/>
-      <sub><b>Introduced an affine IR</b> for tensor-parallel shard geometry — executable offsets and strides with a specification document. Landed deliberately inert: its tests had to reproduce the existing conversion arithmetic before anything depended on it.</sub>
+      <sub><b>Introduced an affine IR</b> for tensor-parallel shard geometry — executable offsets and strides with a specification document. Landed deliberately inert: its tests had to reproduce the existing conversion arithmetic before anything depended on it. Two other contributors have since extended it across nine merged PRs (<a href="https://github.com/jinyouzhi">@jinyouzhi</a>'s <code>[AffineIR]</code> series and <a href="https://github.com/0z5a">@0z5a</a>'s affine-transfer planning).</sub>
     </td>
     <td align="center" width="150">
       <a href="https://github.com/deepspeedai"><img src="https://raw.githubusercontent.com/Achyuthan-S/Achyuthan-S/main/assets/deepspeedai-badge.svg" alt="DeepSpeed" height="28" /></a>
@@ -116,7 +116,7 @@ Open to **research internships, PhD positions, and ML-systems / research-enginee
 
 <img src="https://img.shields.io/badge/EVERY_MERGE-161B22?style=for-the-badge&labelColor=6B7A90" height="24" alt="EVERY MERGE" />
 
-<sub>All twenty-six, newest first within each organisation.</sub>
+<sub>All twenty-six, newest first within each organisation. Twenty-four authored, plus one co-authored fix and one automated backport.</sub>
 
 <img src="https://img.shields.io/badge/NVIDIA-76B900" height="26" alt="NVIDIA" /> &nbsp;<sub><b>10 merged</b></sub>
 
@@ -220,7 +220,7 @@ Open to **research internships, PhD positions, and ML-systems / research-enginee
   <tr>
     <td>
       <a href="https://github.com/NVIDIA-NeMo/Automodel/pull/2709"><strong>NVIDIA-NeMo/Automodel</strong></a><br/>
-      <sub>Cherry-picks #2601 into <code>r0.5.0</code></sub>
+      <sub>Cherry-picks #2601 into <code>r0.5.0</code> &mdash; <b>automated backport</b>, opened by the release bot</sub>
     </td>
     <td align="center" width="150">
       <a href="https://github.com/NVIDIA"><img src="https://img.shields.io/badge/NVIDIA-21262d?style=flat-square&logo=nvidia&logoColor=76B900&labelColor=21262d" alt="NVIDIA" height="28" /></a>
@@ -261,7 +261,7 @@ Open to **research internships, PhD positions, and ML-systems / research-enginee
   <tr>
     <td>
       <a href="https://github.com/vllm-project/vllm/pull/47379"><strong>vllm-project/vllm</strong></a><br/>
-      <sub>Recovers the raw tail when the GPT-OSS Harmony parser ends non-terminal (Responses API)</sub>
+      <sub>Recovers the raw tail when the GPT-OSS Harmony parser ends non-terminal (Responses API) &mdash; <b>co-authored</b>, PR opened by <a href="https://github.com/yzong-rh">@yzong-rh</a></sub>
     </td>
     <td align="center" width="150">
       <a href="https://github.com/vllm-project"><img src="https://img.shields.io/badge/vLLM-21262d?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC%2BaJAAAEVklEQVR4nOyaW3PbRBTH17Iu9kqW5CQOmUlru6EJl%2BFSCJdCn%2FkQvFJguAyfiufCA%2FDCAzwwAwzMpEwhtpNML%2BFiuylJ42BbvkgrRvaguHZWe1YWkTvj31vko939R9rd%2Fzkr0XVd9DgjxD2AaZkLiJu5gLiZC%2FifIYQRIJ7TQPj5p4O%2B3iZYcd962hVF6jhnUUDPRt9UyFe%2FulYfvf1stddbfGwE2AR9t%2BsN%2Fdjy%2FkwmyGqmgzEOuGVWBBCCfrhDvrzlPmieXizobU1NB984EwJ%2B%2BcO9sUVqjfHrl8x28L8%2FfgHlGvpsy7l7ePavRaONcTa4hdgE7B%2BiG1tOqUYN0KT%2BkkpSqVRwOzEIqDfQF7ecn%2B6iYB%2Bf1y1VVZmtnauAh230%2BU3y4x2XAHKQgtFWVY0ZRhdgt4nT5R0iEpKCpNN%2B%2FHaHfH8bmj9d9J7AE8wwqoDe0c2Tnz8BdnaK%2BqR29VPai1uqQkdvKr1cJhmwf%2FlQvZC8fE3Mvgjsz8fu243GxHI4oNlF9yirzSQFg72ADgkyc3jjQ2iHAHbqLF82Qj5jRSBAXnpNXHgZ3mswlTr0%2FUkg96LBcBA%2BDDuNL78L7JXJ7n1o5BLuLmhiMpmEBDMEyLmrovEctGc6zQ766xgaXARPAFBCgzc%2BgPZMp1znCF7zdgD2FjaELUBefnP6h1CpO8BISSCrejedZphQH1BKiZ%2F6GNgcDfgEWNUsDacEAZrrguLk3OtiNvxy9LCFJq0yjbwBskA%2BUKF4%2FTq80THKXDuAzjEBOATIuTdCbMxDyjXoDqAknVXdYVroUTjKKnjjI3jwKNtVaOTAwEEX0CEcAuSlV8WFV7haR8hb%2Fk860OC8zrEDDOErbOH197jiB%2B8PxwQo6FAL5MMnwHsI2Stct%2ByALRCW7BXdlWWZq33u0iKXOyIu2juABhf4358wAryNGbwc%2FXnkpQFA1gBFlEnCFHfhy1GFYwdwizwWyCeMgMFMeAkSWbkPnQC5dNdURUgOOUbI8jpef58Z4xC0B7ZAeYN7%2FRkSUoDnjszng2P2D5HVhzaYz%2FBZIJ%2FwBxxp1kPYrkIngMCTQ07cGxZl%2BZpoBuUJJbAFWtE6pqbALfQoUx0xBSxHnT66%2FQDaDqQKTWMqAV7GvLB55k97BwhSPxyyZrTCTYAIDvnw5XfOvA7fAVKivZKxuSz0KNMK8PIE84XJ67tgC3Qh01FxOpFIhBtABMeskxmz1UP7R9DbeVOwMSIQMMgTHsmYK3WOCVCAnQPQiOage6yK%2BlsVWkRRpX4ICz1KNALkxU3RPLWoJXgOCS7i0ojsU4P0f8na381HjkqDyfOnYGNEJkDx8oQrXDWsQRl0ZgT4M%2BHesQKMN5ReThckSZqm0ygFDJajzd9PoGXNotGG10BpRHxKKV66fuHAdmxQHvnMYpN5js0kEflnl61Wy7IsYHA2mwUeZNCIXsA5M%2BtfbDGZC4ibuYC4mQuIm38DAAD%2F%2F%2B19NjEX7JQMAAAAAElFTkSuQmCC&labelColor=21262d" alt="vLLM" height="28" /></a>
